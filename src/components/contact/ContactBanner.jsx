@@ -39,8 +39,8 @@ const ContactBanner = () => {
                                     link={`tel:${SITE_CONFIG.contact.phone.replace(/[^0-9+]/g, '')}`}
                                     className="btn_white"
                                     // icon="/contact-phone-icon.webp"
-                                    iconWidth={20}
-                                    iconHeight={20}
+                                    iconWidth={24}
+                                    iconHeight={13}
                                 />
 
                                 <MyButton
@@ -48,8 +48,8 @@ const ContactBanner = () => {
                                     link={`mailto:${SITE_CONFIG.contact.email}`}
                                     className="btn_white"
                                     // icon="/contact-email-icon.webp"
-                                    iconWidth={20}
-                                    iconHeight={20}
+                                    iconWidth={24}
+                                    iconHeight={13}
                                 />
                             </div>
                         </div>

@@ -90,25 +90,25 @@ const FinanceAppPage = () => {
         {
             title: 'Personal Finance Manager',
             description: 'Engaging apps that help users manage their personal wealth, set saving goals, and track expenses across multiple accounts.',
-            image: '/industries/finance-app-development/solution-1.webp',
+            image: 'industries/solution-1.webp',
             active: false
         },
         {
             title: 'Corporate Expense Tools',
             description: 'Custom platforms for businesses to manage employee expenses, corporate credit cards, and real-time financial reporting.',
-            image: '/industries/finance-app-development/solution-2.webp',
+            image: 'industries/solution-2.webp',
             active: false
         },
         {
             title: 'Insurance Tech (InsurTech)',
             description: 'Digital solutions for insurance companies to automate policy management, claim processing, and customer support.',
-            image: '/industries/finance-app-development/solution-3.webp',
+            image: 'industries/solution-3.webp',
             active: false
         },
         {
             title: 'Crowdfunding Platforms',
             description: 'Secure, scalable platforms that connect startups with investors, featuring transparent fund tracking and legal compliance.',
-            image: '/industries/finance-app-development/solution-4.webp',
+            image: 'industries/solution-4.webp',
             active: false
         }
     ];

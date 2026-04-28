@@ -27,8 +27,8 @@ const CaseStudyBanner = () => {
                                 <span className={styles.greenText}>Quality Work.</span>
                             </h1>
                             <p className={styles.desc}>
-                                Lorem ipsum dolor sit amet consectetur. Tempus sem nulla euismod <br className="d-none d-md-block" />
-                                nulla quis venenatis tellus. Nulla viverra amet suspendisse luctus ele <br className="d-none d-md-block" />
+                                Lorem ipsum dolor sit amet consectetur. Tempus sem nulla euismod
+                                nulla quis venenatis tellus. Nulla viverra amet suspendisse luctus ele
                                 mentum nam morbi sit. Risus tempus nisl nec faucibus.
                             </p>
                             <div className={styles.btnWrapper}>

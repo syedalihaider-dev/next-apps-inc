@@ -10,7 +10,8 @@
     position: absolute;
     bottom: 0px;
     right: 0px;
-    width: 800px; /* Adjust based on asset size */
+    width: 800px;
+    /* Adjust based on asset size */
     height: 900px;
     z-index: 1;
     pointer-events: none;
@@ -62,47 +63,145 @@
 }
 
 .phonesImg {
-    max-width: 140%; 
+    max-width: 140%;
     height: auto;
     transform: translateX(-50px);
 }
 
-@media (max-width: 1400px) {
-    .phonesImg {
-        max-width: 120%;
-        transform: translateX(0);
-    }
-}
-
-@media (max-width: 1200px) {
-    .bgOuterShape {
-        width: 50%;
-    }
-}
-
-@media (max-width: 991px) {
+@media (max-width: 1600px) {
     .marhoferProject {
-        padding: 100px 0;
+        padding: 80px 0;
+    }
+
+    .bgOuterShape {
+        width: 500px;
+        height: 735px;
+        bottom: 20px;
     }
 
     .infoCol {
-        padding-right: 0;
-        margin-bottom: 40px;
-        text-align: center;
+        padding-left: 20px;
     }
 
-    .bgOuterShape {
-        display: none;
+    .clientLogo {
+        margin-bottom: 10px;
+    }
+
+    .textContent p {
+        font-size: 18px;
+        margin-bottom: 25px;
     }
 
     .phonesImg {
         max-width: 100%;
-        transform: translateX(0);
+        height: auto;
+        transform: translateX(0px);
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 1399px) {
+    .marhoferProject {
+        padding: 60px 0;
+    }
+
+    .bgOuterShape {
+        width: 341px;
+        height: 500px;
+        bottom: 30px;
+    }
+
+    .infoCol {
+        padding-left: 0px;
+    }
+
+    .logoWrapper {
+        width: 120px;
+        height: auto;
+    }
+
+    .textContent p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .phonesImg {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .marhoferProject {
+        padding: 40px 0;
+    }
+
+    .bgOuterShape {
+        width: 307px;
+        height: 450px;
+        bottom: 10px;
+    }
+
+    .logoWrapper {
+        width: 120px;
+    }
+
+    .textContent p {
+        font-size: 14px;
+    }
+
+    .phonesImg {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 991px) {
+    .bgOuterShape {
+        width: 260px;
+        height: 380px;
+        bottom: 0px;
+    }
+
+    .logoWrapper {
+        width: 120px;
+    }
+
+    .infoCol {
+        margin-bottom: 30px;
+    }
+
+    .textContent p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .phones {
+        justify-content: end;
+    }
+
+    .phonesImg {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bgOuterShape {
+        width: 240px;
+        height: 350px;
+    }
+
+    .phonesImg {
+        max-width: 300px;
     }
 }
 
 @media (max-width: 575px) {
-    .textContent p {
-        font-size: 16px;
+
+    .bgOuterShape {
+        width: 205px;
+        height: 300px;
+    }
+
+    .phonesImg {
+        max-width: 250px;
     }
 }

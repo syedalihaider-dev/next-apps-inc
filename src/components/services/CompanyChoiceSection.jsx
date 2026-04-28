@@ -41,7 +41,7 @@ const CompanyChoiceSection = () => {
                                 From initial planning to final launch and beyond, our app development process is designed to keep you informed, in control, and confident every step of the way.
                             </p>
                             <div className={styles.btnRow}>
-                                <MyButton text="Explore More" className="btn_black" />
+                                <MyButton text="Get Started" className="btn_black" />
                             </div>
                         </div>
                     </div>

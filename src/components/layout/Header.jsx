@@ -1,6 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './Header.module.css';
 import MyButton from '@/components/layout/MyButton';
 import SideMenu from './SideMenu';
@@ -37,7 +38,7 @@ const Header = () => {
                     <div className="row">
                         <div className="col-12 col-lg-12">
                             <div className={styles.headerWrapper}>
-                                <div className={styles.logoPart}>
+                                <Link href="/" className={styles.logoPart}>
                                     <Image
                                         src="/logo.webp"
                                         alt="Logo"
@@ -46,13 +47,13 @@ const Header = () => {
                                         priority
                                         className={styles.logoImage}
                                     />
-                                </div>
+                                </Link>
                                 <div className={styles.headerRight}>
                                     <div className={styles.chatButton}>
                                         <MyButton text="Live Chat" className="chat" />
                                     </div>
-                                    <button 
-                                        className={`${styles.menuToggle} ${isMenuOpen ? styles.active : ''}`} 
+                                    <button
+                                        className={`${styles.menuToggle} ${isMenuOpen ? styles.active : ''}`}
                                         onClick={toggleMenu}
                                         aria-label="Toggle Menu"
                                     >

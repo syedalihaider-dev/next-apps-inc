@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -81,7 +82,7 @@ const CaseStudy = () => {
                                         <p className={styles.teamList}>{item.team}</p>
                                     </div>
 
-                                    <button className={styles.viewBtn}>View Case Study</button>
+                                    <Link href="/case-studies" className={styles.viewBtn}>View Case Study</Link>
                                 </div>
                                 <div className={styles.mockupImg}>
                                     <Image src={item.mockup} alt="mockup" width={287} height={353} priority />

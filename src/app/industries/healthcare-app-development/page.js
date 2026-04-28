@@ -90,25 +90,25 @@ const HealthcareAppPage = () => {
         {
             title: 'Doctor Consultation Apps',
             description: 'Custom apps that allow patients to book appointments, consult with specialists, and receive care from the comfort of their homes.',
-            image: '/industries/healthcare-app-development/solution-1.webp',
+            image: 'industries/solution-1.webp',
             active: false
         },
         {
             title: 'Health Tracking Wearables',
             description: 'Integrate mobile apps with IoT-enabled medical devices for real-time health monitoring and emergency alert systems.',
-            image: '/industries/healthcare-app-development/solution-2.webp',
+            image: 'industries/solution-2.webp',
             active: false
         },
         {
             title: 'Medical Training Apps',
             description: 'Interactive VR/AR and mobile learning platforms for medical students and professionals to enhance their clinical skills.',
-            image: '/industries/healthcare-app-development/solution-3.webp',
+            image: 'industries/solution-3.webp',
             active: false
         },
         {
             title: 'Wellness & Nutrition',
             description: 'Engaging apps that provide personalized meal plans, exercise routines, and wellness coaching for a healthier lifestyle.',
-            image: '/industries/healthcare-app-development/solution-4.webp',
+            image: 'industries/solution-4.webp',
             active: false
         }
     ];

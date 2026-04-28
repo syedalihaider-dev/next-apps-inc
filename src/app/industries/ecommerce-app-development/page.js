@@ -90,25 +90,25 @@ const EcommerceAppPage = () => {
         {
             title: 'Grocery Delivery Apps',
             description: 'High-performance apps featuring real-time inventory, route optimization for drivers, and seamless scheduled deliveries for local groceries.',
-            image: '/industries/ecommerce-app-development/solution-1.webp',
+            image: '/industries/solution-1.webp',
             active: false
         },
         {
             title: 'Fashion & Beauty Apps',
             description: 'Engaging apps featuring virtual try-ons, high-quality product visuals, and personalized style recommendations for fashion brands.',
-            image: '/industries/ecommerce-app-development/solution-2.webp',
+            image: '/industries/solution-2.webp',
             active: false
         },
         {
             title: 'Electronics & Gadgets',
             description: 'Robust platforms featuring detailed product specifications, comparison tools, and secure tech support integration for electronics retailers.',
-            image: '/industries/ecommerce-app-development/solution-3.webp',
+            image: '/industries/solution-3.webp',
             active: false
         },
         {
             title: 'Subscription Box Apps',
             description: 'Recurring billing and subscription management platforms for brands offering curated monthly boxes and membership-based services.',
-            image: '/industries/ecommerce-app-development/solution-4.webp',
+            image: '/industries/solution-4.webp',
             active: false
         }
     ];

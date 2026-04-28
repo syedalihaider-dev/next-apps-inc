@@ -92,7 +92,7 @@ const AboutFAQ = () => {
                         </div>
 
                         <div className="mt-3">
-                            <MyButton text="Ask Questions" className="btn_white" />
+                            <MyButton text="Get Started" className="btn_white" />
                         </div>
                     </div>
                 </div>

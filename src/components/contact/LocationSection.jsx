@@ -1,25 +1,25 @@
 import React from 'react';
-// import Image from 'next/image';
+import Image from 'next/image';
 import styles from './LocationSection.module.css';
 import { SITE_CONFIG } from '@/configs/site-config';
 
 const LocationSection = () => {
-    // const locations = [
-    //     {
-    //         id: 'nyc',
-    //         name: 'New York',
-    //         address: SITE_CONFIG.contact.address1,
-    //         phone: SITE_CONFIG.contact.phone,
-    //         image: '/contact/nyc.webp'
-    //     },
-    //     {
-    //         id: 'la',
-    //         name: 'Los Angeles',
-    //         address: SITE_CONFIG.contact.address2,
-    //         phone: SITE_CONFIG.contact.phone,
-    //         image: '/contact/karachi.webp'
-    //     }
-    // ];
+    const locations = [
+        {
+            id: 'nyc',
+            name: 'New York',
+            address: SITE_CONFIG.contact.address1,
+            phone: SITE_CONFIG.contact.phone,
+            image: '/contact/nyc.webp'
+        },
+        {
+            id: 'la',
+            name: 'Los Angeles',
+            address: SITE_CONFIG.contact.address2,
+            phone: SITE_CONFIG.contact.phone,
+            image: '/contact/karachi.webp'
+        }
+    ];
 
     return (
         <section className={styles.locationSection}>
@@ -34,7 +34,7 @@ const LocationSection = () => {
                     </div>
                 </div>
 
-                {/* <div className="row mt-5">
+                <div className="row mt-5">
                     {locations.map((loc) => (
                         <div className="col-lg-6 mb-4" key={loc.id}>
                             <div className={styles.locationCard}>
@@ -68,7 +68,7 @@ const LocationSection = () => {
                                             </div>
                                             <div className={styles.itemText}>
                                                 <span className={styles.label}>Contact Us</span>
-                                                <p className={styles.value}>tel: {loc.phone}</p>
+                                                <p className={styles.value}>{loc.phone}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -76,9 +76,9 @@ const LocationSection = () => {
                             </div>
                         </div>
                     ))}
-                </div> */}
+                </div>
 
-                <div className="row mt-5">
+                {/* <div className="row mt-5">
                     <div className="col-lg-6 mb-4">
                         <div className={styles.mapWrapper}>
                             <iframe
@@ -105,7 +105,7 @@ const LocationSection = () => {
                             ></iframe>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     );

@@ -62,49 +62,141 @@
 }
 
 .mockupImg {
-    max-width: 140%; 
+    max-width: 140%;
     height: auto;
     transform: translateX(50px);
 }
 
-@media (max-width: 1400px) {
-    .mockupImg {
-        max-width: 120%;
-        transform: translateX(0);
-    }
-}
-
-@media (max-width: 1200px) {
-    .bgOuterShape {
-        width: 50%;
-    }
-}
-
-@media (max-width: 991px) {
+@media (max-width: 1600px) {
     .yesTableProject {
-        padding: 100px 0;
-        border-radius: 50px 50px 0 0;
-        margin-top: -50px;
+        padding: 80px 0;
+    }
+
+    .bgOuterShape {
+        width: 500px;
+        height: 735px;
+        top: 30px;
     }
 
     .infoCol {
-        padding-left: 0;
-        margin-bottom: 40px;
-        text-align: center;
+        padding-left: 20px;
     }
 
-    .bgOuterShape {
-        display: none;
+    .clientLogo {
+        margin-bottom: 10px;
+    }
+
+    .textContent p {
+        font-size: 18px;
+        margin-bottom: 25px;
     }
 
     .mockupImg {
         max-width: 100%;
-        transform: translateX(0);
+        height: auto;
+        transform: translateX(0px);
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 1399px) {
+    .yesTableProject {
+        padding: 60px 0;
+    }
+
+    .bgOuterShape {
+        width: 341px;
+        height: 500px;
+        top: 30px;
+    }
+
+    .infoCol {
+        padding-left: 0px;
+    }
+
+    .logoWrapper {
+        width: 120px;
+        height: auto;
+    }
+
+    .textContent p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .mockupImg {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .yesTableProject {
+        padding: 40px 0;
+    }
+
+    .bgOuterShape {
+        width: 307px;
+        height: 450px;
+        bottom: 10px;
+    }
+
+    .logoWrapper {
+        width: 120px;
+    }
+
+    .textContent p {
+        font-size: 14px;
+    }
+
+    .mockupImg {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 991px) {
+    .bgOuterShape {
+        width: 260px;
+        height: 380px;
+        top: unset;
+    }
+
+    .logoWrapper {
+        width: 120px;
+    }
+
+    .textContent p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .mockupWrapper {
+        justify-content: start;
+    }
+
+    .mockupImg {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bgOuterShape {
+        width: 240px;
+        height: 350px;
+    }
+
+    .mockupImg {
+        max-width: 300px;
     }
 }
 
 @media (max-width: 575px) {
-    .textContent p {
-        font-size: 16px;
+
+    .bgOuterShape {
+        width: 205px;
+        height: 300px;
+    }
+
+    .mockupImg {
+        max-width: 250px;
     }
 }

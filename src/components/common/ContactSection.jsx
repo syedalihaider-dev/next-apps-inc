@@ -26,7 +26,7 @@ const ContactSection = ({ isNewDesign = false }) => {
     };
 
     return (
-        <section className={`${styles.contactSection} ${isNewDesign ? styles.contactSectionNew : ''}`}>
+        <section id="contact" className={`${styles.contactSection} ${isNewDesign ? styles.contactSectionNew : ''}`}>
             <div style={{ position: "absolute", inset: 0, zIndex: -1, overflow: "hidden" }}>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

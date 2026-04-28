@@ -10,19 +10,11 @@
 }
 
 .heading {
-    font-size: 65px;
-    font-weight: 800;
-    color: #000;
+    color: var(--dark-color);
 }
 
 .purpleText {
     color: var(--primary-color);
-}
-
-.underlineWrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: -30px;
 }
 
 .locationCard {
@@ -61,7 +53,7 @@
     left: 0;
     width: 100%;
     height: 60%;
-    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
     z-index: 1;
 }
 
@@ -81,7 +73,7 @@
     display: flex;
     gap: 30px;
     padding-top: 15px;
-    border-top: 1px solid rgba(255,255,255,0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .infoItem {
@@ -91,7 +83,7 @@
 }
 
 .iconBox {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -113,39 +105,12 @@
     font-size: 13px;
     font-weight: 500;
     margin: 0;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     line-height: 1.4;
     max-width: 200px;
 }
 
-@media (max-width: 1200px) {
-    .heading {
-        font-size: 48px;
-    }
-}
-
-@media (max-width: 991px) {
-    .locationCard {
-        height: 400px;
-    }
-}
-
-@media (max-width: 575px) {
-    .heading {
-        font-size: 32px;
-    }
-    
-    .infoRow {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .value {
-        max-width: 100%;
-    }
-}
-
-.mapWrapper {
+/* .mapWrapper {
     width: 100%;
     border-radius: 12px;
     overflow: hidden;
@@ -155,4 +120,133 @@
 
 .mapWrapper iframe {
     display: block;
+} */
+
+
+@media (max-width: 1600px) {
+    .locationSection {
+        padding: 80px 0;
+    }
+
+    .locationCard {
+        height: 400px;
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .locName {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .infoRow {
+        gap: 30px;
+        padding-top: 10px;
+    }
+
+    .infoItem {
+        gap: 10px;
+    }
+
+    .iconBox {
+        width: 40px;
+        height: 40px;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+
+    .value {
+        font-size: 14px;
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .locationSection {
+        padding: 40px 0;
+    }
+
+    .locationCard {
+        height: 300px;
+        padding: 20px;
+    }
+
+    .locName {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .infoRow {
+        gap: 20px;
+    }
+
+    .iconBox {
+        width: 30px;
+        height: 30px;
+    }
+
+    .label {
+        font-size: 13px;
+    }
+
+    .value {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 991px) {
+    .locationCard {
+        height: 400px;
+        padding: 20px;
+    }
+
+    .infoRow {
+        gap: 30px;
+    }
+
+    .iconBox {
+        width: 40px;
+        height: 40px;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+
+    .value {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .locationCard {
+        height: 300px;
+        padding: 20px;
+    }
+
+    .infoRow {
+        gap: 20px;
+    }
+
+    .value {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 575px) {
+    .locationCard {
+        height: 300px;
+        padding: 10px;
+    }
+
+    .infoRow {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .value {
+        max-width: 100%;
+    }
 }

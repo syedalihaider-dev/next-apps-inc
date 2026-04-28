@@ -54,7 +54,7 @@ const ProcessTabs = ({ heading, purpleText, tabs }) => {
                                         <h3 className={styles.contentTitle}>{activeContent.title}</h3>
                                         <p className={styles.paragraph}>{activeContent.description}</p>
                                         <div className="mt-4">
-                                            <MyButton text="Explore More" className="btn_black" />
+                                            <MyButton text="Get Started" className="btn_black" />
                                         </div>
                                     </div>
                                 </div>

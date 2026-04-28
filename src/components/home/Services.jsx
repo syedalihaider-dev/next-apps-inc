@@ -114,7 +114,7 @@ const Services = () => {
                 </div>
 
                 <div className="d-flex justify-content-center mt-5">
-                    <MyButton text="Explore More" className="btn_black" />
+                    <MyButton text="Get Started" className="btn_black" />
                 </div>
             </div>
         </section>
