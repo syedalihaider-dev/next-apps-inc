@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import Image from 'next/image';
-import styles from './IOSProcessTabs.module.css';
+import styles from './ProcessTabs.module.css';
 import MyButton from '@/components/layout/MyButton';
 
 const ProcessTabs = ({ heading, purpleText, tabs }) => {

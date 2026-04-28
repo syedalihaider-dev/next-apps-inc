@@ -92,27 +92,84 @@
     color: #666666;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
+    .techStackSection {
+        padding: 60px 0;
+    }
+
+    .headerArea {
+        margin-bottom: 30px;
+    }
+
+    .tabsWrapper {
+        margin-bottom: 0px;
+    }
+
+    .tabBtn {
+        padding: 10px 25px;
+        font-size: 18px;
+    }
+
+    .techGrid {
+        margin-top: 30px;
+    }
+
+    .techSwiper {
+        padding: 20px 0;
+    }
+
+    .techName {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .techStackSection {
+        padding: 40px 0;
+    }
+
+    .headerArea {
+        margin-bottom: 15px;
+    }
+
+    .tabBtn {
+        padding: 10px 25px;
+        font-size: 18px;
+    }
+
+    .techGrid {
+        margin-top: 25px;
+    }
+
+    .techSwiper {
+        padding: 20px 0;
+    }
+
+    .techName {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .tabBtn {
+        padding: 10px 25px;
+        font-size: 18px;
+    }
+
     .techName {
         font-size: 20px;
     }
 }
 
 @media (max-width: 991px) {
-    .techStackSection {
-        padding: 40px 0;
-    }
-
-    .techName {
-        font-size: 18px;
-        font-weight: 500;
-        color: #666666;
+    .tabBtn {
+        padding: 10px 20px;
+        font-size: 16px;
     }
 }
 
-@media (max-width: 575px) {
-    .tabBtn {
-        padding: 8px 18px;
-        font-size: 12px;
+@media (max-width: 767px) {
+    .techName {
+        font-size: 20px;
     }
 }

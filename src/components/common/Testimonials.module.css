@@ -145,6 +145,7 @@
     .testimonialText {
         font-size: 14px;
         line-height: 20px;
+        height: 180px;
     }
 }
 
@@ -167,6 +168,10 @@
 @media (max-width: 767px) {
     .sideCol {
         flex-direction: column;
+    }
+
+    .testimonialText {
+        height: unset;
     }
 }
 

@@ -71,31 +71,31 @@ const IndustriesSection = () => {
                         disableOnInteraction: false,
                     }}
                     breakpoints={{
+                        320: { slidesPerView: 1.3 },
                         576: { slidesPerView: 2 },
                         768: { slidesPerView: 3 },
-                        1024: { slidesPerView: 4 },
-                        1400: { slidesPerView: 4.5 },
+                        992: { slidesPerView: 4 },
+                        1600: { slidesPerView: 4 },
+                        1601: { slidesPerView: 4.5 },
                     }}
                     className={styles.industriesSwiper}
                 >
                     {industries.map((item, index) => (
                         <SwiperSlide key={index}>
-                            <Link href={item.link}>
-                                <div className={styles.industryCard}>
-                                    <div className={styles.imageBox}>
-                                        <Image
-                                            src={item.image}
-                                            alt={item.title}
-                                            fill
-                                            className={styles.industryImg}
-                                        />
-                                    </div>
-                                    <div className={styles.overlay}>
-                                        <h4 className={styles.cardTitle}>{item.title}</h4>
-                                        <p className={styles.cardDesc}>{item.description}</p>
-                                    </div>
+                            <div className={styles.industryCard}>
+                                <div className={styles.imageBox}>
+                                    <Image
+                                        src={item.image}
+                                        alt={item.title}
+                                        fill
+                                        className={styles.industryImg}
+                                    />
                                 </div>
-                            </Link>
+                                <div className={styles.overlay}>
+                                    <h4 className={styles.cardTitle}>{item.title}</h4>
+                                    <p className={styles.cardDesc}>{item.description}</p>
+                                </div>
+                            </div>
                         </SwiperSlide>
                     ))}
                 </Swiper>

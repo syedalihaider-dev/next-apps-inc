@@ -131,7 +131,7 @@ const TechStackSection = () => {
                         breakpoints={{
                             576: { slidesPerView: 3 },
                             768: { slidesPerView: 4 },
-                            1024: { slidesPerView: 6 },
+                            992: { slidesPerView: 6 },
                             1200: { slidesPerView: 8 },
                         }}
                         className={styles.techSwiper}
