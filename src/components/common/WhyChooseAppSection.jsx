@@ -12,7 +12,7 @@ const WhyChooseAppSection = ({
 }) => {
     const defaultTitle = (
         <>
-            Why Choose <span className={styles.purpleText}>Next <br /> App Inc</span> Mobile Apps
+            Why Choose <span className={styles.purpleText}>Next <br /> App</span> Mobile Apps
         </>
     );
 

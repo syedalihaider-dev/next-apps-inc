@@ -20,13 +20,13 @@ const categories = [
 const techStacks = {
     'FRONT-END': [
         { name: 'Flutter', icon: '/tech-stack/flutter.webp' },
-        { name: 'React Native', icon: '/tech-stack/react-native.webp' },
-        { name: 'Ionic', icon: '/tech-stack/ionic.webp' },
-        { name: 'Swift', icon: '/tech-stack/swift.webp' },
-        { name: 'TypeScript', icon: '/tech-stack/typescript.webp' },
-        { name: 'Xamarin', icon: '/tech-stack/xamarin.webp' },
+        { name: 'React Native', icon: '/tech-stack/react.webp' },
+        { name: 'Figma', icon: '/tech-stack/figma.webp' },
+        { name: 'Node JS', icon: '/tech-stack/node-js.webp' },
+        { name: 'Express JS', icon: '/tech-stack/express-js.webp' },
+        { name: 'Mongo DB', icon: '/tech-stack/mangodb.webp' },
         { name: 'HTML5', icon: '/tech-stack/html.webp' },
-        { name: 'Kotlin', icon: '/tech-stack/kotlin.webp' }
+        { name: 'MySQL', icon: '/tech-stack/my-sql.webp' },
     ],
 
     // 'DESIGN': [
