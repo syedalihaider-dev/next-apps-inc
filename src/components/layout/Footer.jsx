@@ -51,6 +51,10 @@ const Footer = () => {
                                 <li><Link href="/industries/education-app-development">EDUCATION APP DEVELOPMENT</Link></li>
                                 <li><Link href="/industries/finance-app-development">FINANCE APP DEVELOPMENT</Link></li>
                                 <li><Link href="/industries/healthcare-app-development">HEALTHCARE APP DEVELOPMENT</Link></li>
+                                <li><Link href="/industries/insurance-app-development">INSURANCE APP DEVELOPMENT</Link></li>
+                                <li><Link href="/industries/agencies-app-development">AGENCIES APP DEVELOPMENT</Link></li>
+                                <li><Link href="/industries/real-estate-app-development">REAL ESTATE APP DEVELOPMENT</Link></li>
+                                <li><Link href="/industries/automotive-app-development">AUTOMATIVE APP DEVELOPMENT</Link></li>
                             </ul>
                         </div>
                         {/* <div className={styles.footerCol}>

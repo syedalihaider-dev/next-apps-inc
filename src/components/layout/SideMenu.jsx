@@ -18,6 +18,10 @@ const industries = [
     { name: 'EDUCATION APP DEVELOPMENT', href: '/industries/education-app-development' },
     { name: 'FINANCE APP DEVELOPMENT', href: '/industries/finance-app-development' },
     { name: 'HEALTHCARE APP DEVELOPMENT', href: '/industries/healthcare-app-development' },
+    { name: 'INSURANCE APP DEVELOPMENT', href: '/industries/insurance-app-development' },
+    { name: 'AGENCIES APP DEVELOPMENT', href: '/industries/agencies-app-development' },
+    { name: 'REAL ESTATE APP DEVELOPMENT', href: '/industries/real-estate-app-development' },
+    { name: 'AUTOMATIVE APP DEVELOPMENT', href: '/industries/automotive-app-development' },
 ];
 
 import { SITE_CONFIG } from '@/configs/site-config';
