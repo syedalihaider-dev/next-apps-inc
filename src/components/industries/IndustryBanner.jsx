@@ -35,8 +35,9 @@ const IndustryBanner = ({
                             {description}
                         </p>
 
-                        <div className="d-flex justify-content-center mt-4">
+                        <div className="d-flex justify-content-center gap-3 flex-wrap mt-4">
                             <MyButton text="Get Started" className="btn_white" />
+                            <MyButton text="Live Chat" className="chat btn_white" />
                         </div>
                     </div>
                 </div>

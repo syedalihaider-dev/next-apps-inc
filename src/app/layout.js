@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import Script from "next/script";
 
 const bricolageGrotesque = Bricolage_Grotesque({
   variable: "--font-bricolage-grotesque",
@@ -21,6 +22,55 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+
+        {/* Start of Chat Script */}
+        <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=4338bf84-3cf8-46ef-9cd1-996399dc7b9d" strategy="afterInteractive" />
+        <Script id="zopim-init" strategy="afterInteractive">
+          {`
+            window.$zopim || (function(d, s) {
+              var z = $zopim = function(c) { z._.push(c) },
+                  $ = z.s = d.createElement(s),
+                  e = d.getElementsByTagName(s)[0];
+              z.set = function(o) { z.set._.push(o) };
+              z._ = [];
+              z.set._ = [];
+              $.async = !0;
+              $.setAttribute("charset", "utf-8");
+              $.src = "https://v2.zopim.com/?4338bf84-3cf8-46ef-9cd1-996399dc7b9d";
+              z.t = +new Date;
+              $.type = "text/javascript";
+              e.parentNode.insertBefore($, e);
+            })(document, "script");
+
+            $zopim(function() {
+              function a(a) {
+                1 <= a && $zopim.livechat.window.show()
+              }
+              $zopim.livechat.setOnUnreadMsgs(a)
+            });
+
+            function setButtonURL() {
+              $zopim.livechat.window.show();
+            }
+
+            function toggleChat(e) {
+              if (e) e.preventDefault();
+              if (window.$zopim && window.$zopim.livechat && window.$zopim.livechat.window) {
+                window.$zopim.livechat.window.toggle();
+              }
+              return false;
+            }
+
+            // Global click handler for elements with 'chat' class
+            document.addEventListener('click', function(e) {
+              if (e.target.closest('.chat')) {
+                e.preventDefault();
+                toggleChat();
+              }
+            });
+          `}
+        </Script>
+        {/* End of Chat Script */}
       </body>
     </html>
   );

@@ -14,33 +14,27 @@ const IndustrySolutionsSlider = ({
 }) => {
     const defaultSolutions = [
         {
-            title: 'Content Authoring Tools',
-            description: 'Lorem Ipsum Dolor Sit Amet Consectetur. Aliquam Cras Nunc In Ridiculus Nunc Nunc Facilisis Pellentesque Imperdiet. Pharetra Tristique.',
+            title: 'Grocery Delivery Apps',
+            description: 'High-performance apps featuring real-time inventory, route optimization for drivers, and seamless scheduled deliveries for local groceries.',
             image: '/industries/solution-1.webp',
             active: false
         },
         {
-            title: 'Employee Engagement Apps',
-            description: 'Lorem Ipsum Dolor Sit Amet Consectetur. Aliquam Cras Nunc In Ridiculus Nunc Nunc Facilisis Pellentesque Imperdiet. Pharetra Tristique.',
+            title: 'Fashion & Beauty Apps',
+            description: 'Engaging apps featuring virtual try-ons, high-quality product visuals, and personalized style recommendations for fashion brands.',
             image: '/industries/solution-2.webp',
             active: false
         },
         {
-            title: 'Skill Boosting Apps',
-            description: 'Lorem Ipsum Dolor Sit Amet Consectetur. Aliquam Cras Nunc In Ridiculus Nunc Nunc Facilisis Pellentesque Imperdiet. Pharetra Tristique.',
+            title: 'Electronics & Gadgets',
+            description: 'Robust platforms featuring detailed product specifications, comparison tools, and secure tech support integration for electronics retailers.',
             image: '/industries/solution-3.webp',
             active: false
         },
         {
-            title: 'ELearning Apps',
-            description: 'Lorem Ipsum Dolor Sit Amet Consectetur. Aliquam Cras Nunc In Ridiculus Nunc Nunc Facilisis Pellentesque Imperdiet. Pharetra Tristique.',
+            title: 'Subscription Box Apps',
+            description: 'Recurring billing and subscription management platforms for brands offering curated monthly boxes and membership-based services.',
             image: '/industries/solution-4.webp',
-            active: false
-        },
-        {
-            title: 'Corporate Training',
-            description: 'Lorem Ipsum Dolor Sit Amet Consectetur. Aliquam Cras Nunc In Ridiculus Nunc Nunc Facilisis Pellentesque Imperdiet. Pharetra Tristique.',
-            image: '/industries/solution-1.webp',
             active: false
         }
     ];

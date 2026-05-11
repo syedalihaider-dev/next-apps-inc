@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import styles from './IndustryTabsSection.module.css';
+import MyButton from '@/components/layout/MyButton';
 
 const IndustryTabsSection = ({
     title = <>Empowering the Future of <span className={styles.purpleText}>Accounting</span> <br /> with <span className={styles.purpleText}>Modern App</span> Development</>,
@@ -107,6 +108,10 @@ const IndustryTabsSection = ({
                                 <p className={styles.contentDesc}>
                                     {activeTab.contentDesc}
                                 </p>
+                                <div className="combo_btn d-flex gap-3 flex-wrap">
+                                    <MyButton text="Get a Quote" />
+                                    <MyButton text="Live Chat" className="chat btn_white" />
+                                </div>
                             </div>
                         </div>
                     </div>

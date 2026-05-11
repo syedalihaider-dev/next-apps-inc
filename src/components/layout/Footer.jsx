@@ -22,10 +22,10 @@ const Footer = () => {
                             <ul className={styles.footerLinks}>
                                 <li><Link href="/">HOME</Link></li>
                                 <li><Link href="/about-us">ABOUT US</Link></li>
-                                <li><Link href="/services/android-app-development">OUR SERVICES</Link></li>
-                                <li><Link href="/industries/ecommerce-app-development">INDUSTRIES</Link></li>
-                                <li><Link href="/contact-us">CONTACT US</Link></li>
                                 <li><Link href="/case-studies">CASE STUDIES</Link></li>
+                                {/* <li><Link href="/services/android-app-development">OUR SERVICES</Link></li> */}
+                                {/* <li><Link href="/industries/ecommerce-app-development">INDUSTRIES</Link></li> */}
+                                <li><Link href="/contact-us">CONTACT US</Link></li>
                             </ul>
                         </div>
                     </div>

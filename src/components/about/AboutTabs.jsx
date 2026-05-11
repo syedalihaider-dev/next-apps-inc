@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import styles from './AboutTabs.module.css';
 
@@ -27,13 +27,57 @@ const tabs = [
     }
 ];
 
+const Counter = ({ end, duration = 2000, startAnimation }) => {
+    const [count, setCount] = useState(0);
+
+    useEffect(() => {
+        if (!startAnimation) return;
+
+        let startTimestamp = null;
+        const step = (timestamp) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+            setCount(Math.floor(progress * end));
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
+            }
+        };
+        window.requestAnimationFrame(step);
+    }, [startAnimation, end, duration]);
+
+    return <>{count}</>;
+};
+
 const AboutTabs = () => {
     const [activeTab, setActiveTab] = useState(tabs[0].id);
+    const [isVisible, setIsVisible] = useState(false);
+    const sectionRef = useRef(null);
 
     const activeContent = tabs.find(tab => tab.id === activeTab);
 
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                }
+            },
+            { threshold: 0.1 }
+        );
+
+        if (sectionRef.current) {
+            observer.observe(sectionRef.current);
+        }
+
+        return () => {
+            if (sectionRef.current) {
+                observer.unobserve(sectionRef.current);
+            }
+        };
+    }, []);
+
     return (
-        <section className={styles.aboutTabsSection}>
+        <section className={styles.aboutTabsSection} ref={sectionRef}>
             <div className={styles.aboutTabsCard}>
                 <div style={{ position: "absolute", inset: 0, zIndex: -1, overflow: "hidden" }}>
                     <svg
@@ -69,19 +113,31 @@ const AboutTabs = () => {
                 <div className="container position-relative z-1">
                     <div className={`row ${styles.statsRow}`}>
                         <div className="col-6 col-md-3 col-lg-3 text-center">
-                            <h3 className={styles.statNumber}>15<span className={styles.plus}>+</span></h3>
+                            <h3 className={styles.statNumber}>
+                                <Counter end={15} startAnimation={isVisible} />
+                                <span className={styles.plus}>+</span>
+                            </h3>
                             <p className={styles.statLabel}>Years of Experience</p>
                         </div>
                         <div className="col-6 col-md-3 col-lg-3 text-center">
-                            <h3 className={styles.statNumber}>200<span className={styles.plus}>+</span></h3>
+                            <h3 className={styles.statNumber}>
+                                <Counter end={200} startAnimation={isVisible} />
+                                <span className={styles.plus}>+</span>
+                            </h3>
                             <p className={styles.statLabel}>Projects Delivered</p>
                         </div>
                         <div className="col-6 col-md-3 col-lg-3 text-center">
-                            <h3 className={styles.statNumber}>98<span className={styles.plus}>%</span></h3>
+                            <h3 className={styles.statNumber}>
+                                <Counter end={98} startAnimation={isVisible} />
+                                <span className={styles.plus}>%</span>
+                            </h3>
                             <p className={styles.statLabel}>Client Retention Rate</p>
                         </div>
                         <div className="col-6 col-md-3 col-lg-3 text-center">
-                            <h3 className={styles.statNumber}>50<span className={styles.plus}>+</span></h3>
+                            <h3 className={styles.statNumber}>
+                                <Counter end={50} startAnimation={isVisible} />
+                                <span className={styles.plus}>+</span>
+                            </h3>
                             <p className={styles.statLabel}>Full-Time Specialists</p>
                         </div>
                     </div>

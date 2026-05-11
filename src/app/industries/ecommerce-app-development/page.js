@@ -4,7 +4,7 @@ import IndustryConsultationSection from '@/components/industries/IndustryConsult
 import IndustryTabsSection from '@/components/industries/IndustryTabsSection';
 import IndustryFeaturesSection from '@/components/industries/IndustryFeaturesSection';
 import WhyChooseAppSection from '@/components/common/WhyChooseAppSection';
-import IndustrySolutionsSlider from '@/components/industries/IndustrySolutionsSlider';
+import IndustrySolutionsSlider from '@/components/common/IndustrySolutionsSlider';
 import CaseStudy from "@/components/common/CaseStudy";
 import TechStackSection from '@/components/common/TechStackSection';
 import IndustriesSection from '@/components/common/IndustriesSection';

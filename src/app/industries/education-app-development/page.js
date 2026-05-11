@@ -4,7 +4,7 @@ import IndustryConsultationSection from '@/components/industries/IndustryConsult
 import IndustryTabsSection from '@/components/industries/IndustryTabsSection';
 import IndustryFeaturesSection from '@/components/industries/IndustryFeaturesSection';
 import WhyChooseAppSection from '@/components/common/WhyChooseAppSection';
-import IndustrySolutionsSlider from '@/components/industries/IndustrySolutionsSlider';
+import IndustrySolutionsSlider from '@/components/common/IndustrySolutionsSlider';
 import CaseStudy from "@/components/common/CaseStudy";
 import TechStackSection from '@/components/common/TechStackSection';
 import IndustriesSection from '@/components/common/IndustriesSection';
@@ -86,32 +86,32 @@ const EducationAppPage = () => {
         }
     ];
 
-    const solutions = [
-        {
-            title: 'Skill Boosting Apps',
-            description: 'Interactive platforms that provide professional development courses, certification training, and skill-based learning for career growth.',
-            image: '/industries/solution-1.webp',
-            active: false
-        },
-        {
-            title: 'Early Childhood Learning',
-            description: 'Engaging and colorful apps designed for young children to develop foundational skills in reading, math, and creative arts.',
-            image: '/industries/solution-2.webp',
-            active: false
-        },
-        {
-            title: 'STEM Education Apps',
-            description: 'Specialized apps that provide interactive simulations, experiments, and lessons in Science, Technology, Engineering, and Math.',
-            image: '/industries/solution-3.webp',
-            active: false
-        },
-        {
-            title: 'Test Prep Platforms',
-            description: 'Comprehensive platforms that offer practice exams, study materials, and personalized study plans for standardized tests and certifications.',
-            image: '/industries/solution-4.webp',
-            active: false
-        }
-    ];
+    // const solutions = [
+    //     {
+    //         title: 'Skill Boosting Apps',
+    //         description: 'Interactive platforms that provide professional development courses, certification training, and skill-based learning for career growth.',
+    //         image: '/industries/solution-1.webp',
+    //         active: false
+    //     },
+    //     {
+    //         title: 'Early Childhood Learning',
+    //         description: 'Engaging and colorful apps designed for young children to develop foundational skills in reading, math, and creative arts.',
+    //         image: '/industries/solution-2.webp',
+    //         active: false
+    //     },
+    //     {
+    //         title: 'STEM Education Apps',
+    //         description: 'Specialized apps that provide interactive simulations, experiments, and lessons in Science, Technology, Engineering, and Math.',
+    //         image: '/industries/solution-3.webp',
+    //         active: false
+    //     },
+    //     {
+    //         title: 'Test Prep Platforms',
+    //         description: 'Comprehensive platforms that offer practice exams, study materials, and personalized study plans for standardized tests and certifications.',
+    //         image: '/industries/solution-4.webp',
+    //         active: false
+    //     }
+    // ];
 
     return (
         <main>
@@ -150,7 +150,7 @@ const EducationAppPage = () => {
 
             <IndustrySolutionsSlider 
                 title={<>Next-Gen <span style={{ color: 'var(--primary-color)' }}>Education App</span> Solutions <br /> For <span className="highlightWrapper"><span className="highlightText">Modern Learners</span></span> Needs</>}
-                solutionsData={solutions}
+                // solutionsData={solutions}
             />
 
             <WhyChooseAppSection />

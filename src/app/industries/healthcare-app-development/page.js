@@ -4,7 +4,7 @@ import IndustryConsultationSection from '@/components/industries/IndustryConsult
 import IndustryTabsSection from '@/components/industries/IndustryTabsSection';
 import IndustryFeaturesSection from '@/components/industries/IndustryFeaturesSection';
 import WhyChooseAppSection from '@/components/common/WhyChooseAppSection';
-import IndustrySolutionsSlider from '@/components/industries/IndustrySolutionsSlider';
+import IndustrySolutionsSlider from '@/components/common/IndustrySolutionsSlider';
 import CaseStudy from "@/components/common/CaseStudy";
 import TechStackSection from '@/components/common/TechStackSection';
 import IndustriesSection from '@/components/common/IndustriesSection';
@@ -86,32 +86,32 @@ const HealthcareAppPage = () => {
         }
     ];
 
-    const solutions = [
-        {
-            title: 'Doctor Consultation Apps',
-            description: 'Custom apps that allow patients to book appointments, consult with specialists, and receive care from the comfort of their homes.',
-            image: '/industries/solution-1.webp',
-            active: false
-        },
-        {
-            title: 'Health Tracking Wearables',
-            description: 'Integrate mobile apps with IoT-enabled medical devices for real-time health monitoring and emergency alert systems.',
-            image: '/industries/solution-2.webp',
-            active: false
-        },
-        {
-            title: 'Medical Training Apps',
-            description: 'Interactive VR/AR and mobile learning platforms for medical students and professionals to enhance their clinical skills.',
-            image: '/industries/solution-3.webp',
-            active: false
-        },
-        {
-            title: 'Wellness & Nutrition',
-            description: 'Engaging apps that provide personalized meal plans, exercise routines, and wellness coaching for a healthier lifestyle.',
-            image: '/industries/solution-4.webp',
-            active: false
-        }
-    ];
+    // const solutions = [
+    //     {
+    //         title: 'Doctor Consultation Apps',
+    //         description: 'Custom apps that allow patients to book appointments, consult with specialists, and receive care from the comfort of their homes.',
+    //         image: '/industries/solution-1.webp',
+    //         active: false
+    //     },
+    //     {
+    //         title: 'Health Tracking Wearables',
+    //         description: 'Integrate mobile apps with IoT-enabled medical devices for real-time health monitoring and emergency alert systems.',
+    //         image: '/industries/solution-2.webp',
+    //         active: false
+    //     },
+    //     {
+    //         title: 'Medical Training Apps',
+    //         description: 'Interactive VR/AR and mobile learning platforms for medical students and professionals to enhance their clinical skills.',
+    //         image: '/industries/solution-3.webp',
+    //         active: false
+    //     },
+    //     {
+    //         title: 'Wellness & Nutrition',
+    //         description: 'Engaging apps that provide personalized meal plans, exercise routines, and wellness coaching for a healthier lifestyle.',
+    //         image: '/industries/solution-4.webp',
+    //         active: false
+    //     }
+    // ];
 
     return (
         <main>
@@ -149,7 +149,7 @@ const HealthcareAppPage = () => {
 
             <IndustrySolutionsSlider 
                 title={<>Next-Gen <span style={{ color: 'var(--primary-color)' }}>Healthcare App</span> Solutions <br /> For <span className="highlightWrapper"><span className="highlightText">Modern Medicine</span></span> Needs</>}
-                solutionsData={solutions}
+                // solutionsData={solutions}
             />
 
             <WhyChooseAppSection />

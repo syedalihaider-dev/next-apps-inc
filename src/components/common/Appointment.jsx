@@ -18,8 +18,9 @@ const Appointment = () => {
                             <p className={styles.description}>
                                 It does not matter whether you need a mobile app, a game, an e-commerce store, a web platform, or custom software that your industry has never seen before. Bring us the problem. We will bring the plan, the team, and the track record to solve it right.
                             </p>
-                            <div className={styles.btnWrapper}>
+                            <div className={`${styles.btnWrapper} d-flex gap-3 flex-wrap`}>
                                 <MyButton text="Get Started" className="btn_black" />
+                                <MyButton text="Live Chat" className="btn_black chat" />
                             </div>
                         </div>
                     </div>

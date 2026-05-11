@@ -4,7 +4,7 @@ import IndustryConsultationSection from '@/components/industries/IndustryConsult
 import IndustryTabsSection from '@/components/industries/IndustryTabsSection';
 import IndustryFeaturesSection from '@/components/industries/IndustryFeaturesSection';
 import WhyChooseAppSection from '@/components/common/WhyChooseAppSection';
-import IndustrySolutionsSlider from '@/components/industries/IndustrySolutionsSlider';
+import IndustrySolutionsSlider from '@/components/common/IndustrySolutionsSlider';
 import CaseStudy from "@/components/common/CaseStudy";
 import TechStackSection from '@/components/common/TechStackSection';
 import IndustriesSection from '@/components/common/IndustriesSection';
@@ -86,32 +86,32 @@ const FinanceAppPage = () => {
         }
     ];
 
-    const solutions = [
-        {
-            title: 'Personal Finance Manager',
-            description: 'Engaging apps that help users manage their personal wealth, set saving goals, and track expenses across multiple accounts.',
-            image: '/industries/solution-1.webp',
-            active: false
-        },
-        {
-            title: 'Corporate Expense Tools',
-            description: 'Custom platforms for businesses to manage employee expenses, corporate credit cards, and real-time financial reporting.',
-            image: '/industries/solution-2.webp',
-            active: false
-        },
-        {
-            title: 'Insurance Tech (InsurTech)',
-            description: 'Digital solutions for insurance companies to automate policy management, claim processing, and customer support.',
-            image: '/industries/solution-3.webp',
-            active: false
-        },
-        {
-            title: 'Crowdfunding Platforms',
-            description: 'Secure, scalable platforms that connect startups with investors, featuring transparent fund tracking and legal compliance.',
-            image: '/industries/solution-4.webp',
-            active: false
-        }
-    ];
+    // const solutions = [
+    //     {
+    //         title: 'Personal Finance Manager',
+    //         description: 'Engaging apps that help users manage their personal wealth, set saving goals, and track expenses across multiple accounts.',
+    //         image: '/industries/solution-1.webp',
+    //         active: false
+    //     },
+    //     {
+    //         title: 'Corporate Expense Tools',
+    //         description: 'Custom platforms for businesses to manage employee expenses, corporate credit cards, and real-time financial reporting.',
+    //         image: '/industries/solution-2.webp',
+    //         active: false
+    //     },
+    //     {
+    //         title: 'Insurance Tech (InsurTech)',
+    //         description: 'Digital solutions for insurance companies to automate policy management, claim processing, and customer support.',
+    //         image: '/industries/solution-3.webp',
+    //         active: false
+    //     },
+    //     {
+    //         title: 'Crowdfunding Platforms',
+    //         description: 'Secure, scalable platforms that connect startups with investors, featuring transparent fund tracking and legal compliance.',
+    //         image: '/industries/solution-4.webp',
+    //         active: false
+    //     }
+    // ];
 
     return (
         <main>
@@ -149,7 +149,7 @@ const FinanceAppPage = () => {
 
             <IndustrySolutionsSlider 
                 title={<>Next-Gen <span style={{ color: 'var(--primary-color)' }}>Fintech App</span> Solutions <br /> For <span className="highlightWrapper"><span className="highlightText">Modern Finance</span></span> Needs</>}
-                solutionsData={solutions}
+                // solutionsData={solutions}
             />
 
             <WhyChooseAppSection />

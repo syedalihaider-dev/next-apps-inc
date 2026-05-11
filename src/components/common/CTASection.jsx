@@ -46,10 +46,14 @@ const CTASection = () => {
                         <p className={styles.description}>
                             Whether you need a mobile app, a game, an e-commerce store, a web platform, or custom software built from scratch, Next App is the one team that handles all of it. iOS, Android, Flutter, react native, Unity, full-stack. One conversation. One partner. One product that actually ships.
                         </p>
-                        <div className={styles.btnWrapper}>
+                        <div className={`${styles.btnWrapper} d-flex gap-3 flex-wrap`}>
                             <MyButton
                                 text="Get Started"
                                 className="btn_black"
+                            />
+                            <MyButton
+                                text="Live Chat"
+                                className="chat btn_white"
                             />
                         </div>
                     </div>

@@ -56,8 +56,9 @@ const AboutBanner = () => {
                             <p className={styles.description}>
                                 We are Next App. A digital product studio that builds mobile apps, games, e-commerce platforms, web solutions, and custom software for businesses that refuse to settle for average. This is our story and the reason behind every product we build.
                             </p>
-                            <div className={styles.btnWrapper}>
+                            <div className={`${styles.btnWrapper} d-flex gap-3 flex-wrap justify-content-center`}>
                                 <MyButton text="Get Started" className="btn_white" />
+                                <MyButton text="Live Chat" className="chat btn_white" />
                             </div>
                         </div>
                     </div>

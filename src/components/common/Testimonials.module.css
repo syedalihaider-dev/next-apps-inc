@@ -160,7 +160,7 @@
         flex-direction: row;
     }
 
-    .centerImgWrapper {
+    .centerImageCol {
         display: none;
     }
 }

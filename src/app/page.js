@@ -3,6 +3,7 @@ import About from "@/components/home/About";
 import Services from "@/components/home/Services";
 import CaseStudy from "@/components/common/CaseStudy";
 import ProcessSection from "@/components/home/ProcessSection";
+import IndustriesSection from "@/components/common/IndustriesSection";
 // import Blog from "@/components/home/Blog";
 import Appointment from "@/components/common/Appointment";
 import Testimonials from "@/components/common/Testimonials";
@@ -23,6 +24,7 @@ export default function Home() {
       <CaseStudy />
       <CTASection />
       <ProcessSection />
+      <IndustriesSection />
       {/* <Blog /> */}
       <Appointment />
       <Testimonials />
