@@ -59,7 +59,7 @@ const tabs = [
         id: 'deployment',
         label: 'Deployment and Launch',
         title: 'Deployment and Launch',
-        description: 'We package your Flutter app for App Store and Play Store, handle signing and compliance, and walk you through the submission process until your app is live on every targeted platform..',
+        description: 'ASO is ongoing, not a one-time setup. We monitor algorithm changes, seasonal keyword shifts, and competitor moves to keep your listing optimized and your install volume growing month over month.',
         image: '/services/deployment-and-launch.webp'
     }
 ];
