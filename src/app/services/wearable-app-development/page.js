@@ -22,44 +22,44 @@ export const metadata = {
 const tabs = [
     {
         id: 'planning',
-        label: 'Device & Platform Discovery',
-        title: 'Device & Platform Discovery',
-        description: 'We evaluate your wearable ecosystem Apple Watch, Wear OS, Samsung Galaxy Watch, or a custom IoT device and outline the companion app architecture that links your wearable experience to the broader product.',
+        label: 'Project Planning',
+        title: 'Project Planning',
+        description: 'We define which wearable platforms your product targets, what sensor data it needs, how it communicates with the companion mobile app, and what the battery impact budget looks like, all before development begins.',
         image: '/services/project-planning.webp'
     },
     {
         id: 'wireframes',
-        label: 'Interaction & Complication Design',
-        title: 'Interaction & Complication Design',
-        description: "Wearable UX must adhere to strict constraints. Our designers create glanceable interfaces, tappable complications, and voice-command flows that work within the wearable screen's limits while providing full product value.",
+        label: 'Wireframes',
+        title: 'Wireframes',
+        description: "Wearable wireframes are miniaturized and touch-first. We design for glanceability, one-tap interactions, and micro-content layouts that work on screens measured in millimetres, not inches.",
         image: '/services/wireframes.webp'
     },
     {
         id: 'prototype',
-        label: 'Sensor Integration & Health Data Access',
-        title: 'Sensor Integration & Health Data Access',
-        description: 'We integrate with Apple HealthKit, Google Fit, and device-native sensor APIs — heart rate, SpO2, accelerometer, GPS, sleep tracking, and activity data — connecting wearable hardware capabilities to your apps logic.',
+        label: 'Prototype Demo',
+        title: 'Prototype Demo',
+        description: 'We build a working prototype on the target wearable hardware so you can experience the app on wrist before it is built in full. Physical testing at the prototype stage saves significant rework during development.',
         image: '/services/prototype-demo.webp'
     },
     {
         id: 'development',
-        label: 'Companion App Development',
-        title: 'Companion App Development',
-        description: 'Most wearable experiences require a companion iOS or Android app for configuration, data visualization, and cloud sync. We build the full companion experience alongside the wearable app as a unified product.',
+        label: 'Development',
+        title: 'Development',
+        description: 'Our engineers build companion apps alongside wearable counterparts, managing data sync, background refresh, notification scheduling, and health sensor integration across watchOS and Wear OS with clean, battery-conscious code.',
         image: '/services/development.webp'
     },
     {
         id: 'quality',
-        label: 'Battery & Performance Optimization',
-        title: 'Battery & Performance Optimization',
-        description: 'Wearable apps run under strict power constraints. We optimize every data sync cycle, background task, and sensor polling interval to maximize battery life without compromising the responsiveness your users expect.',
+        label: 'Quality Control',
+        title: 'Quality Control',
+        description: 'We test on physical wearable hardware across multiple watch sizes and OS versions, validating real-time sync, notification delivery, sensor accuracy, and background process behaviour under realistic usage conditions.',
         image: '/services/quality-control.webp'
     },
     {
         id: 'deployment',
-        label: 'Testing & Certification',
-        title: 'Testing & Certification',
-        description: 'We test across physical devices and simulators, validate against Apple Watch OS and Wear OS certification requirements, and conduct end-to-end testing of the wearable-to-companion data pipeline before submission.',
+        label: 'Deployment and Launch',
+        title: 'Deployment and Launch',
+        description: 'We manage App Store and Play Store submission for both the companion app and the wearable extension, handle review communication, and monitor post-launch performance across paired device combinations.',
         image: '/services/deployment-and-launch.webp'
     }
 ];
