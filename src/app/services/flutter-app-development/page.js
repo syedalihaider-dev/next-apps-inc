@@ -15,8 +15,8 @@ import Testimonials from "@/components/common/Testimonials";
 import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
-    title: "Wearable App Development | Next App",
-    description: "Next App builds expert wearable app development solutions, from Apple Watch and Wear OS apps to fitness trackers and IoT-connected wearables. Get a free consultation today.",
+    title: "Flutter App Development | Next App",
+    description: "Next App delivers expert Flutter app development, one codebase, native iOS and Android performance. Build faster, ship sooner, and reach both platforms without doubling your budget.",
 };
 
 const tabs = [
@@ -24,42 +24,42 @@ const tabs = [
         id: 'planning',
         label: 'Project Planning',
         title: 'Project Planning',
-        description: 'We define which wearable platforms your product targets, what sensor data it needs, how it communicates with the companion mobile app, and what the battery impact budget looks like, all before development begins.',
+        description: 'We assess whether Flutter is the right fit for your product, define the feature roadmap, set platform targets, and plan the Dart architecture before a single widget is built.',
         image: '/services/project-planning.webp'
     },
     {
         id: 'wireframes',
         label: 'Wireframes',
         title: 'Wireframes',
-        description: "Wearable wireframes are miniaturized and touch-first. We design for glanceability, one-tap interactions, and micro-content layouts that work on screens measured in millimetres, not inches.",
+        description: "Every screen, component, and navigation pattern is wireframed and approved before development begins. Flutter's widget model makes design decisions binding early, speeding up the process.",
         image: '/services/wireframes.webp'
     },
     {
         id: 'prototype',
         label: 'Prototype Demo',
         title: 'Prototype Demo',
-        description: 'We build a working prototype on the target wearable hardware so you can experience the app on wrist before it is built in full. Physical testing at the prototype stage saves significant rework during development.',
+        description: 'We spin up a Flutter prototype quickly using hot reload so you can see and feel the real app on a device. Stakeholders get to interact before the full build, which makes feedback faster and cheaper.',
         image: '/services/prototype-demo.webp'
     },
     {
         id: 'development',
         label: 'Development',
         title: 'Development',
-        description: 'Our engineers build companion apps alongside wearable counterparts, managing data sync, background refresh, notification scheduling, and health sensor integration across watchOS and Wear OS with clean, battery-conscious code.',
+        description: 'Our Flutter engineers write clean Dart code with well-structured state management, custom widgets, and seamless API integrations. The output is a single codebase that performs natively on every platform.',
         image: '/services/development.webp'
     },
     {
         id: 'quality',
         label: 'Quality Control',
         title: 'Quality Control',
-        description: 'We test on physical wearable hardware across multiple watch sizes and OS versions, validating real-time sync, notification delivery, sensor accuracy, and background process behaviour under realistic usage conditions.',
+        description: "We test on real iOS and Android devices, checking rendering consistency, performance under load, and integration stability. Flutter's single codebase means fixes apply everywhere at once.",
         image: '/services/quality-control.webp'
     },
     {
         id: 'deployment',
         label: 'Deployment and Launch',
         title: 'Deployment and Launch',
-        description: 'We manage App Store and Play Store submission for both the companion app and the wearable extension, handle review communication, and monitor post-launch performance across paired device combinations.git',
+        description: 'We package your Flutter app for App Store and Play Store, handle signing and compliance, and walk you through the submission process until your app is live on every targeted platform..',
         image: '/services/deployment-and-launch.webp'
     }
 ];
@@ -68,19 +68,19 @@ const WearableAppDevelopmentPage = () => {
     return (
         <main>
             <ServiceInnerBanner 
-                badge="Wearable App Development"
+                badge="Flutter App Development"
                 title={
                     <>
-                    Your <span className={styles.purpleText}>Wrist.</span> Your <span className={styles.purpleText}>Data.</span> <span className={styles.purpleText}>Your </span> App. <span className={styles.purpleText}></span>
+                    One  <span className={styles.purpleText}>Codebase.</span> Two <span className={styles.purpleText}>Platforms. </span>Zero <span className={styles.purpleText}> Compromise.</span><span className={styles.purpleText}></span>
                     </>
                 }
-                description="Wearable technology is no longer a novelty, it is a primary data channel for healthcare, fitness, enterprise, and consumer brands. We build native and companion wearable apps for Apple Watch, Wear OS, Fitbit, and custom IoT devices that connect seamlessly with your iOS and Android ecosystem.."
+                description="Flutter is Google's open-source UI framework that compiles Dart code to native ARM binaries, enabling iOS and Android apps from one codebase that perform like native and look perfect on every screen. We build Flutter apps for startups and enterprises needing both platforms without doubling development costs."
                 bgImage="/services/android-banner-bg.webp"
             />
-            <ServiceSection 
-                heading="Built for the Wrist, Designed  "
-                purpleText="for Real-Time Use"
-                description="Building for wearables requires a different discipline than building for phones. Every interaction must be faster, every screen more focused, and every data exchange more efficient. Here is how we approach every wearable development engagement."
+            <ServiceSection   
+                heading="Cross-Platform Flutter Apps "
+                purpleText="Built to Perform"
+                description="Flutter’s architecture requires a different development discipline than native platforms. Our Flutter engineers combine Dart expertise with UI design sensibilities to deliver apps that are fast, maintainable, and consistent across all devices and screen sizes."
                 features={[
                     "Certified Developers",
                     "Custom Design",
