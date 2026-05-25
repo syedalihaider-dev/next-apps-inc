@@ -5,12 +5,17 @@ import styles from './SideMenu.module.css';
 
 const services = [
     { name: 'ANDROID APP DEVELOPMENT', href: '/services/android-app-development-services' },
+    { name: 'APP PROTOTYPING', href: '/services/app-prototyping-services' },
+    { name: 'APP STORE OPTIMIZATION', href: '/services/app-store-optimization-services' },
     { name: 'AR/VR APP DEVELOPMENT', href: '/services/ar-vr-app-development-services' },
     { name: 'BLOCKCHAIN MOBILE APP DEVELOPMENT', href: '/services/blockchain-mobile-app-development-services' },
     { name: 'CROSS PLATFORM APP DEVELOPMENT', href: '/services/cross-platform-app-development-services' },
-    { name: 'CUSTOM IOS APP DEVELOPMENT', href: '/services/custom-ios-app-development-services' },
+    { name: 'FLUTTER APP DEVELOPMENT', href: '/services/flutter-app-development-services' },
+    { name: 'IOS APP DEVELOPMENT', href: '/services/ios-app-development-services' },
     { name: 'MOBILE GAME DEVELOPMENT', href: '/services/mobile-game-development-services' },
     { name: 'MOBILE WEB APP DEVELOPMENT', href: '/services/mobile-web-app-development-services' },
+    { name: 'REACT NATIVE APP DEVELOPMENT', href: '/services/react-native-app-development-services' },
+    { name: 'WEARABLE APP DEVELOPMENT', href: '/services/wearable-app-development-services' },
 ];
 
 const industries = [

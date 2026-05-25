@@ -75,7 +75,7 @@ const CustomIOSAppDevelopmentPage = () => {
                     </>
                 }
                 description="We craft iOS applications that feel at home on every Apple device — from the first tap to the hundredth session. Your users deserve a premium experience, and that's exactly what we deliver."
-                bgImage="/services/ios-banner-bg.webp"
+                bgImage="/services/ios-banner-bg.png"
             />
             <ServiceSection 
                 heading="What Sets an Exceptional "
@@ -87,7 +87,7 @@ const CustomIOSAppDevelopmentPage = () => {
                     "Exclusive Apple Features Integration",
                     "Scalable Enterprise Solutions"
                 ]}
-                mockupImage="/services/ios-hand-mockup.webp"
+                mockupImage="/services/ios-hand-mockup.png"
             />
             <AwardsSection />
             <ServicesListSection />

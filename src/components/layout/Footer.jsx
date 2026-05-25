@@ -32,12 +32,17 @@ const Footer = () => {
                             <h4 className={styles.footerTitle}>Services</h4>
                             <ul className={styles.footerLinks}>
                                 <li><Link href="/services/android-app-development-services">ANDROID APP DEVELOPMENT</Link></li>
+                                <li><Link href="/services/app-prototyping-services">APP PROTOTYPING</Link></li>
+                                <li><Link href="/services/app-store-optimization-services">APP STORE OPTIMIZATION</Link></li>
                                 <li><Link href="/services/ar-vr-app-development-services">AR/VR APP DEVELOPMENT</Link></li>
                                 <li><Link href="/services/blockchain-mobile-app-development-services">BLOCKCHAIN MOBILE APP DEVELOPMENT</Link></li>
                                 <li><Link href="/services/cross-platform-app-development-services">CROSS PLATFORM APP DEVELOPMENT</Link></li>
-                                <li><Link href="/services/custom-ios-app-development-services">CUSTOM IOS APP DEVELOPMENT</Link></li>
+                                <li><Link href="/services/flutter-app-development-services">FLUTTER APP DEVELOPMENT</Link></li>
+                                <li><Link href="/services/ios-app-development-services">IOS APP DEVELOPMENT</Link></li>
                                 <li><Link href="/services/mobile-game-development-services">MOBILE GAME DEVELOPMENT</Link></li>
                                 <li><Link href="/services/mobile-web-app-development-services">MOBILE WEB APP DEVELOPMENT</Link></li>
+                                <li><Link href="/services/react-native-app-development-services">REACT NATIVE APP DEVELOPMENT</Link></li>
+                                <li><Link href="/services/wearable-app-development-services">WEARABLE APP DEVELOPMENT</Link></li>
                             </ul>
                         </div>
                     </div>

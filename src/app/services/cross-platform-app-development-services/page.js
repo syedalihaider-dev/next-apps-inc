@@ -15,7 +15,7 @@ import Testimonials from "@/components/common/Testimonials";
 import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
-    title: "Cross-Platform App Development | Next App",
+    title: "Cross-Platform App Development Services | Next App",
     description: "Next App delivers expert cross-platform app development alongside web development, e-commerce, game development, and custom software. Get a free consultation today.",
 };
 
@@ -75,7 +75,7 @@ const CrossPlatformAppDevelopmentPage = () => {
                     </>
                 }
                 description="Why build twice when you can build once and reach everyone? Our cross-platform apps deliver native-quality experiences on iOS and Android from a single, maintainable codebase."
-                bgImage="/services/cross-platform-banner-bg.webp"
+                bgImage="/services/cross-platform-banner-bg.png"
             />
             <ServiceSection 
                 heading="Cross-Platform Done Right : "
@@ -87,7 +87,7 @@ const CrossPlatformAppDevelopmentPage = () => {
                     "Native-Like Performance",
                     "Rapid Market Entry"
                 ]}
-                mockupImage="/services/ios-hand-mockup.webp"
+                mockupImage="/services/cross-platform-hand-mockup.png"
             />
             <AwardsSection />
             <ServicesListSection />
