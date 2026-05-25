@@ -68,14 +68,14 @@ const ARVRAppDevelopmentPage = () => {
     return (
         <main>
             <ServiceInnerBanner 
-                badge="AR/VR App Development"
+                badge="AR/VR App Development Services"
                 title={
                     <>
                         Step <span className={styles.purpleText}>Inside</span> the <span className={styles.purpleText}>Experience.</span> Your <span className={styles.purpleText}>Users</span> Will <span className={styles.purpleText}>Never</span> Look Back.
                     </>
                 }
                 description="Augmented and virtual reality are rewriting how people shop, learn, train, and explore. We build AR/VR applications that don't just impress, they change the way your users interact with your brand."
-                bgImage="/services/ar-vr-banner-bg.webp"
+                bgImage="/services/ar-vr-banner-bg.png"
             />
             <ServiceSection 
                 heading="The Real Business Case for "
@@ -87,7 +87,7 @@ const ARVRAppDevelopmentPage = () => {
                     "Spatial Interaction Design",
                     "Multi-Platform Support"
                 ]}
-                mockupImage="/services/ios-hand-mockup.webp"
+                mockupImage="/services/ar-vr-hand-mockup.png"
             />
             <AwardsSection />
             <ServicesListSection />

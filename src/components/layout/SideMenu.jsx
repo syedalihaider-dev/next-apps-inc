@@ -5,12 +5,12 @@ import styles from './SideMenu.module.css';
 
 const services = [
     { name: 'ANDROID APP DEVELOPMENT', href: '/services/android-app-development-services' },
-    { name: 'AR/VR APP DEVELOPMENT', href: '/services/ar-vr-app-development' },
-    { name: 'BLOCKCHAIN MOBILE APP DEVELOPMENT', href: '/services/blockchain-mobile-app-development' },
-    { name: 'CROSS PLATFORM APP DEVELOPMENT', href: '/services/cross-platform-app-development' },
-    { name: 'CUSTOM IOS APP DEVELOPMENT', href: '/services/custom-ios-app-development' },
-    { name: 'MOBILE GAME DEVELOPMENT', href: '/services/mobile-game-development' },
-    { name: 'MOBILE WEB APP DEVELOPMENT', href: '/services/mobile-web-app-development' },
+    { name: 'AR/VR APP DEVELOPMENT', href: '/services/ar-vr-app-development-services' },
+    { name: 'BLOCKCHAIN MOBILE APP DEVELOPMENT', href: '/services/blockchain-mobile-app-development-services' },
+    { name: 'CROSS PLATFORM APP DEVELOPMENT', href: '/services/cross-platform-app-development-services' },
+    { name: 'CUSTOM IOS APP DEVELOPMENT', href: '/services/custom-ios-app-development-services' },
+    { name: 'MOBILE GAME DEVELOPMENT', href: '/services/mobile-game-development-services' },
+    { name: 'MOBILE WEB APP DEVELOPMENT', href: '/services/mobile-web-app-development-services' },
 ];
 
 const industries = [

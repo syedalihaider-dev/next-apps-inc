@@ -75,7 +75,7 @@ const BlockchainMobileAppDevelopmentPage = () => {
                     </>
                 }
                 description="Blockchain isn't just for crypto. It's a new paradigm for trust, transparency, and ownership. We build blockchain-powered mobile apps that bring real-world utility to decentralized technology."
-                bgImage="/services/blockchain-banner-bg.webp"
+                bgImage="/services/blockchain-banner-bg.png"
             />
             <ServiceSection 
                 heading="Why Blockchain Mobile Apps Require More Than "
@@ -87,7 +87,7 @@ const BlockchainMobileAppDevelopmentPage = () => {
                     "Crypto Wallet Integration",
                     "Blockchain Security Audits"
                 ]}
-                mockupImage="/services/ios-hand-mockup.webp"
+                mockupImage="/services/blockchain-hand-mockup.png"
             />
             <AwardsSection />
             <ServicesListSection />
