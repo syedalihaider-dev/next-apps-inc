@@ -27,6 +27,7 @@ const industries = [
     { name: 'AGENCIES APP DEVELOPMENT', href: '/industries/agencies-app-development' },
     { name: 'REAL ESTATE APP DEVELOPMENT', href: '/industries/real-estate-app-development' },
     { name: 'AUTOMATIVE APP DEVELOPMENT', href: '/industries/automotive-app-development' },
+    { name: 'TRAVEL APP DEVELOPMENT', href: '/industries/travel-app-development' },
 ];
 
 import { SITE_CONFIG } from '@/configs/site-config';

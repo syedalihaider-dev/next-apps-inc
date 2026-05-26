@@ -66,6 +66,52 @@ const nextConfig = {
         destination: '/services/app-store-optimization-services',
         statusCode: 301,
       },
+      // Industry Pages
+      {
+        source: '/education-industry.php',
+        destination: '/industries/education-app-development',
+        statusCode: 301,
+      },
+      {
+        source: '/insurance-industry.php',
+        destination: '/industries/insurance-app-development',
+        statusCode: 301,
+      },
+      {
+        source: '/automotive-industry.php',
+        destination: '/industries/automotive-app-development',
+        statusCode: 301,
+      },
+      {
+        source: '/agencies-industry.php',
+        destination: '/industries/agencies-app-development',
+        statusCode: 301,
+      },
+      {
+        source: '/travel-industry.php',
+        destination: '/industries/travel-app-development',
+        statusCode: 301,
+      },
+      {
+        source: '/financial-industry.php',
+        destination: '/industries/finance-app-development',
+        statusCode: 301,
+      },
+      {
+        source: '/healthcare-app-development-services.php',
+        destination: '/industries/healthcare-app-development',
+        statusCode: 301,
+      },
+      {
+        source: '/ecommerce-app-development-services.php',
+        destination: '/industries/ecommerce-app-development',
+        statusCode: 301,
+      },
+      {
+        source: '/real-estate-app-development-services.php',
+        destination: '/industries/real-estate-app-development',
+        statusCode: 301,
+      },
     ];
   },
 };
