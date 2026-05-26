@@ -75,7 +75,7 @@ const AppPrototypingPage = () => {
                     </>
                 }
                 description="Building without prototyping is the most expensive way to discover a product problem. Our app prototyping service turns your concept into a clickable, testable, investor-ready demonstration in days, not months  so you validate your idea before committing full development resources."
-                bgImage="/services/android-banner-bg.webp"
+                bgImage="/services/app-prototyping-banner-bg.png"
             />
             <ServiceSection     
                 heading="Digital Solutions That Drive "
@@ -87,7 +87,7 @@ const AppPrototypingPage = () => {
                     "Scalable Systems",
                     "Smooth Integration"
                 ]}
-                mockupImage="/services/ios-hand-mockup.webp"
+                mockupImage="/services/app-prototyping-hand-mockup.png"
             />
             <AwardsSection />
             <ServicesListSection />
