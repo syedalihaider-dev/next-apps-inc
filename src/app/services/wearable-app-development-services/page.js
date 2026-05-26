@@ -75,7 +75,7 @@ const WearableAppDevelopmentPage = () => {
                     </>
                 }
                 description="Wearable technology is no longer a novelty, it is a primary data channel for healthcare, fitness, enterprise, and consumer brands. We build native and companion wearable apps for Apple Watch, Wear OS, Fitbit, and custom IoT devices that connect seamlessly with your iOS and Android ecosystem.."
-                bgImage="/services/android-banner-bg.webp"
+                bgImage="/services/wearable-app-banner-bg.png"
             />
             <ServiceSection 
                 heading="Built for the Wrist, Designed  "
@@ -87,7 +87,7 @@ const WearableAppDevelopmentPage = () => {
                     "Scalable Systems",
                     "Smooth Integration"
                 ]}
-                mockupImage="/services/ios-hand-mockup.webp"
+                mockupImage="/services/wearable-app-hand-mockup.png"
             />
             <AwardsSection />
             <ServicesListSection />
