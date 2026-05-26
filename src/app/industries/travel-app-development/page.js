@@ -57,32 +57,32 @@ const HealthcareAppPage = () => {
             title: 'Real-Time Availability & Dynamic Pricing',
             contentTitle: 'Real-Time Availability & Dynamic Pricing',
             contentDesc: 'Live inventory feeds with real-time pricing from GDS and supplier APIs are essential for travel and hotel booking apps.',
-            icon: '/industries/real-estate-app-development/tab-icon-01.png',
-            image: '/industries/real-estate-app-development/tab-icon-01.png'
+            icon: '/industries/travel-app-development/tab-icon-01.png',
+            image: '/industries/travel-app-development/tab-icon-01.png'
         },
         {
             id: 'intelligent-search-personalisation',
             title: 'Intelligent Search & Personalisation',
             contentTitle: 'Intelligent Search & Personalisation',
             contentDesc: 'AI-powered search and recommendation engines that highlight the most relevant destinations, properties, and experiences, setting apart quality travel apps from basic search tools.',
-            icon: '/industries/real-estate-app-development/tab-icon-02.png',
-            image: '/industries/real-estate-app-development/tab-icon-02.png'
+            icon: '/industries/travel-app-development/tab-icon-02.png',
+            image: '/industries/travel-app-development/tab-icon-02.png'
         },
         {
             id: 'seamless-multi-provider-checkout',
             title: 'Seamless Multi-Provider Checkout',
             contentTitle: 'Seamless Multi-Provider Checkout',
             contentDesc: 'Single-cart checkout for mixed flight, hotel, and activity bookings with multi-payment support and automated booking documentation is essential to any conversion-optimized travel booking platform.',
-            icon: '/industries/real-estate-app-development/tab-icon-03.png',
-            image: '/industries/real-estate-app-development/tab-icon-03.png'
+            icon: '/industries/travel-app-development/tab-icon-03.png',
+            image: '/industries/travel-app-development/tab-icon-03.png'
         },
         {
             id: 'traveller-communication-alerts',
             title: 'Traveller Communication & Alerts',
             contentTitle: 'Traveller Communication & Alerts',
             contentDesc: 'Automated pre-trip reminders, real-time disruption alerts, check-in notifications, and post-trip feedback requests keep travellers informed at every stage of their journey.',
-            icon: '/industries/real-estate-app-development/tab-icon-04.png',
-            image: '/industries/real-estate-app-development/tab-icon-04.png'
+            icon: '/industries/travel-app-development/tab-icon-04.png',
+            image: '/industries/travel-app-development/tab-icon-04.png'
         }
     ];
 
@@ -93,14 +93,14 @@ const HealthcareAppPage = () => {
                 mainTitle={<><span style={{ color: 'var(--primary-color)' }}>Travel Is Back.</span> Build the Platform That Brings<span style={{ color: 'var(--primary-color)' }}> Travellers </span> to You.</>}
                 // highlightedPart={<> <span style={{ color: 'var(--primary-color)' }}>Get Better</span> <span style={{ color: '#fff' }}>and</span> <span style={{ color: 'var(--primary-color)' }}>Stay That Way.</span></>}
                 description="We build travel tech, online agencies, hotels, airlines, making bookings seamless, experiences memorable, and operations efficient. Next App delivers mobile apps, web platforms, and custom software for businesses of all sizes."
-                bgImage="/industries/real-estate-app-development/banner-bg.png" 
+                bgImage="/industries/travel-app-development/banner-bg.png" 
             />
 
             <IndustryServicesSection 
                 title="<span style='color: var(--primary-color)'>Travel App Development</span> Solutions Built for Booking Volume, <span style='color: var(--primary-color)'>Experience Quality,</span> and <span style='color: var(--primary-color)'>Operational Scale</span> "
                 description="Travel app development is highly competitive. Friction points in booking lose customers. Our services focus on key metrics: conversion, booking completion, repeat visits, and supplier efficiency."
                 servicesData={services}
-                mockupImage="/industries/real-estate-app-development/services-mockup.png" // Placeholder
+                mockupImage="/industries/travel-app-development/services-mockup.png" // Placeholder
             />
    
             <IndustryConsultationSection 
