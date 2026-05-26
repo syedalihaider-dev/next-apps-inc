@@ -75,10 +75,10 @@ const AppStoreOptimizationPage = () => {
                     </>
                 }
                 description="70% of App Store visitors find apps via search. Without App Store Optimization, even top products remain unseen. We use keyword strategy, conversion-focused listing design, and review management to boost organic installs without raising your paid acquisition budget."
-                bgImage="/services/android-banner-bg.webp"
+                bgImage="/services/app-store-optimization-banner-bg.png"
             />
             <ServiceSection     
-                heading="App Store Optimization  "
+                heading="App Store Optimization"
                 purpleText="Built for Continuous Growth"
                 description="ASO is not a one-time task. It is an ongoing optimization discipline that compounds over time. Here is how our ASO team improves your organic visibility and conversion rate across both the App Store and Google Play."
                 features={[
@@ -87,7 +87,7 @@ const AppStoreOptimizationPage = () => {
                     "Scalable Systems",
                     "Smooth Integration"
                 ]}
-                mockupImage="/services/ios-hand-mockup.webp"
+                mockupImage="/services/app-store-optimization-hand-mockup.png"
             />
             <AwardsSection />
             <ServicesListSection />
