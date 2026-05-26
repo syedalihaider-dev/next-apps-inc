@@ -75,7 +75,7 @@ const FlutterAppDevelopmentPage = () => {
                     </>
                 }
                 description="Flutter is Google's open-source UI framework that compiles Dart code to native ARM binaries, enabling iOS and Android apps from one codebase that perform like native and look perfect on every screen. We build Flutter apps for startups and enterprises needing both platforms without doubling development costs."
-                bgImage="/services/android-banner-bg.webp"
+                bgImage="/services/flutter-banner-bg.png"
             />
             <ServiceSection   
                 heading="Cross-Platform Flutter Apps "
@@ -87,7 +87,7 @@ const FlutterAppDevelopmentPage = () => {
                     "Scalable Systems",
                     "Smooth Integration"
                 ]}
-                mockupImage="/services/ios-hand-mockup.webp"
+                mockupImage="/services/flutter-hand-mockup.png"
             />
             <AwardsSection />
             <ServicesListSection />
