@@ -20,6 +20,17 @@ const nextConfig = {
         destination: '/contact-us',
         statusCode: 301,
       },
+      {
+        source: '/terms-and-condition.php',
+        destination: '/terms-and-conditions',
+        statusCode: 301,
+      },
+      {
+        source: '/privacy-policy.php',
+        destination: '/privacy-policy',
+        statusCode: 301,
+      },
+
       // Services Pages
       {
         source: '/ios-app-development-services.php',
@@ -66,6 +77,7 @@ const nextConfig = {
         destination: '/services/app-store-optimization-services',
         statusCode: 301,
       },
+
       // Industry Pages
       {
         source: '/education-industry.php',
