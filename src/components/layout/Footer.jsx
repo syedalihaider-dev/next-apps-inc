@@ -1,10 +1,16 @@
+'use client'
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import styles from './Footer.module.css';
 import { SITE_CONFIG } from '@/configs/site-config';
 
 const Footer = () => {
+    const pathname = usePathname();
+    
+    if (pathname?.startsWith('/lp')) return null;
+
     return (
         <footer className={styles.footer}>
             <Image

@@ -2,16 +2,21 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import styles from './Header.module.css';
 import MyButton from '@/components/layout/MyButton';
 import SideMenu from './SideMenu';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const pathname = usePathname();
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+
+    if (pathname?.startsWith('/lp')) return null;
+
 
     // Close menu when ESC key is pressed
     useEffect(() => {

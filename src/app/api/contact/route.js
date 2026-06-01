@@ -38,13 +38,12 @@ export async function POST(req) {
         await transporter.sendMail({
             from: '"Next App Inc Main Brand" <sales@nextappinc.com>',
             to: [
-                // 'sales@nextappinc.com',
-                // 'noman@canvasdigital.net',
-                // 'sanaullah.asgher@canvasdigital.org',
-                // 'manzar.inam@canvasdigital.org',
-                // 'faran.tanveer@canvasdigital.org',
-                // 'hafiz.oumama@canvasdigital.org',
-                // 'hassan.ak@canvasdigital.org',
+                'sales@nextappinc.com',
+                'noman@canvasdigital.net',
+                'manzar.inam@canvasdigital.org',
+                'faran.tanveer@canvasdigital.org',
+                'hafiz.oumama@canvasdigital.org',
+                'hassan.ak@canvasdigital.org',
                 'ali.haider@canvasdigital.org'
             ],
             subject: 'Lead | Next App Inc Main Brand',
