@@ -55,7 +55,7 @@ export async function POST(req) {
         });
 
         const mailOptions = {
-            from: '"Next App Inc LP" <sales@nextappinc.com>',
+            from: '"Next Apps Inc LP" <sales@nextappinc.com>',
             to: ['sales@nextappinc.com','noman@canvasdigital.net','manzar.inam@canvasdigital.org','faran.tanveer@canvasdigital.org','ali.haider@canvasdigital.org'],
             subject: `New LP Lead: Mobile App Studio`,
             html: `

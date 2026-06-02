@@ -11,7 +11,7 @@ const bricolageGrotesque = Bricolage_Grotesque({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://www.nextappinc.com'),
+  metadataBase: new URL('https://www.nextappsinc.com'),
   alternates: {
     canonical: './',
   },
@@ -22,13 +22,13 @@ export const metadata = {
   },
 
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
     nocache: true,
     googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: true,
+      index: false,
+      follow: false,
+      noimageindex: false,
       "max-video-preview": -1,
       "max-image-preview": "none",
       "max-snippet": -1,
@@ -47,14 +47,14 @@ export default function RootLayout({ children }) {
         {/* Google Analytics */}
         <Script
           strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=G-8CMYG23XJM`}
+          src={`https://www.googletagmanager.com/gtag/js?id=AW-17899557039`}
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-8CMYG23XJM');
+            gtag('config', 'AW-17899557039');
           `}
         </Script>
 

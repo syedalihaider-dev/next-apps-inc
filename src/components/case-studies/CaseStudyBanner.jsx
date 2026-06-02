@@ -27,7 +27,7 @@ const CaseStudyBanner = () => {
                                 <span className={styles.greenText}>Quality Work.</span>
                             </h1>
                             <p className={styles.desc}>
-                                NextAppInc empowers businesses with innovative digital solutions designed for growth and success. We combine creativity, technology, and strategy to build future-ready brands.
+                                NextAppsInc empowers businesses with innovative digital solutions designed for growth and success. We combine creativity, technology, and strategy to build future-ready brands.
                             </p>
                             <div className={styles.btnWrapper}>
                                 <MyButton text="Get Started" className="btn_white" />

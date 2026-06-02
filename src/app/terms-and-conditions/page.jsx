@@ -33,7 +33,7 @@ const TermsPage = () => {
                 <section className={styles.section}>
                     <h2><span>2</span> Acceptance of Terms</h2>
                     <p>
-                        By visiting our website at nextappinc.com, submitting an inquiry through our contact forms, engaging Next Apps for any service, or using any product built and delivered by Next Apps, you agree to these Terms and Conditions in full. These Terms apply to all visitors, clients, prospects, and users who interact with Next Apps in any capacity.
+                        By visiting our website at nextappsinc.com, submitting an inquiry through our contact forms, engaging Next Apps for any service, or using any product built and delivered by Next Apps, you agree to these Terms and Conditions in full. These Terms apply to all visitors, clients, prospects, and users who interact with Next Apps in any capacity.
                     </p>
                     <p>
                         Next Apps reserves the right to update, revise, or replace any part of these Terms at any time. We will notify existing clients of material changes through email or a notice on our website. Your continued use of our services after any revision constitutes acceptance of the updated Terms.

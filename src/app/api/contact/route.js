@@ -36,17 +36,15 @@ export async function POST(req) {
 
         // Send email to team
         await transporter.sendMail({
-            from: '"Next App Inc Main Brand" <sales@nextappinc.com>',
+            from: '"Next Apps Inc Main Brand" <sales@nextappinc.com>',
             to: [
                 'sales@nextappinc.com',
                 'noman@canvasdigital.net',
                 'manzar.inam@canvasdigital.org',
                 'faran.tanveer@canvasdigital.org',
-                'hafiz.oumama@canvasdigital.org',
-                'hassan.ak@canvasdigital.org',
                 'ali.haider@canvasdigital.org'
             ],
-            subject: 'Lead | Next App Inc Main Brand',
+            subject: 'Lead | Next Apps Inc Main Brand',
             html: internalMessage,
         });
 
@@ -57,13 +55,13 @@ export async function POST(req) {
                 <p>If you have any urgent questions, feel free to reply directly to this email.</p>
                 <br />
                 <p>Best regards,</p>
-                <p><strong>Next App Inc Team</strong></p>
+                <p><strong>Next Apps Inc Team</strong></p>
             </div>
         `;
 
         // Send thank you email to user
         await transporter.sendMail({
-            from: '"Next App Inc" <sales@nextappinc.com>',
+            from: '"Next Apps Inc" <sales@nextappinc.com>',
             to: email,
             subject: 'Thank You for Contacting Us',
             html: thankYouMessage,

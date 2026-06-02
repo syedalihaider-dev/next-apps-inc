@@ -40,11 +40,11 @@ const Footer = () => {
                         <div className={styles.legalLinks}>
                             {/* <a href="/user-agreement">User Agreement</a> */}
                             {/* <span> | </span> */}
-                            <a href="https://www.nextappinc.com/terms-and-conditions">Terms of Use</a>
+                            <a href="https://www.nextappsinc.com/terms-and-conditions">Terms of Use</a>
                             <span> | </span>
-                            <a href="https://www.nextappinc.com/privacy-policy">Privacy Policy</a>
+                            <a href="https://www.nextappsinc.com/privacy-policy">Privacy Policy</a>
                         </div>
-                        <p className={styles.copy}>NextAppInc © 2026 All rights reserved.</p>
+                        <p className={styles.copy}>NextAppsInc © 2026 All rights reserved.</p>
                     </div>
 
                     {/* Final Logo */}

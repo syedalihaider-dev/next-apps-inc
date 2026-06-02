@@ -145,7 +145,7 @@ const AboutTabs = () => {
                     <div className="row mt-5 pt-lg-5">
                         <div className="col-md-5 col-lg-5">
                             <div className={styles.logoWrapper}>
-                                <Image src="/about/black-logo.webp" alt="Nextapp" width={301} height={83} className={styles.logoImage} />
+                                <Image src="/about/black-logo.webp" alt="Nextapps" width={301} height={83} className={styles.logoImage} />
                             </div>
                             <div className={styles.tabsContainer}>
                                 {tabs.map((tab) => (
