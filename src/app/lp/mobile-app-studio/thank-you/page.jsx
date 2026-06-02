@@ -14,6 +14,13 @@ export const metadata = {
 }
 
 export default function ThankYou() {
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+          window.gtag?.("event", "conversion", {
+            send_to: "AW-17899557039/1hVUCIPj7LccEK-hltdC",
+          });
+        }
+      }, []);
     return (
         <main className={styles.thankYouPage}>
             <div className="container">
