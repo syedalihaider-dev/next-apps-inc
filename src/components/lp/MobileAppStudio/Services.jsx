@@ -18,11 +18,11 @@ const Services = () => {
 
         { id: 6, label: "06.", title: "Custom Mobile App Development", desc: "We build custom mobile apps designed for performance and growth, including Native iOS and Android app development solutions optimized for speed, usability, and security. Our custom app development approach delivers a consistent user experience, even at scale, with an architecture built to support future feature expansion and changes.", img: "/lp/mobile-app-studio/services/custom-mobile.png" },
 
-        { id: 7, label: "07.", title: "AI App Development", desc: "AI ecosystems are shaping the present and defining the future. At Next App Inc, we create AI App solutions that help businesses grow, simplify decision-making, and automate key operations. Our developers and data specialists design models built for real-world performance and modularity.", img: "/lp/mobile-app-studio/services/ai-app.png" },
+        { id: 7, label: "07.", title: "AI App Development", desc: "AI ecosystems are shaping the present and defining the future. At Next Apps Inc, we create AI App solutions that help businesses grow, simplify decision-making, and automate key operations. Our developers and data specialists design models built for real-world performance and modularity.", img: "/lp/mobile-app-studio/services/ai-app.png" },
 
         { id: 8, label: "08.", title: "Flutter App Development", desc: "We build lightning-fast, scalable apps built on Flutter, combining beautiful interfaces with native performance. Our Flutter engineers leverage a single codebase to deliver visually rich, cross-platform experiences that feel custom-built. From startup MVPs to enterprise apps, Flutter helps you ship fasterwithout compromising quality or control.", img: "/lp/mobile-app-studio/services/flutter.png" },
 
-        { id: 9, label: "09.", title: "Mobile Game App Development", desc: "Mobile game developers at Next App Inc design interactive, scalable experiences that combine engaging gameplay with rock-solid code for smooth performance. We optimize for responsiveness, multiplayer support, and compatibility across multiple devices and platforms.", img: "/lp/mobile-app-studio/services/mobile-game.png" },
+        { id: 9, label: "09.", title: "Mobile Game App Development", desc: "Mobile game developers at Next Apps Inc design interactive, scalable experiences that combine engaging gameplay with rock-solid code for smooth performance. We optimize for responsiveness, multiplayer support, and compatibility across multiple devices and platforms.", img: "/lp/mobile-app-studio/services/mobile-game.png" },
     ]
 
     return (
@@ -39,7 +39,7 @@ const Services = () => {
                     </div>
                     <div className='col-lg-6'>
                         <p className={styles.topDesc}>
-                            Next App Inc has engineered platforms that handle millions of users daily, across
+                            Next Apps Inc has engineered platforms that handle millions of users daily, across
                             fintech, e-commerce, and mobility. Our expert mobile app developers and
                             designers cover every stage of the product lifecycle with technical depth and
                             business focus.

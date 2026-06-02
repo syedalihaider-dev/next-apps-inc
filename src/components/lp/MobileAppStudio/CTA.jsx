@@ -35,7 +35,7 @@ const CTA = () => {
                                 Your business deserves apps that create impact from day one. Let’s turn your
                                 idea base into a solution that’s fast, secure, and ready to scale. Get started with a
                                 free consultation today and take the first step toward building your next
-                                breakthrough with Next App Inc.
+                                breakthrough with Next Apps Inc.
                             </p>
                             <div className={styles.btnGroup}>
                                 <a href={`tel:${PHONE_NUMBER}`} className={`${styles.ctaBtn} ${styles.callBtn}`}>CALL NOW</a>

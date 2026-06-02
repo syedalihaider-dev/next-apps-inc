@@ -7,14 +7,14 @@ import MyButton from '@/components/layout/MyButton';
 const FAQ_DATA = [
     {
         question: "What is Next App?",
-        answer: "Next App is a US-based digital product studio specializing in mobile app development, web development, game development, e-commerce platforms, and custom software solutions. We partner with businesses that want more than average. We create powerful, scalable, and user-focused digital products designed to deliver real results."
+        answer: "Next Apps is a US-based digital product studio specializing in mobile app development, web development, game development, e-commerce platforms, and custom software solutions. We partner with businesses that want more than average. We create powerful, scalable, and user-focused digital products designed to deliver real results."
     },
     {
-        question: "What services does Next App offer?",
+        question: "What services does Next Apps offer?",
         answer: "We offer end-to-end digital product development, including mobile apps (iOS &amp; Android), web applications, e-commerce platforms, custom software, games, blockchain solutions, and AR/VR experiences. From initial strategy and design to development, testing, and post-launch support, we handle every stage of the product lifecycle."
     },
     {
-        question: "What makes Next App different from other app development companies?",
+        question: "What makes Next Apps different from other app development companies?",
         answer: "We start every project by deeply understanding the real business problem. Our single unified team works across all disciplines with complete transparency; no handoffs, no hidden processes. We build for real users and design products that are scalable and built to last beyond launch."
     },
     {
@@ -22,7 +22,7 @@ const FAQ_DATA = [
         answer: "Our mission is to design and develop powerful mobile and web applications that solve genuine business challenges. We create reliable, scalable, and performance-driven solutions that improve efficiency, enhance user experience, and support long-term business growth."
     },
     {
-        question: "What industries does Next App work with?",
+        question: "What industries does Next Apps work with?",
         answer: "We work with businesses across multiple industries including healthcare, finance, retail, education, logistics, entertainment, and e-commerce. Our experience allows us to deliver tailored solutions regardless of industry or business size."
     },
     {
@@ -42,8 +42,8 @@ const FAQ_DATA = [
         answer: "We go far beyond just coding. We act as a true product partner helping with product strategy, user research, market analysis, technical architecture, and long-term roadmap planning. Many clients engage us for CTO-level advisory alongside development."
     },
     {
-        question: "Why should I choose Next App for my project?",
-        answer: "You should choose Next App if you want a partner that truly cares about outcomes, not just deliverables. We focus on understanding your goals, building for real users, delivering exceptional quality, and creating products that scale and grow with your business for years to come."
+        question: "Why should I choose Next Apps for my project?",
+        answer: "You should choose Next Apps if you want a partner that truly cares about outcomes, not just deliverables. We focus on understanding your goals, building for real users, delivering exceptional quality, and creating products that scale and grow with your business for years to come."
     }
 ];
 

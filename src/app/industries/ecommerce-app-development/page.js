@@ -13,8 +13,8 @@ import Testimonials from "@/components/common/Testimonials";
 import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
-    title: "E-commerce App Development | Next App",
-    description: "Next App builds powerful e-commerce digital solutions — from mobile apps and web platforms to e-commerce and custom software. Serving businesses globally.",
+    title: "E-commerce App Development | Next Apps",
+    description: "Next Apps builds powerful e-commerce digital solutions — from mobile apps and web platforms to e-commerce and custom software. Serving businesses globally.",
 };
 
 const EcommerceAppPage = () => {

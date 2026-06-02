@@ -108,7 +108,7 @@ const Footer = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <p className={styles.copyright}>
-                                &copy; COPYRIGHT 2026 | Next App | ALL RIGHTS RESERVED
+                                &copy; COPYRIGHT 2026 | Next Apps | ALL RIGHTS RESERVED
                             </p>
                         </div>
                         <div className="col-lg-6 text-lg-end">

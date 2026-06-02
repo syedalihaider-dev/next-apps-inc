@@ -13,8 +13,8 @@ import Testimonials from "@/components/common/Testimonials";
 import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
-    title: "Education App Development | Next App",
-    description: "Next App builds powerful digital education solutions, from mobile apps and web platforms to e-commerce and custom software. Serving businesses globally.",
+    title: "Education App Development | Next Apps",
+    description: "Next Apps builds powerful digital education solutions, from mobile apps and web platforms to e-commerce and custom software. Serving businesses globally.",
 };
 
 const EducationAppPage = () => {

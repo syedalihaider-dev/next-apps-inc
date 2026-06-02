@@ -13,8 +13,8 @@ import Testimonials from "@/components/common/Testimonials";
 import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
-    title: "Finance App Development | Next App",
-    description: "Next App builds powerful finance digital solutions — from mobile apps and web platforms to e-commerce and custom software. Serving businesses globally.",
+    title: "Finance App Development | Next Apps",
+    description: "Next Apps builds powerful finance digital solutions — from mobile apps and web platforms to e-commerce and custom software. Serving businesses globally.",
 };
 
 const FinanceAppPage = () => {

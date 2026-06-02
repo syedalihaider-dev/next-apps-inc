@@ -13,8 +13,8 @@ import Testimonials from "@/components/common/Testimonials";
 import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
-    title: "Healthcare App Development | Next App",
-    description: "Next App builds powerful healthcare digital solutions — from mobile apps and web platforms to e-commerce and custom software. Serving businesses globally.",
+    title: "Healthcare App Development | Next Apps",
+    description: "Next Apps builds powerful healthcare digital solutions — from mobile apps and web platforms to e-commerce and custom software. Serving businesses globally.",
 };
 
 const HealthcareAppPage = () => {
@@ -99,7 +99,7 @@ const HealthcareAppPage = () => {
             
             <IndustryServicesSection 
                 title="<span style='color: var(--primary-color)'>Healthcare App Development</span> Solutions <br/> Built for Real <span style='color: var(--primary-color)'>Clinical Environments</span>"
-                description="We don't just build healthcare apps — we build tools that clinicians trust, patients rely on, and administrators can actually manage. From telemedicine platforms to EHR integrations, our healthcare solutions are designed with compliance, security, and user experience as non-negotiable foundations. Whether it's a mobile app, web platform, or custom software solution, Next App delivers complete digital products for the modern healthcare organization."
+                description="We don't just build healthcare apps — we build tools that clinicians trust, patients rely on, and administrators can actually manage. From telemedicine platforms to EHR integrations, our healthcare solutions are designed with compliance, security, and user experience as non-negotiable foundations. Whether it's a mobile app, web platform, or custom software solution, Next Apps delivers complete digital products for the modern healthcare organization."
                 servicesData={services}
                 mockupImage="/industries/healthcare-app-development/services-mockup.webp" // Placeholder
             />

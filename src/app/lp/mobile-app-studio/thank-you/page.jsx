@@ -4,9 +4,9 @@ import styles from './ThankYou.module.css'
 
 export const metadata = {
     robots: {
-        title: "Thank You - Next App Inc",
+        title: "Thank You - Next Apps Inc",
         description:
-            "Thank you for contacting Next App Inc. Your inquiry has been received and our team will get back to you shortly.",
+            "Thank you for contacting Next Apps Inc. Your inquiry has been received and our team will get back to you shortly.",
         index: false,
         follow: false,
         nocache: true,
@@ -23,7 +23,7 @@ export default function ThankYou() {
                     </div> */}
                     <h1 className={styles.title}>Thank You!</h1>
                     <p className={styles.desc}>
-                        Your inquiry has been received. One of our "Next App Inc" will get back to you shortly
+                        Your inquiry has been received. One of our "Next Apps Inc" will get back to you shortly
                         to discuss how we can bring your mobile vision to life.
                     </p>
                     <div className={styles.btnRow}>

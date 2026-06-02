@@ -68,7 +68,7 @@ const Process = () => {
                     </h2>
                     <p className={styles.topDesc}>
                         Great apps don’t happen by chance, as disruptive apps follow a results-focused
-                        process. At Next App Inc, every project moves through carefully structured stages
+                        process. At Next Apps Inc, every project moves through carefully structured stages
                         that minimize risk, accelerate delivery, and keep everyone aligned
                     </p>
                 </div>

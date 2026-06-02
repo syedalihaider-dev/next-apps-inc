@@ -13,8 +13,8 @@ import Testimonials from "@/components/common/Testimonials";
 import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
-    title: "Insurance App Development | Next App",
-    description: "Next App builds powerful insurance digital solutions from mobile apps and web platforms to custom software and policy management systems. Serving businesses globally.",
+    title: "Insurance App Development | Next Apps",
+    description: "Next Apps builds powerful insurance digital solutions from mobile apps and web platforms to custom software and policy management systems. Serving businesses globally.",
 };
 
 const HealthcareAppPage = () => {

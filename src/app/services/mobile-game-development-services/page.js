@@ -16,7 +16,7 @@ import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
     title: "Mobile Game Development | Next App",
-    description: "Next App delivers expert mobile game development, web development, e-commerce, and custom software. Get a free consultation today.",
+    description: "Next Apps delivers expert mobile game development, web development, e-commerce, and custom software. Get a free consultation today.",
 };
 
 const tabs = [

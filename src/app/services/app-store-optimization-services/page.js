@@ -16,7 +16,7 @@ import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
     title: "App Store Optimization  | Next App",
-    description: "Next App delivers expert App Store Optimization (ASO) services, from keyword research and listing copy to screenshot design and review management. Increase organic downloads today.",
+    description: "Next Apps delivers expert App Store Optimization (ASO) services, from keyword research and listing copy to screenshot design and review management. Increase organic downloads today.",
 };
 
 const tabs = [

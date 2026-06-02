@@ -93,10 +93,10 @@ const About = () => {
                         <div className={styles.contentArea}>
                             <div className={styles.paragraphs}>
                                 <p>
-                                    Next App did not start in a boardroom. It started with a question: why do so many digital products look good in a demo but disappoint in the real world? A small team of developers, designers, and product thinkers set out to answer that question differently.
+                                    Next Apps did not start in a boardroom. It started with a question: why do so many digital products look good in a demo but disappoint in the real world? A small team of developers, designers, and product thinkers set out to answer that question differently.
                                 </p>
                                 <p>
-                                    That instinct, to go deeper before writing a line of code, became the philosophy behind everything we do. Today, Next App operates across Pakistan and the USA, working with startups, growing businesses, and enterprises that trust us.
+                                    That instinct, to go deeper before writing a line of code, became the philosophy behind everything we do. Today, Next Apps operates across Pakistan and the USA, working with startups, growing businesses, and enterprises that trust us.
                                 </p>
                             </div>
                             <div className="mt-4">

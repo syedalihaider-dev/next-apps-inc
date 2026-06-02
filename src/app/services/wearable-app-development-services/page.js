@@ -16,7 +16,7 @@ import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
     title: "Wearable App Development | Next App",
-    description: "Next App builds expert wearable app development solutions, from Apple Watch and Wear OS apps to fitness trackers and IoT-connected wearables. Get a free consultation today.",
+    description: "Next Apps builds expert wearable app development solutions, from Apple Watch and Wear OS apps to fitness trackers and IoT-connected wearables. Get a free consultation today.",
 };
 
 const tabs = [

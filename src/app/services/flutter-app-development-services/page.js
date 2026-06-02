@@ -16,7 +16,7 @@ import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
     title: "Flutter App Development | Next App",
-    description: "Next App delivers expert Flutter app development, one codebase, native iOS and Android performance. Build faster, ship sooner, and reach both platforms without doubling your budget.",
+    description: "Next Apps delivers expert Flutter app development, one codebase, native iOS and Android performance. Build faster, ship sooner, and reach both platforms without doubling your budget.",
 };
 
 const tabs = [

@@ -16,7 +16,7 @@ import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
     title: "React Native App Development | Next App",
-    description: "Next App offers expert React Native development for cross-platform iOS and Android apps with native UI, supported by Meta, trusted by Discord, Shopify, and Microsoft.",
+    description: "Next Apps offers expert React Native development for cross-platform iOS and Android apps with native UI, supported by Meta, trusted by Discord, Shopify, and Microsoft.",
 };
 
 const tabs = [

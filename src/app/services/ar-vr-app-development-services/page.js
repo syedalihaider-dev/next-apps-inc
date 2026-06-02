@@ -16,7 +16,7 @@ import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
     title: "AR/VR App Development | Next App",
-    description: "Next App delivers expert AR/VR app development alongside web development, e-commerce, game development, and custom software.",
+    description: "Next Apps delivers expert AR/VR app development alongside web development, e-commerce, game development, and custom software.",
 };
 
 const tabs = [

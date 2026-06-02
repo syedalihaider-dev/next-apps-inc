@@ -7,7 +7,7 @@ import Testimonials from "@/components/common/Testimonials";
 import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
-    title: "Case Studies | Next App",
+    title: "Case Studies | Next Apps",
     description: "Explore our successful projects and see how we help businesses grow with innovative mobile solutions.",
 };
 

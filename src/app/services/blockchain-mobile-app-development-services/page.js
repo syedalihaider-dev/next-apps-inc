@@ -16,7 +16,7 @@ import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
     title: "Blockchain Mobile App Development | Next App",
-    description: "Next App delivers expert blockchain mobile app development alongside web development, e-commerce, game development, and custom software.",
+    description: "Next Apps delivers expert blockchain mobile app development alongside web development, e-commerce, game development, and custom software.",
 };
 
 const tabs = [

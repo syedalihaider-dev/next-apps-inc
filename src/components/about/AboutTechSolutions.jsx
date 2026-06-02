@@ -22,7 +22,7 @@ const AboutTechSolutions = () => {
                     <div className="col-lg-6">
                         <div className={styles.textContent}>
                             <h2 className={styles.heading}>
-                                <span className="primarytxt">Next App </span>
+                                <span className="primarytxt">Next Apps </span>
                                 Presents Revolutionary<br />
                                 <span className={styles.relativeText}>
                                     Trending Tech Solutions

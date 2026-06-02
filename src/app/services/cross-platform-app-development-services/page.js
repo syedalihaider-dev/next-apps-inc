@@ -16,7 +16,7 @@ import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
     title: "Cross-Platform App Development Services | Next App",
-    description: "Next App delivers expert cross-platform app development alongside web development, e-commerce, game development, and custom software. Get a free consultation today.",
+    description: "Next Apps delivers expert cross-platform app development alongside web development, e-commerce, game development, and custom software. Get a free consultation today.",
 };
 
 const tabs = [

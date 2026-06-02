@@ -3,8 +3,8 @@ import ContactSection from "@/components/common/ContactSection";
 import LocationSection from "@/components/contact/LocationSection";
 
 export const metadata = {
-    title: "Contact Us | Next App",
-    description: "Get in touch with Next App for innovative mobile app solutions and tech consulting.",
+    title: "Contact Us | Next Apps",
+    description: "Get in touch with Next Apps for innovative mobile app solutions and tech consulting.",
 };
 
 export default function ContactUsPage() {

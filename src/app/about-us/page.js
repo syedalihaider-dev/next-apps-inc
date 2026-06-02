@@ -11,8 +11,8 @@ import Testimonials from "@/components/common/Testimonials";
 import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
-    title: "About Next App | We Build Apps, Games, Platforms & Software That Actually Work",
-    description: "Next App is a full-service digital product studio building mobile apps, games, e-commerce platforms, web solutions, and custom software for startups and enterprises. Here is our story.",
+    title: "About Next Apps | We Build Apps, Games, Platforms & Software That Actually Work",
+    description: "Next Apps is a full-service digital product studio building mobile apps, games, e-commerce platforms, web solutions, and custom software for startups and enterprises. Here is our story.",
 };
 
 export default function AboutUsPage() {

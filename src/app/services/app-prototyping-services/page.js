@@ -16,7 +16,7 @@ import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
     title: "App Prototyping | Next App",
-    description: " Next App delivers expert app prototyping services — from wireframes and clickable mockups to interactive MVP demos. Validate your idea before full investment.",
+    description: " Next Apps delivers expert app prototyping services — from wireframes and clickable mockups to interactive MVP demos. Validate your idea before full investment.",
 };
 
 const tabs = [

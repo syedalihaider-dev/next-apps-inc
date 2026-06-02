@@ -101,7 +101,7 @@ const Banner = () => {
                             </h1>
                             <p className={styles.desc}>
                                 Engineered for results. Obsessed over by users. Architected for the AI era.
-                                Next App Inc builds the mobile apps and digital ecosystems that dominate today’s
+                                Next Apps Inc builds the mobile apps and digital ecosystems that dominate today’s
                                 market and define tomorrow’s.
                             </p>
                             <a href="#contact" className={styles.ctaBtn}>Get Started</a>

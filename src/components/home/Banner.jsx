@@ -44,7 +44,7 @@ const Banner = () => {
                                 Your <span className="primarytxt">Idea Deserves </span> a Smarter  <span className="primarytxt">Digital Plan</span>.
                             </h1>
                             <p className={styles.paragraph}>
-                                You have an idea. We have the team, the tools, and the track record to turn it into a product people actually use. From mobile apps and e-commerce platforms to game development and full-stack software, Next App delivers digital solutions that are built to perform, designed to impress, and engineered to scale.
+                                You have an idea. We have the team, the tools, and the track record to turn it into a product people actually use. From mobile apps and e-commerce platforms to game development and full-stack software, Next Apps delivers digital solutions that are built to perform, designed to impress, and engineered to scale.
                             </p>
                             <div className="mt-4 d-flex gap-3 flex-wrap">
                                 <MyButton text="Get Started" className="popupBtn" />

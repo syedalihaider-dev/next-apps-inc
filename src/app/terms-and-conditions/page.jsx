@@ -4,7 +4,7 @@ import { SITE_CONFIG } from '@/configs/site-config';
 
 export const metadata = {
     title: 'Terms and Conditions | Next Apps',
-    description: 'Please read our terms and conditions carefully before using Next App services.',
+    description: 'Please read our terms and conditions carefully before using Next Apps services.',
 };
 
 const TermsPage = () => {

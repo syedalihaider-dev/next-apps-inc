@@ -44,7 +44,7 @@ const CTASection = () => {
                             <span className="primarytxt">Stop Settling</span> For A Team That Only <span className="primarytxt"> Builds Half </span> Of What You Need.
                         </h2>
                         <p className={styles.description}>
-                            Whether you need a mobile app, a game, an e-commerce store, a web platform, or custom software built from scratch, Next App is the one team that handles all of it. iOS, Android, Flutter, react native, Unity, full-stack. One conversation. One partner. One product that actually ships.
+                            Whether you need a mobile app, a game, an e-commerce store, a web platform, or custom software built from scratch, Next Apps is the one team that handles all of it. iOS, Android, Flutter, react native, Unity, full-stack. One conversation. One partner. One product that actually ships.
                         </p>
                         <div className={`${styles.btnWrapper} d-flex gap-3 flex-wrap`}>
                             <MyButton

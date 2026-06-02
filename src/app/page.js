@@ -11,8 +11,8 @@ import ContactSection from "@/components/common/ContactSection";
 import CTASection from "@/components/common/CTASection";
 
 export const metadata = {
-    title: "Next App | Mobile Apps, Web & Software Development Company",
-    description: "Next App builds mobile apps, e-commerce platforms, web solutions, custom software, and games that solve real problems. Get a free consultation today.",
+    title: "Next Apps | Mobile Apps, Web & Software Development Company",
+    description: "Next Apps builds mobile apps, e-commerce platforms, web solutions, custom software, and games that solve real problems. Get a free consultation today.",
 };
 
 export default function Home() {

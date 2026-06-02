@@ -14,7 +14,7 @@ import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
     title: " Travel App Development | Next App",
-    description: "Next App offers comprehensive travel digital solutions, including booking platforms, OTAs, hotel management systems, tour apps, and traveler tools, serving businesses worldwide.",
+    description: "Next Apps offers comprehensive travel digital solutions, including booking platforms, OTAs, hotel management systems, tour apps, and traveler tools, serving businesses worldwide.",
 };
 
 const HealthcareAppPage = () => {
@@ -92,7 +92,7 @@ const HealthcareAppPage = () => {
                 industryLabel="Travel Industry"
                 mainTitle={<><span style={{ color: 'var(--primary-color)' }}>Travel Is Back.</span> Build the Platform That Brings<span style={{ color: 'var(--primary-color)' }}> Travellers </span> to You.</>}
                 // highlightedPart={<> <span style={{ color: 'var(--primary-color)' }}>Get Better</span> <span style={{ color: '#fff' }}>and</span> <span style={{ color: 'var(--primary-color)' }}>Stay That Way.</span></>}
-                description="We build travel tech, online agencies, hotels, airlines, making bookings seamless, experiences memorable, and operations efficient. Next App delivers mobile apps, web platforms, and custom software for businesses of all sizes."
+                description="We build travel tech, online agencies, hotels, airlines, making bookings seamless, experiences memorable, and operations efficient. Next Apps delivers mobile apps, web platforms, and custom software for businesses of all sizes."
                 bgImage="/industries/travel-app-development/banner-bg.png" 
             />
 
