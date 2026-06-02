@@ -1,10 +1,18 @@
 "use client";
+import { useEffect } from "react";
 import React from 'react';
 import Image from 'next/image';
 import styles from './thank-you.module.css';
 import MyButton from '@/components/layout/MyButton';
 
 const ThankYouPage = () => {
+    useEffect(() => {
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17899557039/1hVUCIPj7LccEK-hltdC",
+      });
+    }
+  }, []);
     return (
         <main className={styles.thankYouContainer}>
             <div className={styles.backgroundGlow}></div>
