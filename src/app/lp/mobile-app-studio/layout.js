@@ -52,7 +52,6 @@ export default function RootLayout({ children }) {
     <div className={`${montserrat.variable} ${dmSans.variable}`}>
        {children}
 
-
        {/* Zendesk Chat Snippet */}
        <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=4338bf84-3cf8-46ef-9cd1-996399dc7b9d" strategy="afterInteractive" />
        <Script id="zendesk-chat" strategy="afterInteractive">
