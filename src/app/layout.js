@@ -37,10 +37,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${bricolageGrotesque.className} antialiased`}>
-        <Header />
-        {children}
-        <Footer />
-
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17899557039"
@@ -52,11 +48,13 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'AW-17899557039');
           `}
         </Script>
-
+        
+        <Header />
+        {children}
+        <Footer />
         {/* Start of Chat Script */}
         <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=4338bf84-3cf8-46ef-9cd1-996399dc7b9d" strategy="afterInteractive" />
         <Script id="zopim-init" strategy="afterInteractive">
