@@ -87,15 +87,16 @@ export default function RootLayout({ children }) {
            }
 
            function toggleChat() {
-               $zopim.livechat.window.toggle();
+               if (window.$zopim && window.$zopim.livechat && window.$zopim.livechat.window) {
+                   $zopim.livechat.window.toggle();
+               }
            }
 
+           // Global click handler for elements with 'chat', 'chats', or 'chat-btn' class
            document.addEventListener('click', function(e) {
-               if (e.target.closest('.chat') || e.target.closest('.chat-btn')) {
+               if (e.target.closest('.chat') || e.target.closest('.chats') || e.target.closest('.chat-btn')) {
                    e.preventDefault();
-                   if (window.$zopim && window.$zopim.livechat && window.$zopim.livechat.window) {
-                       window.$zopim.livechat.window.toggle();
-                   }
+                   toggleChat();
                }
            });
          `}
