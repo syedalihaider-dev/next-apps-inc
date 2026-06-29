@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Script from "next/script";
+import ExitIntentPopup from "@/components/common/ExitIntentPopup";
 
 const bricolageGrotesque = Bricolage_Grotesque({
   variable: "--font-bricolage-grotesque",
@@ -105,6 +106,7 @@ export default function RootLayout({ children }) {
           `}
         </Script>
         {/* End of Chat Script */}
+        <ExitIntentPopup />
       </body>
     </html>
   );

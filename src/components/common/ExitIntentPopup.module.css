@@ -1,0 +1,66 @@
+.exitPopupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+    backdrop-filter: blur(5px);
+}
+
+.exitPopup {
+    background: #fff;
+    padding: 50px 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.exitPopup h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #111;
+}
+
+.closePopupBtn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.3s;
+}
+
+.closePopupBtn:hover {
+    color: #000;
+}
+
+.submitBtn {
+    background-color: var(--primary-color, #00C853);
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.submitBtn:hover {
+    background-color: #fff;
+    color: var(--primary-color, #00C853);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}

@@ -42,6 +42,7 @@ export async function POST(req) {
                 'noman@canvasdigital.net',
                 'manzar.inam@canvasdigital.org',
                 'faran.tanveer@canvasdigital.org',
+                'arsalan.mustafa@canvasdigital.org',
                 'ali.haider@canvasdigital.org'
             ],
             subject: 'Lead | Next Apps Inc Main Brand',
