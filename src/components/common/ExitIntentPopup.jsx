@@ -13,7 +13,11 @@ const ExitIntentPopup = () => {
         const handleMouseLeave = (e) => {
             // e.clientY <= 20 detects when mouse goes to the top (towards tabs)
             if (e.clientY <= 20) {
-                setShowExitPopup(true);
+                const hasShown = sessionStorage.getItem('exitPopupShown');
+                if (!hasShown) {
+                    setShowExitPopup(true);
+                    sessionStorage.setItem('exitPopupShown', 'true');
+                }
             }
         };
 
