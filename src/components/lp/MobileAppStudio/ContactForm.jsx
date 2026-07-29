@@ -193,7 +193,7 @@ const FormContent = () => {
                     )}
                     <div className={`${styles.inputGroup} ${styles.textareaGroup}`}>
                         <label>Your Message</label>
-                        <textarea name="message" placeholder="Type your query"></textarea>
+                        <textarea name="message" placeholder="Type your query" required></textarea>
                     </div>
                     <div className={styles.btnWrapper}>
                         <button
