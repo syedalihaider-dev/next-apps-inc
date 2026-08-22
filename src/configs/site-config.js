@@ -1,6 +1,8 @@
 export const SITE_CONFIG = {
     contact: {
-        phone: "+1-347-384-5097",
+        // phone: "+1-347-384-5097",
+        // (332) 203-2380
+        phone: "+1-332-203-2380",
         email: "sales@nextappinc.com",
         address1: "1595 Grand Ave, Baldwin, NY 11510, United States",
         address2: "1001 Wilshire Blvd #1176, Los Angeles, CA 90017, United States",
