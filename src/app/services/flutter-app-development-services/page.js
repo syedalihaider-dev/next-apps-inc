@@ -66,7 +66,21 @@ const tabs = [
 
 const FlutterAppDevelopmentPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Flutter App Development",
+    "description": "Next Apps Inc builds Flutter apps for startups and enterprises needing both iOS and Android platforms without doubling development costs. Our Flutter engineers combine Dart expertise with UI design sensibilities to deliver fast, maintainable apps that look perfect on every screen.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1834"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="Flutter App Development"
                 title={

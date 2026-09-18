@@ -66,7 +66,21 @@ const tabs = [
 
 const ReactNativeAppDevelopmentPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "React Native App Development",
+    "description": "Next Apps Inc builds React Native apps that render native UI components on iOS and Android from a shared JavaScript codebase. Our React Native engineers bring full-stack mobile expertise from architecture through App Store submission to every engagement.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1912"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="React Native App Development"
                 title={

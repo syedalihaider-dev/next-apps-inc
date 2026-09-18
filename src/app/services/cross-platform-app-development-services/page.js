@@ -66,7 +66,21 @@ const tabs = [
 
 const CrossPlatformAppDevelopmentPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Cross Platform App Development",
+    "description": "Next Apps Inc builds cross-platform apps using Flutter and React Native that feel native on both iOS and Android from a single codebase. Reach both platforms simultaneously without the overhead of two separate teams, reducing development time and cost.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "2103"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="Cross Platform App Development"
                 title={

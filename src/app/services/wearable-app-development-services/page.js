@@ -66,7 +66,21 @@ const tabs = [
 
 const WearableAppDevelopmentPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Wearable App Development",
+    "description": "Next Apps Inc builds native and companion wearable apps for Apple Watch, Wear OS, Fitbit, and custom IoT devices. Our wearable developers create focused, real-time experiences optimized for the wrist with seamless connectivity to your iOS and Android ecosystem.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "1623"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="Wearable App Development"
                 title={

@@ -88,7 +88,21 @@ const HealthcareAppPage = () => {
 
 
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Insurance App Development",
+    "description": "Next Apps Inc builds policy management systems, claims automation platforms, agent portals, and customer-facing apps for InsurTech startups and established carriers. Our insurance solutions handle real-world complexity with compliance-ready architecture.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "1645"
+    }
+}` }} />
             <IndustryBanner 
                 industryLabel="Insurance Industry"
                 mainTitle={<> The <span style={{ color: 'var(--primary-color)' }}>Insurance Industry</span> Is Changing. Your<span style={{ color: 'var(--primary-color)' }}> Digital Platform </span> Should Lead the Way.</>}

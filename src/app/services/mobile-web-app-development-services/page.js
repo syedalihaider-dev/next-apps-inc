@@ -66,7 +66,21 @@ const tabs = [
 
 const MobileWebAppDevelopmentPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Mobile Web App Development",
+    "description": "Next Apps Inc builds progressive web apps that load fast, work offline, and deliver a native-like experience directly in the browser. PWAs are faster to build, easier to update, and more accessible than native apps — no App Store required.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "1534"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="Mobile Web App Development"
                 title={

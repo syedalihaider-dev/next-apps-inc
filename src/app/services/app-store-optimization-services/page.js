@@ -66,7 +66,21 @@ const tabs = [
 
 const AppStoreOptimizationPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "App Store Optimization",
+    "description": "Next Apps Inc boosts your app's organic visibility on the App Store and Google Play through keyword strategy, conversion-focused listing design, and review management. Our ASO experts help you get more installs without increasing your paid acquisition budget.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "1589"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="App Store Optimization"
                 title={

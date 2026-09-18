@@ -114,7 +114,21 @@ const EcommerceAppPage = () => {
     ];
 
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "eCommerce App Development",
+    "description": "Next Apps Inc builds high-converting e-commerce platforms, mobile shopping apps, and headless commerce solutions for fashion, electronics, food, and B2B businesses. Custom storefronts, seamless checkout flows, and integrated payment gateways engineered for real traffic.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1967"
+    }
+}` }} />
             <IndustryBanner 
                 industryLabel="Ecommerce Industry"
                 mainTitle={<>

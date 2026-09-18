@@ -66,7 +66,21 @@ const tabs = [
 
 const MobileGameDevelopmentPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Mobile Game Development",
+    "description": "Next Apps Inc develops engaging 2D and 3D mobile games using Unity and Unreal Engine. From casual titles to fully immersive multiplayer experiences, our game development team handles concept, art, development, testing, monetization strategy, and store submission.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "1687"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="Mobile Game Development"
                 title={

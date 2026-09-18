@@ -87,7 +87,21 @@ const HealthcareAppPage = () => {
     ];
 
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Automotive App Development",
+    "description": "Next Apps Inc develops dealer management systems, fleet tracking platforms, connected vehicle apps, EV charging networks, and mobility solutions for dealerships, fleet operators, OEMs, and automotive startups. Real-time performance and reliability built in.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "1698"
+    }
+}` }} />
             <IndustryBanner 
                 industryLabel="Automotive Industry"
                 mainTitle={<> The <span style={{ color: 'var(--primary-color)' }}>Automotive Industry</span> Is Going Digital.<span style={{ color: 'var(--primary-color)' }}> We Build the </span> Software That Drives It.</>}

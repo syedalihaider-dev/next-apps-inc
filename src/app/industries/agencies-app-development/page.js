@@ -87,7 +87,21 @@ const HealthcareAppPage = () => {
     ];
 
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Agencies App Development",
+    "description": "Next Apps Inc builds client portals, project platforms, white-label tools, and internal systems for marketing agencies, creative studios, staffing firms, and consultancies. Scale your agency without scaling your overhead with custom digital infrastructure.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "1578"
+    }
+}` }} />
             <IndustryBanner 
                 industryLabel="Agencies Industry"
                 mainTitle={<> Your <span style={{ color: 'var(--primary-color)' }}>Agency Does</span> Great Work. Your<span style={{ color: 'var(--primary-color)' }}> Software Should </span> Too.</>}

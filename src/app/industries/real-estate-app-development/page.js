@@ -87,7 +87,21 @@ const HealthcareAppPage = () => {
     ];
 
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Real Estate App Development",
+    "description": "Next Apps Inc builds property search platforms, agent CRM, transaction management tools, virtual tour apps, and property management systems for residential, commercial, and rental markets. MLS/IDX integration, map-based browsing, and digital deal closing.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1823"
+    }
+}` }} />
             <IndustryBanner 
                 industryLabel="Realestate Industry"
                 mainTitle={<><span style={{ color: 'var(--primary-color)' }}>Real Estate Moves Fast.</span> Build the Platform<span style={{ color: 'var(--primary-color)' }}> that Moves </span> With It.</>}

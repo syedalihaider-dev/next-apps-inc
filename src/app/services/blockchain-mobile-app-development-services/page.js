@@ -66,7 +66,21 @@ const tabs = [
 
 const BlockchainMobileAppDevelopmentPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Blockchain Mobile App Development",
+    "description": "Next Apps Inc develops secure blockchain-powered mobile apps including crypto wallets, NFT marketplaces, DeFi platforms, and supply chain tracking apps. Our blockchain engineers handle smart contracts, DApp architecture, and security audits with usability at the core.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "1742"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="Blockchain Mobile App Development"
                 title={

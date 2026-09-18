@@ -87,7 +87,21 @@ const FinanceAppPage = () => {
     ];
 
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Finance App Development",
+    "description": "Next Apps Inc builds secure, scalable fintech platforms including digital banking, investment tools, payment systems, and accounting applications. Our finance development team delivers enterprise-grade security with bank-grade encryption and regulatory compliance.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "2134"
+    }
+}` }} />
             <IndustryBanner 
                 industryLabel="Finance Industry"
                 mainTitle={<>The Future of Finance Is <span style={{ color: 'var(--primary-color)' }}>Digital</span>. We'll <span style={{ color: 'var(--primary-color)' }}>Help</span> You Lead <span style={{ color: 'var(--primary-color)' }}>It.</span></>}

@@ -66,7 +66,21 @@ const tabs = [
 
 const ARVRAppDevelopmentPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "AR/VR App Development",
+    "description": "Next Apps Inc builds immersive augmented and virtual reality applications using Unity, ARKit, ARCore, and Unreal Engine. From virtual try-ons to safety training simulations, our AR/VR team creates experiences that transform how users interact with your brand.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1921"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="AR/VR App Development Services"
                 title={

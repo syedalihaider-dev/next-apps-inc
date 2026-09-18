@@ -88,7 +88,21 @@ const HealthcareAppPage = () => {
 
     
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Healthcare App Development",
+    "description": "Next Apps Inc builds HIPAA-compliant healthcare apps, patient portals, telemedicine platforms, and clinical systems. Our healthcare solutions are designed for real clinical environments with secure video consultations, EHR integration, and medical device connectivity.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1889"
+    }
+}` }} />
             <IndustryBanner 
                 industryLabel="Healthcare Industry"
                 mainTitle={<><span style={{ color: 'var(--primary-color)' }}>Technology</span> That Helps <span style={{ color: 'var(--primary-color)' }}>People</span></>}

@@ -66,7 +66,21 @@ const tabs = [
 
 const AppPrototypingPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "App Prototyping",
+    "description": "Next Apps Inc turns your app concept into a clickable, testable, investor-ready prototype in days. Our prototyping service helps you validate your idea before committing full development resources, saving time and money on costly revisions later.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "1654"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="App Prototyping"
                 title={

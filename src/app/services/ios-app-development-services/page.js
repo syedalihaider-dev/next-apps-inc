@@ -66,7 +66,21 @@ const tabs = [
 
 const CustomIOSAppDevelopmentPage = () => {
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "iOS App Development",
+    "description": "Next Apps Inc crafts polished Apple-certified iOS apps using advanced Swift development. Our iOS developers respect Apple's Human Interface Guidelines while pushing boundaries, delivering bespoke UI/UX design and exclusive Apple feature integration for flawless performance.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "2056"
+    }
+}` }} />
             <ServiceInnerBanner 
                 badge="Custom iOS App Development"
                 title={

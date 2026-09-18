@@ -87,7 +87,21 @@ const EducationAppPage = () => {
     ];
 
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Education App Development",
+    "description": "Next Apps Inc develops e-learning platforms, LMS systems, virtual classrooms, and educational mobile apps. Our EdTech team builds engaging learning management systems, corporate training platforms, and gamified educational experiences for students, teachers, and institutions.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "1756"
+    }
+}` }} />
             <IndustryBanner 
                 industryLabel="Education Industry"
                 mainTitle={<><span style={{ color: 'var(--primary-color)' }}>Learning</span> Has Changed. Your <span style={{ color: 'var(--primary-color)' }}>EdTech Platform</span> Should Too.</>}

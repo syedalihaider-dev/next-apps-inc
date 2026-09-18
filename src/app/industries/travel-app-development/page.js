@@ -87,7 +87,21 @@ const HealthcareAppPage = () => {
     ];
 
     return (
-        <main>
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Travel App Development",
+    "description": "Next Apps Inc builds travel booking platforms, hotel reservation systems, flight booking apps, and tourism solutions for OTAs, hotels, airlines, and tour operators. GDS integration, dynamic pricing, and seamless multi-provider checkout for travel businesses.",
+    "brand": {
+        "@type": "brand",
+        "name": "Next Apps Inc"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1756"
+    }
+}` }} />
             <IndustryBanner 
                 industryLabel="Travel Industry"
                 mainTitle={<><span style={{ color: 'var(--primary-color)' }}>Travel Is Back.</span> Build the Platform That Brings<span style={{ color: 'var(--primary-color)' }}> Travellers </span> to You.</>}
