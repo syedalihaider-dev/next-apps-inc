@@ -13,7 +13,7 @@ import Testimonials from "@/components/common/Testimonials";
 import ContactSection from "@/components/common/ContactSection";
 
 export const metadata = {
-    title: "Agency App Development | Next Apps",
+    title: "Agency App Development | Next Apps Inc",
     description: "Next Apps develops digital solutions for agencies, including client portals, project management, white-label apps, and automated reporting, serving businesses worldwide.",
 };
 
@@ -87,7 +87,8 @@ const HealthcareAppPage = () => {
     ];
 
     return (
-        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{
+            __html: `{
     "@context": "http://schema.org/",
     "@type": "Product",
     "name": "Agencies App Development",
@@ -102,35 +103,35 @@ const HealthcareAppPage = () => {
         "ratingCount": "1578"
     }
 }` }} />
-            <IndustryBanner 
+            <IndustryBanner
                 industryLabel="Agencies Industry"
                 mainTitle={<> Your <span style={{ color: 'var(--primary-color)' }}>Agency Does</span> Great Work. Your<span style={{ color: 'var(--primary-color)' }}> Software Should </span> Too.</>}
                 // highlightedPart={<> <span style={{ color: 'var(--primary-color)' }}>Get Better</span> <span style={{ color: '#fff' }}>and</span> <span style={{ color: 'var(--primary-color)' }}>Stay That Way.</span></>}
                 description="From marketing agencies and creative studios to staffing firms and consultancies, we build the client portals, project platforms, white-label tools, and internal systems that let you scale your agency without scaling your overhead."
-                bgImage="/industries/agencies-app-development/banner-bg.png" 
+                bgImage="/industries/agencies-app-development/banner-bg.png"
             />
-            
-            <IndustryServicesSection 
+
+            <IndustryServicesSection
                 title="<span style='color: var(--primary-color)'>Agency App Development</span> Solutions <br/> Built for Client Delivery, <span style='color: var(--primary-color)'>Team </span> Efficiency, and <span style='color: var(--primary-color)'>Scale</span> "
                 description="Agencies live and die by delivery. Missed deadlines, fragmented communication, and manual reporting are the enemies of margin and client retention. We build custom digital platforms that give agencies the operational infrastructure to deliver better work, manage more clients, and grow faster without hiring proportionally."
                 servicesData={services}
                 mockupImage="/industries/agencies-app-development/services-mockup.png" // Placeholder
             />
-            
-            <IndustryConsultationSection 
+
+            <IndustryConsultationSection
                 title={<>Agency Technology That <span style={{ color: 'var(--primary-color)' }}>That Makes You Look</span>  Good and Run Better</>}
                 // subLabel="Healthcare is too important for generic software."
                 description="Agencies earn their clients' trust through the quality of their work. We help you protect that trust by giving you the digital infrastructure that makes every client relationship smoother, every delivery cleaner, and every reporting conversation more productive. "
             />
 
-            <IndustryTabsSection 
-                title={<><span style={{ color: 'var(--primary-color)' }}>Agency App</span> Features That Improves <br/> Client Retention, <span style={{ color: 'var(--primary-color)' }}>Team </span> Productivity,  <span style={{ color: 'var(--primary-color)' }}>and Margin</span></>}
+            <IndustryTabsSection
+                title={<><span style={{ color: 'var(--primary-color)' }}>Agency App</span> Features That Improves <br /> Client Retention, <span style={{ color: 'var(--primary-color)' }}>Team </span> Productivity,  <span style={{ color: 'var(--primary-color)' }}>and Margin</span></>}
                 description="We build robust, scalable solutions backed by years of experience serving businesses across Healthcare, Finance, E-Commerce, and Education — powered by technology that drives real results."
                 tabsData={tabs}
             />
 
             <IndustryFeaturesSection />
-            <IndustrySolutionsSlider/>
+            <IndustrySolutionsSlider />
             <WhyChooseAppSection />
             <CaseStudy />
             <TechStackSection />
