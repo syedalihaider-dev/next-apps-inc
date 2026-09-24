@@ -53,6 +53,25 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
+        {/* OpenAI Ads Pixel */}
+        <Script id="openai-ads-pixel" strategy="afterInteractive">
+          {`
+            (function (w, d, s, u) {
+              if (w.oaiq) return;
+              var q = function () { q.q.push(arguments); };
+              q.q = [];
+              w.oaiq = q;
+              var js = d.createElement(s);
+              js.async = true;
+              js.src = u;
+              var prev = d.getElementsByTagName(s)[0];
+              prev.parentNode.insertBefore(js, prev);
+            })(window, document, 'script', 'https://bzrcdn.openai.com/sdk/oaiq.min.js');
+
+            oaiq('init', { pixelId: '8CcSZcq43Jm41AavuBBJca' });
+          `}
+        </Script>
+
         <Header />
         {children}
         <Footer />
