@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
               prev.parentNode.insertBefore(js, prev);
             })(window, document, 'script', 'https://bzrcdn.openai.com/sdk/oaiq.min.js');
 
-            oaiq('init', { pixelId: '8CcSZcq43Jm41AavuBBJca' });
+            oaiq('init', { pixelId: 'YCjBUCTHPao2uXwNfPBpU9' });
           `}
         </Script>
 
