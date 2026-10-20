@@ -12,31 +12,31 @@ const industries = [
     {
         title: 'E-Commerce',
         description: 'We create apps for retail businesses that are great at engaging',
-        image: '/services/industry-01.webp',
+        image: '/industries/ecommerce.png',
         link: '/industries/ecommerce-app-development'
     },
     {
         title: 'Fintech',
         description: 'Secure and scalable financial technology applications for all',
-        image: '/services/industry-03.webp',
+        image: '/industries/fintech.png',
         link: '/industries/finance-app-development'
     },
     {
         title: 'Healthcare',
         description: 'Intuitive and HIPAA-compliant healthcare solutions for patients',
-        image: '/services/industry-04.webp',
+        image: '/industries/healthcare.png',
         link: '/industries/healthcare-app-development'
     },
     {
         title: 'Education',
         description: 'Engaging learning platforms for the modern student and teacher',
-        image: '/services/industry-05.webp',
+        image: '/industries/education.png',
         link: '/industries/education-app-development'
     },
     {
         title: 'Accounting',
         description: 'Advanced accounting and financial management solutions',
-        image: '/services/industry-02.webp',
+        image: '/industries/accounting.png',
         link: '/industries/accounting-app-development'
     }
 ];
