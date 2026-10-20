@@ -48,7 +48,7 @@ const FAQs = () => {
                                 Asked <span className={styles.highlight}>
                                     Questions
                                     <Image
-                                        src="/lp/mobile-app-studio/spring-vector.png"
+                                        src="/lp/mobile-app-studio/red-spring-vector.png"
                                         alt="line"
                                         width={424}
                                         height={22}

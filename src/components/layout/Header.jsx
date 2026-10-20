@@ -45,10 +45,10 @@ const Header = () => {
                             <div className={styles.headerWrapper}>
                                 <Link href="/" className={styles.logoPart}>
                                     <Image
-                                        src="/logo.webp"
+                                        src="/logo.png"
                                         alt="Logo"
-                                        width={243}
-                                        height={68}
+                                        width={280}
+                                        height={69}
                                         priority
                                         className={styles.logoImage}
                                     />

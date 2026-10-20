@@ -22,7 +22,7 @@
     position: absolute;
     bottom: -15px;
     left: 0;
-    filter: brightness(111) invert(1);
+    filter: brightness(0);
 }
 
 .description {
