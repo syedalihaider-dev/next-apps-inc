@@ -66,7 +66,8 @@ const tabs = [
 
 const CrossPlatformAppDevelopmentPage = () => {
     return (
-        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+        <main>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
     "@context": "http://schema.org/",
     "@type": "Product",
     "name": "Cross Platform App Development",

@@ -114,7 +114,8 @@ const EcommerceAppPage = () => {
     ];
 
     return (
-        <main>\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+        <main>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
     "@context": "http://schema.org/",
     "@type": "Product",
     "name": "eCommerce App Development",

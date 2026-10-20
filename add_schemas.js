@@ -329,7 +329,7 @@ for (const [route, schemaStr] of Object.entries(schemas)) {
     
     if (!content.includes('type="application/ld+json"')) {
       const escapedSchema = schemaStr.replace(/`/g, '\\\\`');
-      const scriptMarkup = '\\n            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `' + escapedSchema + '` }} />';
+      const scriptMarkup = '<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `' + escapedSchema + '` }} />';
       
       content = content.replace('<main>', '<main>' + scriptMarkup);
       fs.writeFileSync(pagePath, content, 'utf8');

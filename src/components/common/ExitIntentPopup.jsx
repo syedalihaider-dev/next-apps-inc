@@ -6,7 +6,7 @@ import styles from './ExitIntentPopup.module.css';
 const ExitIntentPopup = () => {
     const router = useRouter();
     const [showExitPopup, setShowExitPopup] = useState(false);
-    const [exitFormData, setExitFormData] = useState({ name: '', phone: '' });
+    const [exitFormData, setExitFormData] = useState({ name: '', email: '', phone: '' });
     const [exitStatus, setExitStatus] = useState({ loading: false, success: false, error: null });
 
     useEffect(() => {
@@ -37,8 +37,8 @@ const ExitIntentPopup = () => {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     name: exitFormData.name,
+                    email: exitFormData.email,
                     phone: exitFormData.phone,
-                    email: 'no-email@exitpopup.com', // Optional field bypass
                     budget: 'Not Specified',
                     services: ['Exit Intent Popup Lead'],
                     pageUrl: window.location.href
@@ -49,7 +49,7 @@ const ExitIntentPopup = () => {
 
             if (response.ok) {
                 setExitStatus({ loading: false, success: true, error: null });
-                setExitFormData({ name: '', phone: '' });
+                setExitFormData({ name: '', email: '', phone: '' });
                 setTimeout(() => setShowExitPopup(false), 2000);
                 router.push('/thank-you');
             } else {
@@ -70,6 +70,9 @@ const ExitIntentPopup = () => {
                 <form onSubmit={handleExitSubmit} className="row g-3">
                     <div className="col-12">
                         <input type="text" name="name" value={exitFormData.name} onChange={(e) => setExitFormData({...exitFormData, name: e.target.value})} className="form-control py-3" placeholder="Name" required />
+                    </div>
+                    <div className="col-12">
+                        <input type="email" name="email" value={exitFormData.email} onChange={(e) => setExitFormData({...exitFormData, email: e.target.value})} className="form-control py-3" placeholder="Email Address" required />
                     </div>
                     <div className="col-12">
                         <input type="tel" name="phone" value={exitFormData.phone} onChange={(e) => setExitFormData({...exitFormData, phone: e.target.value})} className="form-control py-3" placeholder="Phone Number" required />
