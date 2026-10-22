@@ -86,6 +86,87 @@ const EducationAppPage = () => {
         }
     ];
 
+    const educationFeatures1 = [
+        {
+            title: 'Video Lessons',
+            content: 'Deliver video courses with playback controls, subtitles, and offline downloads so students can learn anywhere, anytime.'
+        },
+        {
+            title: 'Assignments & Grading Tools',
+            content: 'Let students upload homework while teachers review, annotate, grade, and return feedback directly from mobile devices.'
+        },
+        {
+            title: 'Live Classes',
+            content: 'Host real-time classes with HD video, screen sharing, digital whiteboards, and chat for smooth teacher-student interaction.'
+        },
+        {
+            title: 'Personalized Learning Paths',
+            content: "Adapt lessons to each learner's pace and goals with smart recommendations, progress checkpoints, and study plans."
+        },
+        {
+            title: 'Quizzes & Instant Feedback',
+            content: 'Create timed quizzes, auto-graded tests, and instant feedback that help students measure understanding and improve faster.'
+        },
+        {
+            title: 'Progress Tracking Dashboards',
+            content: 'Give students, parents, and teachers clear visibility into grades, attendance, completed lessons, and overall academic performance.'
+        }
+    ];
+
+    const educationFeatures2 = [
+        {
+            title: 'Gamified Learning Rewards',
+            content: 'Keep learners motivated with badges, streaks, leaderboards, and achievement milestones that make every lesson more rewarding.'
+        },
+        {
+            title: 'Parent & Teacher Portals',
+            content: "Share announcements, report cards, and schedules so families and educators stay aligned on every student's progress."
+        },
+        {
+            title: 'Offline Mode',
+            content: 'Download courses, notes, and assignments to continue studying without internet and sync progress automatically once reconnected.'
+        },
+        {
+            title: 'Discussion Forums & Chat',
+            content: 'Encourage collaboration with group chats, discussion boards, and peer study spaces that keep every class connected.'
+        },
+        {
+            title: 'Certificates & Credentials',
+            content: 'Issue verified digital certificates and badges on course completion that learners can share and download anytime.'
+        },
+        {
+            title: 'Student Data Security',
+            content: 'Protect student records with encrypted storage, role-based access, and privacy controls aligned with FERPA and COPPA.'
+        }
+    ];
+
+    const educationSolutions = [
+        {
+            title: 'Online Course Apps',
+            description: 'High-performance apps featuring video lessons, progress tracking, offline access, and flexible subscriptions for online course creators.',
+            image: '/industries/solution-1.webp',
+            active: false
+        },
+        {
+            title: 'K-12 & Classroom Apps',
+            description: 'Engaging apps featuring interactive lessons, homework tracking, and parent updates for schools and young learners.',
+            image: '/industries/solution-2.webp',
+            active: false
+        },
+        {
+            title: 'Corporate Training Platforms',
+            description: 'Robust platforms featuring role-based courses, compliance tracking, skill assessments, and detailed reporting for corporate learning teams.',
+            image: '/industries/solution-3.webp',
+            active: false
+        },
+        {
+            title: 'Language Learning Apps',
+            description: 'Interactive platforms with speech recognition, vocabulary games, daily streaks, and adaptive lessons for every level.',
+            image: '/industries/solution-4.webp',
+            active: false
+        }
+    ];
+
     return (
         <main>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
@@ -131,8 +212,17 @@ const EducationAppPage = () => {
                 tabsData={tabs}
             />
 
-            <IndustryFeaturesSection />
-            <IndustrySolutionsSlider/>
+            <IndustryFeaturesSection
+                title={<>Learning <span style={{ color: 'var(--primary-color)' }}>Mobile App Features</span> to Build Successful <span style={{ color: 'var(--primary-color)' }}>Education Platforms</span></>}
+                description="We've Received Awards And Recognition For Our Quality-First Approach, Delivering Engaging Education Platforms With Our Skilled Team Of Developers, Designers, And Project Managers."
+                mockupImage="/industries/feature-phones.webp"
+                features1={educationFeatures1}
+                features2={educationFeatures2}
+            />
+            <IndustrySolutionsSlider
+                title={<>Next-Gen eLearning App Solutions For <span style={{ color: 'var(--primary-color)' }}>Modern Education</span> Needs</>}
+                solutionsData={educationSolutions}
+            />
             <WhyChooseAppSection />
             <CaseStudy />
             <TechStackSection />

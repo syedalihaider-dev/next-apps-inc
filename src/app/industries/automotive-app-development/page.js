@@ -17,7 +17,7 @@ export const metadata = {
     description: "Next Apps develops automotive digital solutions, from dealer management and fleet platforms to EV charging and connected vehicle software, serving global businesses.",
 };
 
-const HealthcareAppPage = () => {
+const AutomotiveAppPage = () => {
     const services = [
         {
             title: ' Dealer Management  <br/> System (DMS) Apps',
@@ -86,6 +86,87 @@ const HealthcareAppPage = () => {
         }
     ];
 
+    const automotiveFeatures1 = [
+        {
+            title: 'Inventory Explorer',
+            content: 'Browse new and pre-owned vehicles with specifications, photo galleries, and filters for price, model, and features.'
+        },
+        {
+            title: 'Full 360-Degree Vehicle Walkarounds',
+            content: 'Zoomable images, video walkarounds, and interior and exterior views let buyers inspect every angle before visiting.'
+        },
+        {
+            title: 'Drive Bookings',
+            content: 'Pick a vehicle, date, and location, then get confirmation and reminders so no test drive slips.'
+        },
+        {
+            title: 'Service Slot Booking',
+            content: 'Schedule maintenance, repairs, and inspections online with live slot availability, full service history, and visit reminders.'
+        },
+        {
+            title: "Know Your Car's Health",
+            content: 'Monitor engine status, tire pressure, battery health, and fault codes through OBD-II integration with maintenance alerts.'
+        },
+        {
+            title: 'Live Location Tracking',
+            content: 'See vehicles move in real time with route history, geofencing, and navigation for drivers and managers.'
+        }
+    ];
+
+    const automotiveFeatures2 = [
+        {
+            title: 'Fleet Control Center',
+            content: 'Oversee drivers, vehicles, fuel consumption, and maintenance schedules from a single dashboard that trims operating costs.'
+        },
+        {
+            title: 'Smart Financing & Payments',
+            content: 'Compare financing plans, estimate monthly payments, and pay securely online for purchases, leases, and service visits.'
+        },
+        {
+            title: 'Instant Trade-Ins',
+            content: 'Enter details or scan photos to get a value estimate that helps customers plan smarter upgrades.'
+        },
+        {
+            title: 'Records & Contracts, Digitized',
+            content: 'Keep registration, insurance, warranty, and service records handy, then sign purchase agreements without ever visiting dealerships.'
+        },
+        {
+            title: 'Roadside Help Instantly',
+            content: 'Request towing, battery jumps, or fuel delivery with one tap while sharing location with nearby providers.'
+        },
+        {
+            title: 'Connected Car Remote',
+            content: 'Lock doors, start engines, check fuel, and adjust climate settings from anywhere using secure connected-car integrations.'
+        }
+    ];
+
+    const automotiveSolutions = [
+        {
+            title: 'Dealership Showroom Apps',
+            description: 'Speedy apps with inventory, test drive booking, financing, and digital paperwork for dealerships and auto groups.',
+            image: '/industries/solution-1.webp',
+            active: false
+        },
+        {
+            title: 'Rental & Car Sharing',
+            description: 'Flexible apps with simple booking, keyless access, and payments for rental companies and mobility startups.',
+            image: '/industries/solution-2.webp',
+            active: false
+        },
+        {
+            title: 'Fleet Operations Software',
+            description: 'Powerful platforms with live tracking, driver behavior reports, fuel monitoring, and maintenance planning for logistics operators.',
+            image: '/industries/solution-3.webp',
+            active: false
+        },
+        {
+            title: 'Garage Service Apps',
+            description: 'Handy platforms combining appointment booking, repair updates, and paperless invoices for garages and service centers.',
+            image: '/industries/solution-4.webp',
+            active: false
+        }
+    ];
+
     return (
         <main>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
@@ -130,8 +211,17 @@ const HealthcareAppPage = () => {
                 tabsData={tabs}
             />
 
-            <IndustryFeaturesSection />
-            <IndustrySolutionsSlider/>
+            <IndustryFeaturesSection
+                title={<>Showroom-Ready <span style={{ color: 'var(--primary-color)' }}>Features</span> That Keep Drivers, Dealers, And Fleets <span style={{ color: 'var(--primary-color)' }}>Moving</span></>}
+                description="Our Award-Winning Team Of Developers, Designers, And Project Managers Engineers Connected Automotive Platforms That Put Buyers, Drivers, And Dealerships In The Fast Lane."
+                mockupImage="/industries/feature-phones.webp"
+                features1={automotiveFeatures1}
+                features2={automotiveFeatures2}
+            />
+            <IndustrySolutionsSlider
+                title={<>Connected Mobility Solutions <span style={{ color: 'var(--primary-color)' }}>Crafted For Every</span> Modern Driver</>}
+                solutionsData={automotiveSolutions}
+            />
             <WhyChooseAppSection />
             <CaseStudy />
             <TechStackSection />
@@ -143,4 +233,4 @@ const HealthcareAppPage = () => {
     );
 };
 
-export default HealthcareAppPage;
+export default AutomotiveAppPage;

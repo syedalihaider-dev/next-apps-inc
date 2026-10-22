@@ -17,7 +17,7 @@ export const metadata = {
     description: "Next Apps builds powerful insurance digital solutions from mobile apps and web platforms to custom software and policy management systems. Serving businesses globally.",
 };
 
-const HealthcareAppPage = () => {
+const InsuranceAppPage = () => {
     const services = [
         {
             title: ' Policy Management & <br/> Quoting Platforms',
@@ -86,6 +86,86 @@ const HealthcareAppPage = () => {
         }
     ];
 
+    const insuranceFeatures1 = [
+        {
+            title: 'Quick Quotes',
+            content: 'Customers receive personalized quotes in minutes through guided forms, smart pricing, and clear side-by-side coverage comparisons.'
+        },
+        {
+            title: 'Policy Hub & Renewals',
+            content: 'Policyholders review documents, coverage, and payment history, then renew in a few taps from one dashboard.'
+        },
+        {
+            title: 'Easy Claims',
+            content: 'File claims with photos and guided steps, then follow live status updates from submission through settlement.'
+        },
+        {
+            title: 'Smart Damage Estimates',
+            content: 'Image-based analysis, automated validation, and faster decisions shorten manual review and get customers back to normal.'
+        },
+        {
+            title: 'Premium Payments, Perfectly Timed',
+            content: 'Customers pay by card, wallet, or bank transfer, with autopay choices and well-timed reminders before renewal.'
+        },
+        {
+            title: 'Always-On ID Cards',
+            content: 'Proof of insurance appears instantly, works without any internet, and refreshes automatically whenever coverage details change.'
+        }
+    ];
+
+    const insuranceFeatures2 = [
+        {
+            title: 'Talk To Advisors',
+            content: 'Policyholders reach licensed agents through in-app chat, video calls, and scheduled consultations for truly tailored guidance.'
+        },
+        {
+            title: 'Compare Plans With Confidence',
+            content: 'Deductibles, benefits, and coverage limits sit side by side so customers pick protection that truly fits.'
+        },
+        {
+            title: 'Usage-Based Cover',
+            content: 'Driving data, behavior scores, and safe-driver rewards help customers earn lower premiums through better everyday habits.'
+        },
+        {
+            title: 'Paperless Signing & Uploads',
+            content: 'Customers upload IDs and forms, pass automated checks, and sign with legally binding e-signatures from anywhere.'
+        },
+        {
+            title: 'Fraud Spotting Intelligence',
+            content: 'Pattern analysis, anomaly alerts, and risk scores flag suspicious claims early and shield insurers from losses.'
+        },
+        {
+            title: 'Privacy-First Data Safeguards',
+            content: 'Encryption, access controls, and audit trails protect policyholder data while meeting GDPR and regional regulatory requirements.'
+        }
+    ];
+
+    const insuranceSolutions = [
+        {
+            title: 'Motor Insurance Apps',
+            description: 'Speedy apps with instant quotes, digital ID cards, roadside help, and photo-based claims for auto insurers.',
+            image: '/industries/solution-1.webp',
+            active: false
+        },
+        {
+            title: 'Life & Health Cover',
+            description: 'Friendly apps with plan comparisons, beneficiary tools, wellness rewards, and claim submission for life insurers.',
+            image: '/industries/solution-2.webp',
+            active: false
+        },
+        {
+            title: 'Property Protection Platforms',
+            description: 'Sturdy platforms with policy management, damage reporting, inspection booking, and secure document storage for property insurers.',
+            image: '/industries/solution-3.webp',
+            active: false
+        },
+        {
+            title: 'Broker Workflow Portals',
+            description: 'Efficient portals with lead tracking, quoting, policy issuance, and commission reports for agents and brokerages.',
+            image: '/industries/solution-4.webp',
+            active: false
+        }
+    ];
 
     return (
         <main>
@@ -131,8 +211,17 @@ const HealthcareAppPage = () => {
                 tabsData={tabs}
             />
 
-            <IndustryFeaturesSection />
-            <IndustrySolutionsSlider/>
+            <IndustryFeaturesSection
+                title={<>Policyholder-Friendly <span style={{ color: 'var(--primary-color)' }}>Mobile Features</span> That Make Coverage Feel Truly <span style={{ color: 'var(--primary-color)' }}>Effortless</span></>}
+                description="Our Award-Winning Team Of Developers, Designers, And Project Managers Builds Dependable Insurance Platforms That Turn Paperwork Into Simple, Digital Experiences For Every Policyholder."
+                mockupImage="/industries/feature-phones.webp"
+                features1={insuranceFeatures1}
+                features2={insuranceFeatures2}
+            />
+            <IndustrySolutionsSlider
+                title={<>Modern Insurtech Apps <span style={{ color: 'var(--primary-color)' }}>Built Around Every</span> Coverage Need</>}
+                solutionsData={insuranceSolutions}
+            />
             <WhyChooseAppSection />
             <CaseStudy />
             <TechStackSection />
@@ -144,4 +233,4 @@ const HealthcareAppPage = () => {
     );
 };
 
-export default HealthcareAppPage;
+export default InsuranceAppPage;

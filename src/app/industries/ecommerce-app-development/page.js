@@ -86,7 +86,61 @@ const EcommerceAppPage = () => {
         }
     ];
 
-    const solutions = [
+    const ecommerceFeatures1 = [
+        {
+            title: 'Product Search',
+            content: 'Help shoppers find products faster with smart filters, voice search, and instant suggestions across large catalogs.'
+        },
+        {
+            title: 'Wishlist & Saved Carts',
+            content: 'Let shoppers save favorites, revisit abandoned carts, and receive alerts when prices drop or stock returns.'
+        },
+        {
+            title: 'Secure Payments',
+            content: 'Accept cards, digital wallets, and bank transfers through PCI-compliant gateways built to protect every customer transaction.'
+        },
+        {
+            title: 'Fast Mobile Checkout',
+            content: 'Let customers complete purchases in seconds with saved addresses, stored payment methods, and a frictionless checkout.'
+        },
+        {
+            title: 'Push Notifications & Offers',
+            content: 'Re-engage customers with timely promotions, flash sale alerts, and personalized messages sent at the right moment.'
+        },
+        {
+            title: 'Personalized Product Recommendations',
+            content: 'Boost average order value with AI-driven suggestions based on browsing history, past purchases, and trending products.'
+        }
+    ];
+
+    const ecommerceFeatures2 = [
+        {
+            title: 'Ratings & Reviews',
+            content: 'Build trust with verified reviews, photo uploads, and star ratings that help customers choose with confidence.'
+        },
+        {
+            title: 'Inventory & Catalog Management',
+            content: 'Update listings, stock levels, and pricing in real time from one dashboard across every sales channel.'
+        },
+        {
+            title: 'Order Tracking',
+            content: 'Keep buyers informed with live shipment updates, delivery estimates, and instant alerts from warehouse to doorstep.'
+        },
+        {
+            title: 'Loyalty & Rewards Programs',
+            content: 'Turn first-time buyers into repeat customers with points, tiered rewards, referral bonuses, and exclusive member-only deals.'
+        },
+        {
+            title: 'Multi-Vendor Marketplace Support',
+            content: 'Onboard sellers, manage commissions, and run a full marketplace with vendor dashboards and fully automated payouts.'
+        },
+        {
+            title: 'Analytics & Insights',
+            content: 'Track conversion rates, cart abandonment, and best-selling products through clear dashboards that guide smarter business decisions.'
+        }
+    ];
+
+    const ecommerceSolutions = [
         {
             title: 'Grocery Delivery Apps',
             description: 'High-performance apps featuring real-time inventory, route optimization for drivers, and seamless scheduled deliveries for local groceries.',
@@ -157,8 +211,17 @@ const EcommerceAppPage = () => {
                 tabsData={tabs}
             />
 
-           <IndustryFeaturesSection />
-            <IndustrySolutionsSlider />
+            <IndustryFeaturesSection
+                title={<>Shopping <span style={{ color: 'var(--primary-color)' }}>Mobile App Features</span> to Build Successful <span style={{ color: 'var(--primary-color)' }}>Ecommerce Platforms</span></>}
+                description="We've Received Awards And Recognition For Our Quality-First Approach, Delivering High-Converting Ecommerce Platforms With Our Skilled Team Of Developers, Designers, And Project Managers."
+                mockupImage="/industries/feature-phones.webp"
+                features1={ecommerceFeatures1}
+                features2={ecommerceFeatures2}
+            />
+            <IndustrySolutionsSlider
+                title={<>Next-Gen <span style={{ color: 'var(--primary-color)' }}>Retail App Solutions</span> For Modern <span style={{ color: 'var(--primary-color)' }}>Shopping Needs</span></>}
+                solutionsData={ecommerceSolutions}
+            />
             <WhyChooseAppSection />
             <CaseStudy />
             <TechStackSection />

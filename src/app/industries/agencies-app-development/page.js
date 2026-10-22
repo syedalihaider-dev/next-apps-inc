@@ -17,7 +17,7 @@ export const metadata = {
     description: "Next Apps develops digital solutions for agencies, including client portals, project management, white-label apps, and automated reporting, serving businesses worldwide.",
 };
 
-const HealthcareAppPage = () => {
+const AgenciesAppPage = () => {
     const services = [
         {
             title: ' Client Portal &  <br/> Reporting Platforms',
@@ -86,6 +86,87 @@ const HealthcareAppPage = () => {
         }
     ];
 
+    const agencyFeatures1 = [
+        {
+            title: 'Client Lounge',
+            content: 'Clients enter a branded space to review deliverables, leave feedback, approve work, and follow live progress.'
+        },
+        {
+            title: 'Boards, Tasks & Timelines',
+            content: 'Assign work, set deadlines, and watch project status unfold across flexible boards, timelines, and team-friendly views.'
+        },
+        {
+            title: 'Billable Hours',
+            content: 'Capture billable minutes with one tap, turn logged time into accurate timesheets for payroll and invoices.'
+        },
+        {
+            title: 'Brand Asset Vault',
+            content: 'Logos, designs, videos, and brand guidelines live in one searchable library with version history and sharing.'
+        },
+        {
+            title: 'Feedback On The Canvas',
+            content: 'Teams comment directly on designs, videos, and documents using markup tools that bring final approvals closer.'
+        },
+        {
+            title: 'Live Campaign Insights',
+            content: 'Track reach, engagement, conversions, and spend across channels through live dashboards that make client reporting simple.'
+        }
+    ];
+
+    const agencyFeatures2 = [
+        {
+            title: 'Team Chat Hub',
+            content: 'Designers, strategists, and account managers stay aligned with chat, sharing, and mentions that cut email clutter.'
+        },
+        {
+            title: 'Invoices & Retainer Tracking',
+            content: 'Send polished invoices, monitor retainers, and collect client payments through secure in-app billing with automatic reminders.'
+        },
+        {
+            title: 'Smart Staffing',
+            content: 'Balance workloads, see availability, and prevent burnout with scheduling tools that match skilled talent to projects.'
+        },
+        {
+            title: 'Pitch & Pipeline CRM',
+            content: 'Capture leads, follow pitches, and nurture client relationships inside one CRM built to win more deals.'
+        },
+        {
+            title: 'Content Planning Calendar',
+            content: 'Plan, schedule, and publish across channel from one calendar, complete with approval workflows and automatic posting.'
+        },
+        {
+            title: 'Locked-Down Client Data',
+            content: 'Briefs, contracts, and brand assets stay protected with encrypted storage, role-based permissions, and controlled client access.'
+        }
+    ];
+
+    const agencySolutions = [
+        {
+            title: 'Marketing Growth Apps',
+            description: 'Performance apps with campaign tracking, audience analytics, content scheduling, and live reporting for digital marketing agencies.',
+            image: '/industries/solution-1.webp',
+            active: false
+        },
+        {
+            title: 'Studio & Creative Suites',
+            description: 'Inspiring apps with mood boards, proofing tools, asset libraries, and approval workflows for design studios.',
+            image: '/industries/solution-2.webp',
+            active: false
+        },
+        {
+            title: 'Account Management Platforms',
+            description: 'Reliable platforms with client portals, project tracking, messaging, and invoicing integration for agencies juggling many accounts.',
+            image: '/industries/solution-3.webp',
+            active: false
+        },
+        {
+            title: 'Media Planning Apps',
+            description: 'Streamlined platforms for planning and buying media across channels with budget control and performance insights.',
+            image: '/industries/solution-4.webp',
+            active: false
+        }
+    ];
+
     return (
         <main>
             <script type="application/ld+json" dangerouslySetInnerHTML={{
@@ -131,8 +212,17 @@ const HealthcareAppPage = () => {
                 tabsData={tabs}
             />
 
-            <IndustryFeaturesSection />
-            <IndustrySolutionsSlider />
+            <IndustryFeaturesSection
+                title={<>Team-Ready <span style={{ color: 'var(--primary-color)' }}>Mobile Features</span> That Keep Client Projects <span style={{ color: 'var(--primary-color)' }}>Moving Forward</span></>}
+                description="Our Award-Winning Team Of Developers, Designers, And Project Managers Creates Agency Platforms That Scale Gracefully, Impress Clients, And Keep Creative Work Flowing Smoothly."
+                mockupImage="/industries/feature-phones.webp"
+                features1={agencyFeatures1}
+                features2={agencyFeatures2}
+            />
+            <IndustrySolutionsSlider
+                title={<>Smarter <span style={{ color: 'var(--primary-color)' }}>Agency Platforms</span> For Today's Fast-Moving <span style={{ color: 'var(--primary-color)' }}>Client Demands</span></>}
+                solutionsData={agencySolutions}
+            />
             <WhyChooseAppSection />
             <CaseStudy />
             <TechStackSection />
@@ -144,4 +234,4 @@ const HealthcareAppPage = () => {
     );
 };
 
-export default HealthcareAppPage;
+export default AgenciesAppPage;

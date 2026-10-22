@@ -7,6 +7,7 @@ import styles from './IndustryFeaturesSection.module.css';
 const IndustryFeaturesSection = ({
     title = <>Accounting <span className={styles.greenText}>Mobile App </span> Features to Build Successful <span className={styles.greenText}>Finance Platforms</span></>,
     description = "We've Received Awards And Recognition For Our Quality-First Approach, Delivering Complex Projects Successfully With Our Skilled Team Of Developers, Designers, And Project Managers.",
+    mockupImage = "/industries/feature-phones.webp",
     features1 = [],
     features2 = []
 }) => {
@@ -61,7 +62,7 @@ const IndustryFeaturesSection = ({
                     <div className="col-lg-5">
                         <div className={styles.mockupWrapper}>
                             <Image
-                                src="/industries/feature-phones.webp"
+                                src={mockupImage}
                                 alt="Feature Phones"
                                 width={600}
                                 height={600}

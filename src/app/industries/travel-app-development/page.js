@@ -17,7 +17,7 @@ export const metadata = {
     description: "Next Apps offers comprehensive travel digital solutions, including booking platforms, OTAs, hotel management systems, tour apps, and traveler tools, serving businesses worldwide.",
 };
 
-const HealthcareAppPage = () => {
+const TravelAppPage = () => {
     const services = [
         {
             title: 'Travel Booking <br/>App Development',
@@ -86,6 +86,87 @@ const HealthcareAppPage = () => {
         }
     ];
 
+    const travelFeatures1 = [
+        {
+            title: 'Journey Search',
+            content: 'Search flights, stays, and rental cars together with smart filters, honest pricing, and real-time availability updates.'
+        },
+        {
+            title: 'Fast & Secure Checkout',
+            content: 'Traveler profiles, flexible payment options, and instant confirmation turn complicated reservations into a quick, confident booking.'
+        },
+        {
+            title: 'Trip Planner',
+            content: 'Build day-by-day itineraries with bookings, maps, and activities gathered in one place and fully available offline.'
+        },
+        {
+            title: 'Offline City Guides',
+            content: 'Download maps, local tips, and travel essentials in advance, so exploring never depends on roaming charges.'
+        },
+        {
+            title: 'Flight Changes, Instantly Delivered',
+            content: 'Gate changes, delays, cancellations, and weather disruptions arrive as instant notifications so travelers adapt plans quickly.'
+        },
+        {
+            title: 'Fare Watch Alerts',
+            content: 'Follow fares and room rates, and travelers get notified the second prices fall on watched trips.'
+        }
+    ];
+
+    const travelFeatures2 = [
+        {
+            title: 'Pocket Ticket Wallet',
+            content: 'Boarding passes, hotel vouchers, and event tickets live in one digital wallet that opens quickly anywhere.'
+        },
+        {
+            title: 'Trusted Reviews & Ratings',
+            content: 'Verified reviews, photos, and tailored suggestions based on interests and past trips help travelers choose confidently.'
+        },
+        {
+            title: 'Global Currencies',
+            content: 'Live currency conversion, localized content, and multilingual screens keep international travelers comfortable and bookings smooth worldwide.'
+        },
+        {
+            title: 'Rewards For Loyal Travelers',
+            content: 'Points, member discounts, and exclusive offers encourage repeat travelers to keep booking and stay loyal longer.'
+        },
+        {
+            title: 'Group Trip Hub',
+            content: 'Friends and families share itineraries, vote on destinations, split costs, and coordinate details in one place.'
+        },
+        {
+            title: 'Border-Ready Travel Documents',
+            content: 'Passports, visas, permits, and insurance details stay organized and protected in encrypted storage, ready when needed.'
+        }
+    ];
+
+    const travelSolutions = [
+        {
+            title: 'Booking Engine Apps',
+            description: 'Quick apps with flight and hotel search, protected payments, instant confirmations, and itineraries for travel agencies.',
+            image: '/industries/solution-1.webp',
+            active: false
+        },
+        {
+            title: 'Tours & Experience Apps',
+            description: 'Immersive apps with local experiences, ticket booking, guide profiles, and traveler reviews for tour operators.',
+            image: '/industries/solution-2.webp',
+            active: false
+        },
+        {
+            title: 'Hospitality Management Software',
+            description: 'Reliable platforms with room availability, digital check-in, guest messaging, and revenue tracking for hotels and resorts.',
+            image: '/industries/solution-3.webp',
+            active: false
+        },
+        {
+            title: 'Itinerary Builder Apps',
+            description: 'Intelligent platforms with trip building, offline maps, group coordination, and expense tracking for every adventure.',
+            image: '/industries/solution-4.webp',
+            active: false
+        }
+    ];
+
     return (
         <main>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
@@ -131,8 +212,17 @@ const HealthcareAppPage = () => {
                 tabsData={tabs}
             />
 
-            <IndustryFeaturesSection />
-            <IndustrySolutionsSlider/>
+            <IndustryFeaturesSection
+                title={<>Wanderlust-Ready <span style={{ color: 'var(--primary-color)' }}>Features</span> That Turn Every Journey Into <span style={{ color: 'var(--primary-color)' }}>Seamless Memories</span></>}
+                description="Our Award-Winning Team Of Developers, Designers, And Project Managers Crafts Travel Platforms That Make Planning, Booking, And Exploring Effortless From Departure To Destination."
+                mockupImage="/industries/feature-phones.webp"
+                features1={travelFeatures1}
+                features2={travelFeatures2}
+            />
+            <IndustrySolutionsSlider
+                title={<>Journey-Ready Platforms <span style={{ color: 'var(--primary-color)' }}>Designed For Today's</span> Curious Global Travelers</>}
+                solutionsData={travelSolutions}
+            />
             <WhyChooseAppSection />
             <CaseStudy />
             <TechStackSection />
@@ -144,4 +234,4 @@ const HealthcareAppPage = () => {
     );
 };
 
-export default HealthcareAppPage;
+export default TravelAppPage;

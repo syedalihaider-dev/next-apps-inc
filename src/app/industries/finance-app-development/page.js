@@ -86,6 +86,87 @@ const FinanceAppPage = () => {
         }
     ];
 
+    const financeFeatures1 = [
+        {
+            title: 'Digital Onboarding',
+            content: 'New customers verify identity with ID scans and selfies, open accounts in minutes instead of days.'
+        },
+        {
+            title: 'All Accounts, One View',
+            content: 'Balances, transactions, and spending summaries appear on a clear screen so users know where they stand.'
+        },
+        {
+            title: 'Instant Transfers',
+            content: 'Send money to friends, family, and businesses in seconds with secure authentication and clear, instant confirmations.'
+        },
+        {
+            title: 'Smart Bill Payments',
+            content: 'Pay utilities, loans, and subscriptions in one place, schedule recurring payments, and easily avoid late fees.'
+        },
+        {
+            title: 'Budgeting & Spending Insights',
+            content: 'Automatic categories, spending limits, and visual reports help users understand their habits and reach savings goals.'
+        },
+        {
+            title: 'Biometric Secure Login',
+            content: 'Fingerprint, face recognition, and multi-factor authentication protect every login while keeping access quick, simple, and convenient.'
+        }
+    ];
+
+    const financeFeatures2 = [
+        {
+            title: 'Real-Time Fraud Alerts',
+            content: 'Machine learning flags unusual activity instantly and sends alerts so customers freeze cards or confirm transactions.'
+        },
+        {
+            title: 'Loans & Credit Management',
+            content: 'Apply for loans, check eligibility, track repayments, and monitor credit scores through a transparent, guided borrowing.'
+        },
+        {
+            title: 'Savings Goals',
+            content: 'Set targets, automate contributions, and watch progress grow with rewards that make saving feel truly motivating.'
+        },
+        {
+            title: 'Investing & Portfolio Tracking',
+            content: 'Track stocks, funds, and crypto in real time with performance charts, watchlists, and live market news.'
+        },
+        {
+            title: 'Digital Wallet Cards',
+            content: 'Store cards, tap to pay, and manage virtual cards with instant freeze controls and spending limits.'
+        },
+        {
+            title: 'Regulatory Compliance Controls',
+            content: 'KYC, AML checks, audit trails, and encryption help platforms meet PCI DSS, GDPR, and local regulations.'
+        }
+    ];
+
+    const financeSolutions = [
+        {
+            title: 'Mobile Banking Apps',
+            description: 'Secure apps with account management, instant transfers, bill payments, and card controls for banks and neobanks.',
+            image: '/industries/solution-1.webp',
+            active: false
+        },
+        {
+            title: 'Payment & Wallet Apps',
+            description: 'Fast apps with peer-to-peer transfers, QR payments, merchant checkout, and multi-currency support for payment startups.',
+            image: '/industries/solution-2.webp',
+            active: false
+        },
+        {
+            title: 'Lending Platform Software',
+            description: 'Efficient platforms with online applications, credit scoring, automated approvals, and repayment tracking for lenders and fintechs.',
+            image: '/industries/solution-3.webp',
+            active: false
+        },
+        {
+            title: 'Wealth Management Apps',
+            description: 'Insight-driven platforms with portfolio tracking, goal planning, robo-advice, and market data for investors and advisors.',
+            image: '/industries/solution-4.webp',
+            active: false
+        }
+    ];
+
     return (
         <main>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
@@ -130,8 +211,17 @@ const FinanceAppPage = () => {
                 tabsData={tabs}
             />
 
-            <IndustryFeaturesSection />
-            <IndustrySolutionsSlider/>\
+            <IndustryFeaturesSection
+                title={<>Money-Smart <span style={{ color: 'var(--primary-color)' }}>Features</span> That Make Transactions Fast, Clear, And <span style={{ color: 'var(--primary-color)' }}>Secure</span></>}
+                description="Our Award-Winning Team Of Developers, Designers, And Project Managers Delivers Financial Platforms That Combine Bank-Grade Security, Intuitive Design, And Scalable Performance Users Trust."
+                mockupImage="/industries/feature-phones.webp"
+                features1={financeFeatures1}
+                features2={financeFeatures2}
+            />
+            <IndustrySolutionsSlider
+                title={<>Modern <span style={{ color: 'var(--primary-color)' }}>Fintech Solutions</span> Built For Every <span style={{ color: 'var(--primary-color)' }}>Financial Journey</span></>}
+                solutionsData={financeSolutions}
+            />
             <WhyChooseAppSection />
             <CaseStudy />
             <TechStackSection />

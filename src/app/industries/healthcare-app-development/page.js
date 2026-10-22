@@ -86,7 +86,87 @@ const HealthcareAppPage = () => {
         }
     ];
 
-    
+    const healthcareFeatures1 = [
+        {
+            title: 'Instant Scheduling',
+            content: 'Patients pick a slot, confirm in one tap, and receive gentle reminders that reduce missed appointments.'
+        },
+        {
+            title: 'Live Video Care Rooms',
+            content: 'Doctors and patients meet in secure, crystal-clear video rooms with chat, file sharing, and prescription requests.'
+        },
+        {
+            title: 'Medical Vault',
+            content: 'Medical history, lab reports, prescriptions, and care plans stay organized, always ready for patients and providers.'
+        },
+        {
+            title: 'Dose Reminder Nudges',
+            content: 'Friendly alerts for doses and refills keep treatment on schedule and help patients stay consistent daily.'
+        },
+        {
+            title: 'Pharmacy Connect & Refills',
+            content: 'Prescriptions travel straight to pharmacies, where patients compare options and follow refills without paperwork or calls.'
+        },
+        {
+            title: 'Daily Health Journal',
+            content: 'Patients log vitals, symptoms, and activity through wearables, giving care teams a clearer picture of progress.'
+        }
+    ];
+
+    const healthcareFeatures2 = [
+        {
+            title: 'Private Care Chat',
+            content: 'Encrypted conversations let patients and care teams handle questions, follow-ups, and test result discussions with confidence.'
+        },
+        {
+            title: 'Claims, Bills & Coverage',
+            content: 'Patients check claims, pay medical bills, and verify coverage inside a single transparent, easy-to-follow payment experience.'
+        },
+        {
+            title: 'Emergency SOS',
+            content: 'One tap sends alerts, shares live location, and opens critical medical details so help arrives faster.'
+        },
+        {
+            title: 'Find The Right Doctor',
+            content: 'Browse specialist profiles with credentials, verified reviews, and availability, all filtered by location and insurance acceptance.'
+        },
+        {
+            title: 'Connected Wearable Sync',
+            content: 'Smartwatches, glucose monitors, and fitness trackers stream data in real time for proactive remote patient monitoring.'
+        },
+        {
+            title: 'HIPAA-Ready Data Protection',
+            content: 'End-to-end encryption, audit logs, and role-based access keep patient records safe and aligned with HIPAA standards.'
+        }
+    ];
+
+    const healthcareSolutions = [
+        {
+            title: 'Virtual Clinic Apps',
+            description: 'Polished apps with HD video visits, secure chat, e-prescriptions, and booking for clinics and virtual providers.',
+            image: '/industries/solution-1.webp',
+            active: false
+        },
+        {
+            title: 'Active Living Wellness Apps',
+            description: 'Motivating apps with workout logs, meal tracking, wearable sync, and personalized plans for health brands.',
+            image: '/industries/solution-2.webp',
+            active: false
+        },
+        {
+            title: 'Clinic Operations Platforms',
+            description: 'Scalable platforms combining patient records, scheduling, billing, and analytics dashboards for busy hospitals and private clinics.',
+            image: '/industries/solution-3.webp',
+            active: false
+        },
+        {
+            title: 'Mindful Care Apps',
+            description: 'Calming platforms with mood journals, guided meditation, therapist chat, and session scheduling for counseling providers.',
+            image: '/industries/solution-4.webp',
+            active: false
+        }
+    ];
+
     return (
         <main>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
@@ -131,8 +211,17 @@ const HealthcareAppPage = () => {
                 tabsData={tabs}
             />
 
-            <IndustryFeaturesSection />
-            <IndustrySolutionsSlider/>
+            <IndustryFeaturesSection
+                title={<>Patient-Centered <span style={{ color: 'var(--primary-color)' }}>Mobile Features</span> That Power Smarter Digital <span style={{ color: 'var(--primary-color)' }}>Care Platforms</span></>}
+                description="Our Award-Winning Team Of Developers, Designers, And Project Managers Turns Complex Care Journeys Into Compliant Apps That Patients And Providers Trust Every Day."
+                mockupImage="/industries/feature-phones.webp"
+                features1={healthcareFeatures1}
+                features2={healthcareFeatures2}
+            />
+            <IndustrySolutionsSlider
+                title={<>Smarter Care Platforms <span style={{ color: 'var(--primary-color)' }}>Crafted For Today's</span> Connected Patients</>}
+                solutionsData={healthcareSolutions}
+            />
             <WhyChooseAppSection />
             <CaseStudy />
             <TechStackSection />

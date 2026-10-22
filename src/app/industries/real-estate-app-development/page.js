@@ -17,7 +17,7 @@ export const metadata = {
     description: "Next Apps builds powerful real estate digital solutions — from property search apps and agent CRMs to listing platforms, virtual tour tools, and property management software. Serving businesses globally.",
 };
 
-const HealthcareAppPage = () => {
+const RealEstateAppPage = () => {
     const services = [
         {
             title: ' Property Search  & <br/> Listing Platforms',
@@ -86,6 +86,87 @@ const HealthcareAppPage = () => {
         }
     ];
 
+    const realEstateFeatures1 = [
+        {
+            title: 'Smart Search',
+            content: 'Buyers and renters narrow listings by price, location, size, and amenities to find the right place.'
+        },
+        {
+            title: 'Maps, Schools & Neighborhoods',
+            content: 'Explore schools, transit, and shops on interactive maps, then draw an area to see matching listings.'
+        },
+        {
+            title: 'Home Tours',
+            content: 'Step inside through 3D walkthroughs, 360-degree photos, and video tours that let buyers explore homes remotely.'
+        },
+        {
+            title: 'Never Miss Listings',
+            content: "Instant alerts announce new listings, price drops, and open houses that match buyer's saved search criteria."
+        },
+        {
+            title: 'Chat, Tour & Schedule',
+            content: 'Buyers message agents in-app, then book property viewings through synced calendars with friendly, timely reminders attached.'
+        },
+        {
+            title: 'Budget Planning Calculators',
+            content: 'Built-in calculators estimate monthly payments, down payments, and total costs so buyers plan budgets with confidence.'
+        }
+    ];
+
+    const realEstateFeatures2 = [
+        {
+            title: 'Sign From Anywhere',
+            content: 'Leases, offers, and contracts get signed on any device with legally binding e-signatures and document storage.'
+        },
+        {
+            title: 'Listing Studio & Inquiries',
+            content: 'Create, edit, and publish listings with photos, pricing, and descriptions while monitoring views, inquiries, and engagement.'
+        },
+        {
+            title: 'Prospect Tracking',
+            content: 'Capture inquiries, score prospects, and follow every client conversation from the first showing to closing day.'
+        },
+        {
+            title: 'Rent, Leases & Repairs',
+            content: 'Handle tenant applications, rent collection, repair requests, and renewals smoothly for landlords and property managers everywhere.'
+        },
+        {
+            title: 'Local Market Intelligence',
+            content: 'Price trends, market comparisons, and neighborhood data help investors and buyers make confident, well-informed property decisions.'
+        },
+        {
+            title: 'Protected Client Transactions',
+            content: 'Encrypted storage, secure payment processing, role-based access, and compliance monitoring keep client details and transactions safe.'
+        }
+    ];
+
+    const realEstateSolutions = [
+        {
+            title: 'Listing Portal Apps',
+            description: 'Fast apps with advanced search, photo galleries, saved favorites, and inquiry forms for brokerages and portals.',
+            image: '/industries/solution-1.webp',
+            active: false
+        },
+        {
+            title: 'Tenant & Landlord Apps',
+            description: 'Simple apps with tenant screening, rent payments, and maintenance requests for landlords and property managers.',
+            image: '/industries/solution-2.webp',
+            active: false
+        },
+        {
+            title: 'Portfolio Management Software',
+            description: 'Powerful platforms with unit tracking, owner reporting, vendor coordination, and dashboards for residential and commercial managers.',
+            image: '/industries/solution-3.webp',
+            active: false
+        },
+        {
+            title: 'Investor Deal Apps',
+            description: 'Data-rich platforms with deal analysis, yield calculators, portfolio tracking, and market trends for property investors.',
+            image: '/industries/solution-4.webp',
+            active: false
+        }
+    ];
+
     return (
         <main>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
@@ -130,8 +211,17 @@ const HealthcareAppPage = () => {
                 tabsData={tabs}
             />
 
-            <IndustryFeaturesSection />
-            <IndustrySolutionsSlider/>
+            <IndustryFeaturesSection
+                title={<>Property-Ready <span style={{ color: 'var(--primary-color)' }}>Mobile Features</span> Helping Buyers, Renters, And Agents <span style={{ color: 'var(--primary-color)' }}>Thrive</span></>}
+                description="Our Award-Winning Team Of Developers, Designers, And Project Managers Builds Property Platforms That Make Searching, Touring, And Closing Feel Simple, And Surprisingly Human."
+                mockupImage="/industries/feature-phones.webp"
+                features1={realEstateFeatures1}
+                features2={realEstateFeatures2}
+            />
+            <IndustrySolutionsSlider
+                title={<>Smarter <span style={{ color: 'var(--primary-color)' }}>Realty Platforms</span> For Every Property <span style={{ color: 'var(--primary-color)' }}>Journey Ahead</span></>}
+                solutionsData={realEstateSolutions}
+            />
             <WhyChooseAppSection />
             <CaseStudy />
             <TechStackSection />
@@ -143,4 +233,4 @@ const HealthcareAppPage = () => {
     );
 };
 
-export default HealthcareAppPage;
+export default RealEstateAppPage;
