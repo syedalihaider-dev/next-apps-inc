@@ -144,25 +144,25 @@ const TravelAppPage = () => {
         {
             title: 'Booking Engine Apps',
             description: 'Quick apps with flight and hotel search, protected payments, instant confirmations, and itineraries for travel agencies.',
-            image: '/industries/solution-1.webp',
+            image: '/industries/travel-app-development/solution-1.webp',
             active: false
         },
         {
             title: 'Tours & Experience Apps',
             description: 'Immersive apps with local experiences, ticket booking, guide profiles, and traveler reviews for tour operators.',
-            image: '/industries/solution-2.webp',
+            image: '/industries/travel-app-development/solution-2.webp',
             active: false
         },
         {
             title: 'Hospitality Management Software',
             description: 'Reliable platforms with room availability, digital check-in, guest messaging, and revenue tracking for hotels and resorts.',
-            image: '/industries/solution-3.webp',
+            image: '/industries/travel-app-development/solution-3.webp',
             active: false
         },
         {
             title: 'Itinerary Builder Apps',
             description: 'Intelligent platforms with trip building, offline maps, group coordination, and expense tracking for every adventure.',
-            image: '/industries/solution-4.webp',
+            image: '/industries/travel-app-development/solution-4.webp',
             active: false
         }
     ];
@@ -215,7 +215,7 @@ const TravelAppPage = () => {
             <IndustryFeaturesSection
                 title={<>Wanderlust-Ready <span style={{ color: 'var(--primary-color)' }}>Features</span> That Turn Every Journey Into <span style={{ color: 'var(--primary-color)' }}>Seamless Memories</span></>}
                 description="Our Award-Winning Team Of Developers, Designers, And Project Managers Crafts Travel Platforms That Make Planning, Booking, And Exploring Effortless From Departure To Destination."
-                mockupImage="/industries/feature-phones.webp"
+                mockupImage="/industries/travel-app-development/feature-phones.webp"
                 features1={travelFeatures1}
                 features2={travelFeatures2}
             />

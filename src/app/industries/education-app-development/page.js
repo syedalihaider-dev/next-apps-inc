@@ -144,25 +144,25 @@ const EducationAppPage = () => {
         {
             title: 'Online Course Apps',
             description: 'High-performance apps featuring video lessons, progress tracking, offline access, and flexible subscriptions for online course creators.',
-            image: '/industries/solution-1.webp',
+            image: '/industries/education-app-development/solution-1.webp',
             active: false
         },
         {
             title: 'K-12 & Classroom Apps',
             description: 'Engaging apps featuring interactive lessons, homework tracking, and parent updates for schools and young learners.',
-            image: '/industries/solution-2.webp',
+            image: '/industries/education-app-development/solution-2.webp',
             active: false
         },
         {
             title: 'Corporate Training Platforms',
             description: 'Robust platforms featuring role-based courses, compliance tracking, skill assessments, and detailed reporting for corporate learning teams.',
-            image: '/industries/solution-3.webp',
+            image: '/industries/education-app-development/solution-3.webp',
             active: false
         },
         {
             title: 'Language Learning Apps',
             description: 'Interactive platforms with speech recognition, vocabulary games, daily streaks, and adaptive lessons for every level.',
-            image: '/industries/solution-4.webp',
+            image: '/industries/education-app-development/solution-4.webp',
             active: false
         }
     ];
@@ -215,7 +215,7 @@ const EducationAppPage = () => {
             <IndustryFeaturesSection
                 title={<>Learning <span style={{ color: 'var(--primary-color)' }}>Mobile App Features</span> to Build Successful <span style={{ color: 'var(--primary-color)' }}>Education Platforms</span></>}
                 description="We've Received Awards And Recognition For Our Quality-First Approach, Delivering Engaging Education Platforms With Our Skilled Team Of Developers, Designers, And Project Managers."
-                mockupImage="/industries/feature-phones.webp"
+                mockupImage="/industries/education-app-development/feature-phones.webp"
                 features1={educationFeatures1}
                 features2={educationFeatures2}
             />

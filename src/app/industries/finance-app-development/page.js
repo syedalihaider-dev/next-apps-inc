@@ -144,25 +144,25 @@ const FinanceAppPage = () => {
         {
             title: 'Mobile Banking Apps',
             description: 'Secure apps with account management, instant transfers, bill payments, and card controls for banks and neobanks.',
-            image: '/industries/solution-1.webp',
+            image: '/industries/finance-app-development/solution-1.webp',
             active: false
         },
         {
             title: 'Payment & Wallet Apps',
             description: 'Fast apps with peer-to-peer transfers, QR payments, merchant checkout, and multi-currency support for payment startups.',
-            image: '/industries/solution-2.webp',
+            image: '/industries/finance-app-development/solution-2.webp',
             active: false
         },
         {
             title: 'Lending Platform Software',
             description: 'Efficient platforms with online applications, credit scoring, automated approvals, and repayment tracking for lenders and fintechs.',
-            image: '/industries/solution-3.webp',
+            image: '/industries/finance-app-development/solution-3.webp',
             active: false
         },
         {
             title: 'Wealth Management Apps',
             description: 'Insight-driven platforms with portfolio tracking, goal planning, robo-advice, and market data for investors and advisors.',
-            image: '/industries/solution-4.webp',
+            image: '/industries/finance-app-development/solution-4.webp',
             active: false
         }
     ];
@@ -214,7 +214,7 @@ const FinanceAppPage = () => {
             <IndustryFeaturesSection
                 title={<>Money-Smart <span style={{ color: 'var(--primary-color)' }}>Features</span> That Make Transactions Fast, Clear, And <span style={{ color: 'var(--primary-color)' }}>Secure</span></>}
                 description="Our Award-Winning Team Of Developers, Designers, And Project Managers Delivers Financial Platforms That Combine Bank-Grade Security, Intuitive Design, And Scalable Performance Users Trust."
-                mockupImage="/industries/feature-phones.webp"
+                mockupImage="/industries/finance-app-development/feature-phones.webp"
                 features1={financeFeatures1}
                 features2={financeFeatures2}
             />

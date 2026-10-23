@@ -144,25 +144,25 @@ const EcommerceAppPage = () => {
         {
             title: 'Grocery Delivery Apps',
             description: 'High-performance apps featuring real-time inventory, route optimization for drivers, and seamless scheduled deliveries for local groceries.',
-            image: '/industries/solution-1.webp',
+            image: '/industries/ecommerce-app-development/solution-1.webp',
             active: false
         },
         {
             title: 'Fashion & Beauty Apps',
             description: 'Engaging apps featuring virtual try-ons, high-quality product visuals, and personalized style recommendations for fashion brands.',
-            image: '/industries/solution-2.webp',
+            image: '/industries/ecommerce-app-development/solution-2.webp',
             active: false
         },
         {
             title: 'Electronics & Gadgets',
             description: 'Robust platforms featuring detailed product specifications, comparison tools, and secure tech support integration for electronics retailers.',
-            image: '/industries/solution-3.webp',
+            image: '/industries/ecommerce-app-development/solution-3.webp',
             active: false
         },
         {
             title: 'Subscription Box Apps',
             description: 'Recurring billing and subscription management platforms for brands offering curated monthly boxes and membership-based services.',
-            image: '/industries/solution-4.webp',
+            image: '/industries/ecommerce-app-development/solution-4.webp',
             active: false
         }
     ];
@@ -214,7 +214,7 @@ const EcommerceAppPage = () => {
             <IndustryFeaturesSection
                 title={<>Shopping <span style={{ color: 'var(--primary-color)' }}>Mobile App Features</span> to Build Successful <span style={{ color: 'var(--primary-color)' }}>Ecommerce Platforms</span></>}
                 description="We've Received Awards And Recognition For Our Quality-First Approach, Delivering High-Converting Ecommerce Platforms With Our Skilled Team Of Developers, Designers, And Project Managers."
-                mockupImage="/industries/feature-phones.webp"
+                mockupImage="/industries/ecommerce-app-development/feature-phones.webp"
                 features1={ecommerceFeatures1}
                 features2={ecommerceFeatures2}
             />

@@ -144,25 +144,25 @@ const AgenciesAppPage = () => {
         {
             title: 'Marketing Growth Apps',
             description: 'Performance apps with campaign tracking, audience analytics, content scheduling, and live reporting for digital marketing agencies.',
-            image: '/industries/solution-1.webp',
+            image: '/industries/agencies-app-development/solution-1.webp',
             active: false
         },
         {
             title: 'Studio & Creative Suites',
             description: 'Inspiring apps with mood boards, proofing tools, asset libraries, and approval workflows for design studios.',
-            image: '/industries/solution-2.webp',
+            image: '/industries/agencies-app-development/solution-2.webp',
             active: false
         },
         {
             title: 'Account Management Platforms',
             description: 'Reliable platforms with client portals, project tracking, messaging, and invoicing integration for agencies juggling many accounts.',
-            image: '/industries/solution-3.webp',
+            image: '/industries/agencies-app-development/solution-3.webp',
             active: false
         },
         {
             title: 'Media Planning Apps',
             description: 'Streamlined platforms for planning and buying media across channels with budget control and performance insights.',
-            image: '/industries/solution-4.webp',
+            image: '/industries/agencies-app-development/solution-4.webp',
             active: false
         }
     ];
@@ -215,7 +215,7 @@ const AgenciesAppPage = () => {
             <IndustryFeaturesSection
                 title={<>Team-Ready <span style={{ color: 'var(--primary-color)' }}>Mobile Features</span> That Keep Client Projects <span style={{ color: 'var(--primary-color)' }}>Moving Forward</span></>}
                 description="Our Award-Winning Team Of Developers, Designers, And Project Managers Creates Agency Platforms That Scale Gracefully, Impress Clients, And Keep Creative Work Flowing Smoothly."
-                mockupImage="/industries/feature-phones.webp"
+                mockupImage="/industries/agencies-app-development/feature-phones.webp"
                 features1={agencyFeatures1}
                 features2={agencyFeatures2}
             />

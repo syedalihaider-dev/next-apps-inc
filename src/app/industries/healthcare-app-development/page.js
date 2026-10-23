@@ -144,25 +144,25 @@ const HealthcareAppPage = () => {
         {
             title: 'Virtual Clinic Apps',
             description: 'Polished apps with HD video visits, secure chat, e-prescriptions, and booking for clinics and virtual providers.',
-            image: '/industries/solution-1.webp',
+            image: '/industries/healthcare-app-development/solution-1.webp',
             active: false
         },
         {
             title: 'Active Living Wellness Apps',
             description: 'Motivating apps with workout logs, meal tracking, wearable sync, and personalized plans for health brands.',
-            image: '/industries/solution-2.webp',
+            image: '/industries/healthcare-app-development/solution-2.webp',
             active: false
         },
         {
             title: 'Clinic Operations Platforms',
             description: 'Scalable platforms combining patient records, scheduling, billing, and analytics dashboards for busy hospitals and private clinics.',
-            image: '/industries/solution-3.webp',
+            image: '/industries/healthcare-app-development/solution-3.webp',
             active: false
         },
         {
             title: 'Mindful Care Apps',
             description: 'Calming platforms with mood journals, guided meditation, therapist chat, and session scheduling for counseling providers.',
-            image: '/industries/solution-4.webp',
+            image: '/industries/healthcare-app-development/solution-4.webp',
             active: false
         }
     ];
@@ -214,7 +214,7 @@ const HealthcareAppPage = () => {
             <IndustryFeaturesSection
                 title={<>Patient-Centered <span style={{ color: 'var(--primary-color)' }}>Mobile Features</span> That Power Smarter Digital <span style={{ color: 'var(--primary-color)' }}>Care Platforms</span></>}
                 description="Our Award-Winning Team Of Developers, Designers, And Project Managers Turns Complex Care Journeys Into Compliant Apps That Patients And Providers Trust Every Day."
-                mockupImage="/industries/feature-phones.webp"
+                mockupImage="/industries/healthcare-app-development/feature-phones.webp"
                 features1={healthcareFeatures1}
                 features2={healthcareFeatures2}
             />

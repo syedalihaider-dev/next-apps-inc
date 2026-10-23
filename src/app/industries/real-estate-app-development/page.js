@@ -144,25 +144,25 @@ const RealEstateAppPage = () => {
         {
             title: 'Listing Portal Apps',
             description: 'Fast apps with advanced search, photo galleries, saved favorites, and inquiry forms for brokerages and portals.',
-            image: '/industries/solution-1.webp',
+            image: '/industries/real-estate-app-development/solution-1.webp',
             active: false
         },
         {
             title: 'Tenant & Landlord Apps',
             description: 'Simple apps with tenant screening, rent payments, and maintenance requests for landlords and property managers.',
-            image: '/industries/solution-2.webp',
+            image: '/industries/real-estate-app-development/solution-2.webp',
             active: false
         },
         {
             title: 'Portfolio Management Software',
             description: 'Powerful platforms with unit tracking, owner reporting, vendor coordination, and dashboards for residential and commercial managers.',
-            image: '/industries/solution-3.webp',
+            image: '/industries/real-estate-app-development/solution-3.webp',
             active: false
         },
         {
             title: 'Investor Deal Apps',
             description: 'Data-rich platforms with deal analysis, yield calculators, portfolio tracking, and market trends for property investors.',
-            image: '/industries/solution-4.webp',
+            image: '/industries/real-estate-app-development/solution-4.webp',
             active: false
         }
     ];
@@ -214,7 +214,7 @@ const RealEstateAppPage = () => {
             <IndustryFeaturesSection
                 title={<>Property-Ready <span style={{ color: 'var(--primary-color)' }}>Mobile Features</span> Helping Buyers, Renters, And Agents <span style={{ color: 'var(--primary-color)' }}>Thrive</span></>}
                 description="Our Award-Winning Team Of Developers, Designers, And Project Managers Builds Property Platforms That Make Searching, Touring, And Closing Feel Simple, And Surprisingly Human."
-                mockupImage="/industries/feature-phones.webp"
+                mockupImage="/industries/real-estate-app-development/feature-phones.webp"
                 features1={realEstateFeatures1}
                 features2={realEstateFeatures2}
             />

@@ -144,25 +144,25 @@ const InsuranceAppPage = () => {
         {
             title: 'Motor Insurance Apps',
             description: 'Speedy apps with instant quotes, digital ID cards, roadside help, and photo-based claims for auto insurers.',
-            image: '/industries/solution-1.webp',
+            image: '/industries/insurance-app-development/solution-1.webp',
             active: false
         },
         {
             title: 'Life & Health Cover',
             description: 'Friendly apps with plan comparisons, beneficiary tools, wellness rewards, and claim submission for life insurers.',
-            image: '/industries/solution-2.webp',
+            image: '/industries/insurance-app-development/solution-2.webp',
             active: false
         },
         {
             title: 'Property Protection Platforms',
             description: 'Sturdy platforms with policy management, damage reporting, inspection booking, and secure document storage for property insurers.',
-            image: '/industries/solution-3.webp',
+            image: '/industries/insurance-app-development/solution-3.webp',
             active: false
         },
         {
             title: 'Broker Workflow Portals',
             description: 'Efficient portals with lead tracking, quoting, policy issuance, and commission reports for agents and brokerages.',
-            image: '/industries/solution-4.webp',
+            image: '/industries/insurance-app-development/solution-4.webp',
             active: false
         }
     ];
@@ -214,7 +214,7 @@ const InsuranceAppPage = () => {
             <IndustryFeaturesSection
                 title={<>Policyholder-Friendly <span style={{ color: 'var(--primary-color)' }}>Mobile Features</span> That Make Coverage Feel Truly <span style={{ color: 'var(--primary-color)' }}>Effortless</span></>}
                 description="Our Award-Winning Team Of Developers, Designers, And Project Managers Builds Dependable Insurance Platforms That Turn Paperwork Into Simple, Digital Experiences For Every Policyholder."
-                mockupImage="/industries/feature-phones.webp"
+                mockupImage="/industries/insurance-app-development/feature-phones.webp"
                 features1={insuranceFeatures1}
                 features2={insuranceFeatures2}
             />

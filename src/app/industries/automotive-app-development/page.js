@@ -144,25 +144,25 @@ const AutomotiveAppPage = () => {
         {
             title: 'Dealership Showroom Apps',
             description: 'Speedy apps with inventory, test drive booking, financing, and digital paperwork for dealerships and auto groups.',
-            image: '/industries/solution-1.webp',
+            image: '/industries/automotive-app-development/solution-1.webp',
             active: false
         },
         {
             title: 'Rental & Car Sharing',
             description: 'Flexible apps with simple booking, keyless access, and payments for rental companies and mobility startups.',
-            image: '/industries/solution-2.webp',
+            image: '/industries/automotive-app-development/solution-2.webp',
             active: false
         },
         {
             title: 'Fleet Operations Software',
             description: 'Powerful platforms with live tracking, driver behavior reports, fuel monitoring, and maintenance planning for logistics operators.',
-            image: '/industries/solution-3.webp',
+            image: '/industries/automotive-app-development/solution-3.webp',
             active: false
         },
         {
             title: 'Garage Service Apps',
             description: 'Handy platforms combining appointment booking, repair updates, and paperless invoices for garages and service centers.',
-            image: '/industries/solution-4.webp',
+            image: '/industries/automotive-app-development/solution-4.webp',
             active: false
         }
     ];
@@ -214,7 +214,7 @@ const AutomotiveAppPage = () => {
             <IndustryFeaturesSection
                 title={<>Showroom-Ready <span style={{ color: 'var(--primary-color)' }}>Features</span> That Keep Drivers, Dealers, And Fleets <span style={{ color: 'var(--primary-color)' }}>Moving</span></>}
                 description="Our Award-Winning Team Of Developers, Designers, And Project Managers Engineers Connected Automotive Platforms That Put Buyers, Drivers, And Dealerships In The Fast Lane."
-                mockupImage="/industries/feature-phones.webp"
+                mockupImage="/industries/automotive-app-development/feature-phones.webp"
                 features1={automotiveFeatures1}
                 features2={automotiveFeatures2}
             />
