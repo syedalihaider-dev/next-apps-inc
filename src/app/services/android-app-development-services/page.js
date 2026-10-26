@@ -89,7 +89,7 @@ const AndroidAppDevelopmentPage = () => {
                     Turn Your <span className={styles.purpleText}>Idea</span> Into an <span className={styles.purpleText}>Android</span> App That <span className={styles.purpleText}>Users</span> Can't Put <span className={styles.purpleText}>Down</span>
                     </>
                 }
-                description="From concept to the Play Store, we build Android apps that perform beautifully, scale effortlessly, and solve real problems for real people, across every device, every screen size."
+                description="From concept to Google Play, we develop Android apps designed for performance, usability, and compatibility across a wide range of devices and screen sizes."
                 bgImage="/services/android-banner-bg.png"
             />
             <ServiceSection 

@@ -43,9 +43,9 @@ const AboutBanner = () => {
                                 </div>
                                 <div className={styles.marqueeContainer}>
                                     <div className={styles.marqueeContent}>
-                                        <span className={styles.badgeText}>Love by over 5000+ Customers worldwide — </span>
-                                        <span className={styles.badgeText}>Love by over 5000+ Customers worldwide — </span>
-                                        <span className={styles.badgeText}>Love by over 5000+ Customers worldwide — </span>
+                                        <span className={styles.badgeText}>Loved by Over 5,000 Customers Worldwide — </span>
+                                        <span className={styles.badgeText}>Loved by Over 5,000 Customers Worldwide — </span>
+                                        <span className={styles.badgeText}>Loved by Over 5,000 Customers Worldwide — </span>
                                     </div>
                                 </div>
                             </div>

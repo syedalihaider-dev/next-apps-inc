@@ -9,7 +9,7 @@ const services = [
     { name: 'APP STORE OPTIMIZATION', href: '/services/app-store-optimization-services' },
     { name: 'AR/VR APP DEVELOPMENT', href: '/services/ar-vr-app-development-services' },
     { name: 'BLOCKCHAIN MOBILE APP DEVELOPMENT', href: '/services/blockchain-mobile-app-development-services' },
-    { name: 'CROSS PLATFORM APP DEVELOPMENT', href: '/services/cross-platform-app-development-services' },
+    { name: 'CROSS-PLATFORM APP DEVELOPMENT', href: '/services/cross-platform-app-development-services' },
     { name: 'FLUTTER APP DEVELOPMENT', href: '/services/flutter-app-development-services' },
     { name: 'IOS APP DEVELOPMENT', href: '/services/ios-app-development-services' },
     { name: 'MOBILE GAME DEVELOPMENT', href: '/services/mobile-game-development-services' },
@@ -19,14 +19,14 @@ const services = [
 ];
 
 const industries = [
-    { name: 'ECOMMERCE APP DEVELOPMENT', href: '/industries/ecommerce-app-development' },
+    { name: 'E-COMMERCE APP DEVELOPMENT', href: '/industries/ecommerce-app-development' },
     { name: 'EDUCATION APP DEVELOPMENT', href: '/industries/education-app-development' },
     { name: 'FINANCE APP DEVELOPMENT', href: '/industries/finance-app-development' },
     { name: 'HEALTHCARE APP DEVELOPMENT', href: '/industries/healthcare-app-development' },
     { name: 'INSURANCE APP DEVELOPMENT', href: '/industries/insurance-app-development' },
     { name: 'AGENCIES APP DEVELOPMENT', href: '/industries/agencies-app-development' },
     { name: 'REAL ESTATE APP DEVELOPMENT', href: '/industries/real-estate-app-development' },
-    { name: 'AUTOMATIVE APP DEVELOPMENT', href: '/industries/automotive-app-development' },
+    { name: 'AUTOMOTIVE APP DEVELOPMENT', href: '/industries/automotive-app-development' },
     { name: 'TRAVEL APP DEVELOPMENT', href: '/industries/travel-app-development' },
 ];
 

@@ -20,7 +20,7 @@ const CaseStudyProject = () => {
                     <div className="col-12 text-center">
                         <div className={styles.header}>
                             <h2 className={styles.heading}>
-                                We Create Apps <span className={styles.purpleText}>That Users Love!</span>
+                                Explore Our <span className={styles.purpleText}>Work and Success Stories</span>
                             </h2>
                         </div>
                     </div>

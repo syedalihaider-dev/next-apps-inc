@@ -8,7 +8,7 @@ import { SITE_CONFIG } from '@/configs/site-config';
 
 const Footer = () => {
     const pathname = usePathname();
-    
+
     if (pathname?.startsWith('/lp')) return null;
 
     return (
@@ -42,7 +42,7 @@ const Footer = () => {
                                 <li><Link href="/services/app-store-optimization-services">APP STORE OPTIMIZATION</Link></li>
                                 <li><Link href="/services/ar-vr-app-development-services">AR/VR APP DEVELOPMENT</Link></li>
                                 <li><Link href="/services/blockchain-mobile-app-development-services">BLOCKCHAIN MOBILE APP DEVELOPMENT</Link></li>
-                                <li><Link href="/services/cross-platform-app-development-services">CROSS PLATFORM APP DEVELOPMENT</Link></li>
+                                <li><Link href="/services/cross-platform-app-development-services">CROSS-PLATFORM APP DEVELOPMENT</Link></li>
                                 <li><Link href="/services/flutter-app-development-services">FLUTTER APP DEVELOPMENT</Link></li>
                                 <li><Link href="/services/ios-app-development-services">IOS APP DEVELOPMENT</Link></li>
                                 <li><Link href="/services/mobile-game-development-services">MOBILE GAME DEVELOPMENT</Link></li>
@@ -56,14 +56,14 @@ const Footer = () => {
                         <div className={styles.footerCol}>
                             <h4 className={styles.footerTitle}>Industries</h4>
                             <ul className={styles.footerLinks}>
-                                <li><Link href="/industries/ecommerce-app-development">eCOMMERCE APP DEVELOPMENT</Link></li>
+                                <li><Link href="/industries/ecommerce-app-development">E-COMMERCE APP DEVELOPMENT</Link></li>
                                 <li><Link href="/industries/education-app-development">EDUCATION APP DEVELOPMENT</Link></li>
                                 <li><Link href="/industries/finance-app-development">FINANCE APP DEVELOPMENT</Link></li>
                                 <li><Link href="/industries/healthcare-app-development">HEALTHCARE APP DEVELOPMENT</Link></li>
                                 <li><Link href="/industries/insurance-app-development">INSURANCE APP DEVELOPMENT</Link></li>
                                 <li><Link href="/industries/agencies-app-development">AGENCIES APP DEVELOPMENT</Link></li>
                                 <li><Link href="/industries/real-estate-app-development">REAL ESTATE APP DEVELOPMENT</Link></li>
-                                <li><Link href="/industries/automotive-app-development">AUTOMATIVE APP DEVELOPMENT</Link></li>
+                                <li><Link href="/industries/automotive-app-development">AUTOMOTIVE APP DEVELOPMENT</Link></li>
                                 <li><Link href="/industries/travel-app-development">TRAVEL APP DEVELOPMENT</Link></li>
                             </ul>
                         </div>

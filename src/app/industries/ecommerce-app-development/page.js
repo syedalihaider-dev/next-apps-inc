@@ -194,7 +194,7 @@ const EcommerceAppPage = () => {
             
             <IndustryServicesSection 
                 title="<span style='color: var(--primary-color)'>E-Commerce Development</span> Solutions Built for <span style='color: var(--primary-color)'>Conversion</span>, <span style='color: var(--primary-color)'>Speed</span>, and <span style='color: var(--primary-color)'>Scale</span>"
-                description="Your store needs to be fast, beautiful, and trusted. We build custom e-commerce platforms, mobile shopping apps, and headless commerce solutions that are engineered for performance and designed for conversion. "
+                description="Your online store needs reliable performance, clear navigation, and a convenient checkout process. We build custom e-commerce platforms, mobile shopping apps, and headless commerce solutions that are engineered for performance and designed for conversion."
                 servicesData={services}
                 mockupImage="/industries/ecommerce-app-development/services-mockup.webp" 
             />

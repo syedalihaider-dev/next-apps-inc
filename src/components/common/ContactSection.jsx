@@ -60,12 +60,12 @@ const ContactSection = ({ isNewDesign = false }) => {
     };
 
     const services = [
-        { id: 'unity', name: 'Unity Game Development', icon: '/service-icon-unity.webp' },
-        { id: 'react', name: 'React Native Development', icon: '/service-icon-react.webp' },
-        { id: 'flutter', name: 'Flutter Development', icon: '/service-icon-flutter.webp' },
-        { id: 'fullstack', name: 'Full Stack Development', icon: '/service-icon-fullstack.webp' },
-        { id: 'marketing', name: 'Mobile App Marketing', icon: '/service-icon-marketing.webp' },
-        { id: 'ecommerce', name: 'Any Ecommerce', icon: '/service-icon-ecommerce.webp' },
+        { id: 'mobile-app', name: 'Mobile App' },
+        { id: 'website', name: 'Website' },
+        { id: 'custom-software', name: 'Custom Software' },
+        { id: 'game', name: 'Game' },
+        { id: 'others', name: 'Others' },
+        // { id: 'ecommerce', name: 'Any Ecommerce', icon: '/service-icon-ecommerce.webp' },
     ];
 
     const toggleService = (name) => {
@@ -192,7 +192,7 @@ const ContactSection = ({ isNewDesign = false }) => {
 
                     <div className="col-lg-7">
                         <div className={styles.formCol}>
-                            <h3 className={styles.servicesTitle}>Services*</h3>
+                            <h3 className={styles.servicesTitle}>Which Service Do You Need?*</h3>
                             <div className={styles.servicesPills}>
                                 {services.map((service) => (
                                     <div
@@ -200,7 +200,7 @@ const ContactSection = ({ isNewDesign = false }) => {
                                         className={`${styles.pill} ${selectedServices.includes(service.name) ? styles.pillActive : ''}`}
                                         onClick={() => toggleService(service.name)}
                                     >
-                                        <img src={service.icon} alt={service.name} className={styles.pillIcon} />
+                                        {/* <img src={service.icon} alt={service.name} className={styles.pillIcon} /> */}
                                         {service.name}
                                     </div>
                                 ))}

@@ -53,7 +53,7 @@ const DevelopmentSolutionsSection = () => {
                                 GET STARTED
                             </div>
                             <h2 className={styles.heading}>
-                                More Than an App Agency Your <span className={styles.purpleText}>Full-Stack Digital Partner</span>
+                                More Than an App Agency: Your <span className={styles.purpleText}>Full-Stack Digital Partner</span>
                             </h2>
 
                             <ul className={styles.featureList}>

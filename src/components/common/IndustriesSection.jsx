@@ -10,14 +10,14 @@ import styles from './IndustriesSection.module.css';
 
 const industries = [
     {
-        title: 'E-Commerce',
-        description: 'We create apps for retail businesses that are great at engaging',
+        title: 'E-commerce',
+        description: 'We develop e-commerce applications that help retail businesses connect with customers and manage online sales.',
         image: '/industries/ecommerce.png',
         link: '/industries/ecommerce-app-development'
     },
     {
         title: 'Fintech',
-        description: 'Secure and scalable financial technology applications for all',
+        description: 'Secure and scalable financial technology applications for businesses and their customers',
         image: '/industries/fintech.png',
         link: '/industries/finance-app-development'
     },
